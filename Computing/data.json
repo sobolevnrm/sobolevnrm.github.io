@@ -1,0 +1,121 @@
+{
+	"name": "Computing",
+	"children": [
+		{
+			"name": "Hardware",
+			"children": [
+				{
+					"name": "Architectures", 
+					"children": [
+						{"name": "Distributed architectures", "capability": 2}, 
+						{"name": "Quantum architectures", "capability": 5},
+						{"name": "Embedded architectures", "capability": 7},
+						{"name": "Real-time + streaming architectures", "capability": 5}
+					]
+				},
+				{"name": "Circuit design", "capability": 4},
+				{"name": "Power + energy", "capability": 9},
+				{"name": "Reliability + robustness", "capability": 9}
+			]
+		},
+		{
+			"name": "Human-centered",
+			"children": [
+				{"name": "HCI", "capability": 9},
+				{"name": "Visualization", "capability": 7},
+				{"name": "CSCW", "capability": 5},
+				{"name": "Ubiquitous computing", "capability": 6},
+				{"name": "Mobile computing", "capability": 6}
+			]
+		},
+		{
+			"name": "Information systems",
+			"children": [
+				{"name": "Data management", "capability": 6},
+				{"name": "Web services and applications", "capability": 8},
+				{"name": "Information retrieval", "capability": 7}
+			]
+		},
+		{
+			"name": "Software",
+			"children": [
+				{"name": "Software architectures", "capability": 5},
+				{"name": "Formal methods", "capability": 4},
+				{"name": "Compilers", "capability": 3},
+				{"name": "Software development", "capability": 8},
+				{"name": "Software configuration mgmt + maintenance", "capability": 7},
+				{"name": "Software testing, V+V", "capability": 6}
+			]
+		},
+		{
+			"name": "Networks",
+			"children": [
+				{"name": "Network architectures", "capability": 5},
+				{"name": "Network performance evaluation", "capability": 5},
+				{"name": "Network services", "capability": 5}
+			]
+		},
+		{
+			"name": "Security + privacy",
+			"children": [
+				{"name": "Security services", "capability": 7},
+				{"name": "IDS and IPS", "capability": 7},
+				{"name": "Network security", "capability": 7},
+				{"name": "Data security", "capability": 5},
+				{"name": "Software security", "capability": 5}
+			]
+		},
+		{
+			"name": "Mathematics",
+			"note": "Consider refactoring according to https://en.wikipedia.org/wiki/Discrete_mathematics or http://www.ams.org/msc/msc2010.html",
+			"children": [
+				{
+					"name": "Numerical methods",
+					"children": [
+						{"name": "Optimization", "capability": 4},
+						{"name": "Approximation algorithms", "capability": 5},
+						{"name": "Numerical solvers",
+							"children": [
+								{"name": "Differential equation solvers", "capability": 6},
+								{"name": "Multiscale methods", "capability": 8}
+							]
+						},
+						{"name": "Modeling + simulation", "capability": 7},
+						{"name": "Artificial intelligence", 
+							"children": [
+								{"name": "Machine learning", "capability": 8},
+								{"name": "Computer vision", "capability": 6}
+							]
+						}
+					]
+				},
+				{"name": "Statistics", 
+					"children": [
+						{"name": "Applied statistics", "capability": 8},
+						{"name": "Statistical learning", "capability": 8}
+					]
+				},
+				{
+					"name": "Discrete math",
+					"children": [
+						{"name": "Graph theory", "capability": 6},
+						{"name": "Combinatorics", "capability": 5},
+						{
+							"name": "CS theory",
+							"children": [
+								{"name": "Formal languages", "capability": 6},
+								{"name": "Logic", "capability": 6},
+								{"name": "Semantics + reasoning", "capability": 7},
+								{"name": "Applied cryptography", "capability" : 2},
+								{"name": "Data structures", "capability": 5},
+								{"name": "Parallel algorithms", "capability": 6},
+								{"name": "Streaming + real-time algorithms", "capability": 7}
+							]
+						}
+					]
+				}
+			]
+			
+		}
+	]
+}
