@@ -1,13 +1,14 @@
-Title: Contact information
+Title: Contact
 Date: 2015-11-01 09:01
 Modified: 2015-11-01 09:01
-Category: Information
 Tags: email, phone, gpg
-Slug: contact
 Authors: Nathan Baker
 Summary: Contact information
 
 <dl>
+    <dt>Affiliations</dt>
+    <dd>Division of Applied Mathematics, Brown University<br/>
+        Computational and Statistical Analytics Division, Pacific Northwest National Laboratory</dd>
     <dt>Phone</dt>
     <dd>+1-509-375-3997</dd>
     <dt>Mailing address</dt>
@@ -16,8 +17,9 @@ Summary: Contact information
     <dt><a href="mailto:nathan.baker@pnnl.gov">nathan.baker@pnnl.gov</a> or <a href="mailto:nathan_baker@brown.edu">nathan_baker@brown.edu</a></dt>
 </dl>
 
-<pre>
+<code>
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+
 Comment: GPGTools - https://gpgtools.org
 
 mQINBFX67BQBEADhIZUoZxxD4ZvH79WH8xuQo+q0No+RU4s4KKv11/qOEDUYgDY+
@@ -131,5 +133,6 @@ sRWacmTQ1rliwQu/etu9g0wa7jRdbMgNnri4QV7hc+R7aPhTh73qP5TGeUfmzqfK
 iycxzHnBcWismkPBRVFOhp4A7svKZzKMtuKrmQ/+kRVrF2//LTyyjRjwyoHeIFxI
 kCS2+Aj0lG5T4WzYeRK5AIAzIOMyvs8FjOTG9Uut6AolOTRra74=
 =2Hos
+
 -----END PGP PUBLIC KEY BLOCK-----
-</pre>
+</code>
