@@ -1,0 +1,13 @@
+Title: Characterization/bioinformatics-modeling of nanoparticle-complement interactions
+Date: 2010-09-27 09:01
+Modified: 2013-08-31 09:01
+Category: Research
+Tags: nanotechnology, ontology, informatics, past_research
+Authors: Nathan Baker
+Summary:  This project developed statistical models to predict blood toxicity of nanoemulsion diagnostic and therapeutic nanoparticles.
+
+This project developed statistical models to predict blood toxicity of nanoemulsion diagnostic and therapeutic nanoparticles.
+
+Nanoparticles are emerging tools that will impact medical diagnosis and therapeutics with their capacity to target cells and tissues with imaging agents and/or drug payloads. The unique physical aspects of nanoparticles present new challenges for guidance and regulation. A wide variety of blood contact interactions may compromise intended nanoparticle activities and/or cause serious side effects. The simulation modeling of these and other critical biological interactions would provide a powerful predictive instrument that would offer a focus for the safety review of product candidates and allow the crafting of specific guidelines to be addressed by future applicants. It is known that certain lipid encapsulated nanoparticles activate the complement system, with the potential of severe tissue damage. We propose to develop a standard series of assays to characterize the interactions of complement with lipid encapsulated nanoparticles. The results will be applied to a bioinformatics-modeling system to design and assess next generation nanoparticles for clinical use. Our proposed specific efforts would provide a proof-of-concept approach to study a broad array of nanostructure:biological interactions that are currently difficult to predict prior to human study. To these ends we submit the following specific aims: (1) Develop standardized protocols using human in vitro and mouse In vivo models to characterize the capacity of lipid encapsulated nanoparticles to activate complement, to identify the activation pathways that facilitate the process, and to assess the impact of endogenous complement inhibitors on nanoparticle-dependent complement activation. (2) Vary lipid encapsulated nanoparticles to understand the influence of particle surface characteristics on complement activation. Manipulate surfactant components by utilizing natural and synthetically modified lipids to create a broad spectrum of biochemical presentations at, above, and below water-membrane interface that impart different charge or surface chemical properties. (3) Develop structure-activity relationships to predict complement activation.
+
+This project was supported by NIH grant U01 NS073457-01.
