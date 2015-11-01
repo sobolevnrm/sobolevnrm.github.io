@@ -1,4 +1,7 @@
-sobolevnrm.github.io
-====================
+# This is a sandbox
 
-GitHub homepage:  http://sobolevnrm.github.io
+Things that are here:
+
+* My CV in various formats
+* Pelican source for website
+* Other stuff
