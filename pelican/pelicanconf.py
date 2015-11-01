@@ -1,0 +1,39 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+AUTHOR = 'Nathan Baker'
+SITENAME = 'Nathan A. Baker'
+SITEURL = ''
+
+PATH = 'content'
+TIMEZONE = 'America/Los_Angeles'
+
+# Flex - nice and simple but doesn't include categories
+# lannisport - needs work (background, "blog" label, etc.)
+# pelican-bootstrap3 - simple but pretty much ready to be used
+# pelican-elegant - pretty blog-centric; would need work to make functional
+# pelican-sober - ok but need to rename "blogroll"
+THEME = './themes/pelican-bootstrap3'
+
+DEFAULT_LANG = 'en'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+# Blogroll
+LINKS = (('Google Scholar', 'https://scholar.google.com/citations?user=L9dwKyUAAAAJ&hl=en'),
+         ('ORCID', 'http://orcid.org/0000-0002-5892-6506'),
+         ("Mendeley", "https://www.mendeley.com/profiles/nathan-baker1/"),)
+
+# Social widget
+SOCIAL = (('LinkedIn', 'http://www.linkedin.com/in/nathanandrewbaker'),)
+
+DEFAULT_PAGINATION = False
+
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
