@@ -1,5 +1,5 @@
 @article{baker2001electrostatics,
-  title="Electrostatics of nanosystems: application to microtubules and the ribosome",
+  title={Electrostatics of nanosystems: application to microtubules and the ribosome},
   author={Baker, Nathan A and Sept, David and Joseph, Simpson and Holst, Michael J and McCammon, J Andrew},
   journal={Proceedings of the National Academy of Sciences},
   volume={98},
@@ -7,15 +7,16 @@
   pages={10037--10041},
   year={2001},
   publisher={National Acad Sciences},
-  keywords={impact, brown},
+  keywords={impact, brown, mathematics, solvation, electrostatics, apbs, finite_differences, software},
   doi={10.1073/pnas.181342398},
   url={http://www.pnas.org/content/98/18/10037.short},
   pmid={11517324},
-  pdf={baker2001electrostatics.pdf}
+  pdf={baker2001electrostatics.pdf},
+  abstract={Evaluation of the electrostatic properties of biomolecules has become a standard practice in molecular biophysics. Foremost among the models used to elucidate the electrostatic potential is the Poisson-Boltzmann equation; however, existing methods for solving this equation have limited the scope of accurate electrostatic calculations to relatively small biomolecular systems. Here we present the application of numerical methods to enable the trivially parallel solution of the Poisson-Boltzmann equation for supramolecular structures that are orders of magnitude larger in size. As a demonstration of this methodology, electrostatic potentials have been calculated for large microtubule and ribosome structures. The results point to the likely role of electrostatics in a variety of activities of these structures.}
 }
 
 @article{dolinsky2004pdb2pqr,
-  title="{PDB2PQR}: an automated pipeline for the setup of {Poisson--Boltzmann} electrostatics calculations",
+  title={PDB2PQR: an automated pipeline for the setup of Poisson-Boltzmann electrostatics calculations},
   author={Dolinsky, Todd J and Nielsen, Jens E and McCammon, J Andrew and Baker, Nathan A},
   journal={Nucleic Acids Research},
   volume={32},
@@ -23,15 +24,16 @@
   pages={W665--W667},
   year={2004},
   publisher={Oxford University Press},
-  keywords={fullonly},
+  keywords={fullonly, software, titration, electrostatics, solvation},
   doi={10.1093/nar/gkh381},
   url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC441519/},
   pmid={15215472},
-  pdf={dolinsky2004pdb2pqr.pdf}
+  pdf={dolinsky2004pdb2pqr.pdf},
+  abstract={Continuum solvation models, such as Poisson-Boltzmann and Generalized Born methods, have become increasingly popular tools for investigating the influence of electrostatics on biomolecular structure, energetics and dynamics. However, the use of such methods requires accurate and complete structural data as well as force field parameters such as atomic charges and radii. Unfortunately, the limiting step in continuum electrostatics calculations is often the addition of missing atomic coordinates to molecular structures from the Protein Data Bank and the assignment of parameters to biomolecular structures. To address this problem, we have developed the PDB2PQR web service (http://agave.wustl.edu/pdb2pqr/). This server automates many of the common tasks of preparing structures for continuum electrostatics calculations, including adding a limited number of missing heavy atoms to biomolecular structures, estimating titration states and protonating biomolecules in a manner consistent with favorable hydrogen bonding, assigning charge and radius parameters from a variety of force fields, and finally generating 'PQR' output compatible with several popular computational biology packages. This service is intended to facilitate the setup and execution of electrostatics calculations for both experts and non-experts and thereby broaden the accessibility to the biological community of continuum electrostatics analyses of biomolecular systems.}
 }
 
 @article{baker2005improving,
-  title="Improving implicit solvent simulations: a {Poisson}-centric view",
+  title={Improving implicit solvent simulations: a Poisson-centric view},
   author={Baker, Nathan A},
   journal={Current Opinion in Structural Biology},
   volume={15},
@@ -39,15 +41,16 @@
   pages={137--143},
   year={2005},
   publisher={Elsevier},
-  keywords={fullonly},
+  keywords={fullonly, review, electrostatics, solvation},
   doi={10.1016/j.sbi.2005.02.001},
   url={http://www.sciencedirect.com/science/article/pii/S0959440X05000448},
   pmid={15837170},
-  pdf={baker2005improving.pdf}
+  pdf={baker2005improving.pdf},
+  abstract={Recent developments in implicit solvent models may be compared in terms of accuracy and computational efficiency. Based on improvements in the accuracy of generalized Born methods and the speed of Poisson-Boltzmann solvers, it appears that the two techniques are converging to a point at which both will be suitable for simulating certain types of biomolecular systems over sizable time and length scales.}
 }
 
 @article{holst2000adaptive,
-  title="Adaptive multilevel finite element solution of the {Poisson--Boltzmann} equation {I}. Algorithms and examples",
+  title={Adaptive multilevel finite element solution of the Poisson-Boltzmann equation I. Algorithms and examples},
   author={Holst, Michael and Baker, N and Wang, Feng},
   journal={Journal of Computational Chemistry},
   volume={21},
@@ -55,14 +58,15 @@
   pages={1319--1342},
   year={2000},
   publisher={John Wiley \& Sons, Inc.},
-  keywords={longmath, brown},
+  keywords={longmath, brown, mathematics, software, finite_elements, electrostatics, solvation},
   doi={10.1002/1096-987X(20001130)21:15&lt;1319::AID-JCC1&gt;3.0.CO;2-8},
   url={http://doi.wiley.com/10.1002/1096-987X(20001130)21:15<1319::AID-JCC1>3.0.CO;2-8},
-  pdf={holst2000adaptive.pdf}
+  pdf={holst2000adaptive.pdf},
+  abstract={This article is the first of two articles On the adaptive multilevel finite element treatment of the nonlinear Poisson-Boltzmann equation (PBE), a nonlinear eliptic equation arising in biomolecular modeling. Fast and accurate numerical solution of the PBE is usually difficult to accomplish, due to the presence of discontinuous coefficients, delta functions, three spatial dimensions, unbounded domain, and rapid (exponential) nonlinearity. In this first article, we explain how adaptive multilevel finite element methods can be used to obtain extremely accurate solutions to the PBE with very modest computational resources, and we present some illustrative examples using two well-known test problems. The PBE is first discretized with piece-wise linear finite elements over a very coarse simplex triangulation of the domain. The resulting nonlinear algebraic equations are solved with global inexact Newton methods, which we have described in an article appearing previously in this journal. A posteriori error estimates are then computed from this discrete solution, which then drives a simplex subdivision algorithm for performing adaptive mesh refinement. The discretize-solve-estimate-refine procedure is then repeated, until a nearly uniform solution quality is obtained. The sequence of unstructured meshes is used to apply multilevel methods in conjunction with global inexact Newton methods, so that the cost of solving the nonlinear algebraic equations at each step approaches optimal O(N) linear complexity. All of the numerical procedures are implemented. in MANIFOLD CODE (MC), a computer program designed and built by the first author over several years at Caltech and UC San Diego. MC is designed to solve a very general class of nonlinear elliptic equations on complicated domains in two and three dimensions. We describe some of the key features of MC, and give a detailed analysis of its performance for two model PBE problems, with comparisons to the alternative methods. It is shown that the best available uniform mesh-based finite difference or box-method algorithms, including multilevel methods, require substantially more time to reach a target PBE solution accuracy than the adaptive multilevel methods in MC. in the second article, we develop an error estimator based on geometric solvent accessibility, and present a series of detailed numerical experiments for several complex biomolecules.}
 }
 
 @article{baker2000adaptive,
-  title="Adaptive multilevel finite element solution of the {Poisson--Boltzmann} equation {II}. Refinement at solvent-accessible surfaces in biomolecular systems",
+  title={Adaptive multilevel finite element solution of the Poisson-Boltzmann equation II. Refinement at solvent-accessible surfaces in biomolecular systems},
   author={Baker, N and Holst, M and Wang, Feng},
   journal={Journal of Computational Chemistry},
   volume={21},
@@ -70,14 +74,15 @@
   pages={1343--1352},
   year={2000},
   publisher={John Wiley \& Sons, Inc.},
-  keywords={longmath, brown},
+  keywords={longmath, brown, software, mathematics, electrostatics, finite_elements, solvation},
   url={http://doi.wiley.com/10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K},
   doi={10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K},
-  pdf={baker2000adaptive.pdf}
+  pdf={baker2000adaptive.pdf},
+  abstract={We apply the adaptive multilevel finite element techniques (Holst, Baker, and Wang [21]) to the nonlinear Poisson-Boltzmann equation (PBE) in the context of biomolecules. Fast and accurate numerical solution of the PBE in this setting is usually difficult to accomplish due to presence of discontinuous coefficients, delta functions, three spatial dimensions, unbounded domains, and rapid (exponential) nonlinearity. However, these adaptive techniques have shown substantial improvement in solution time over conventional uniform-mesh finite difference methods. One important aspect of the adaptive multilevel finite element method is the robust a posteriori error estimators necessary to drive the adaptive refinement routines. This article discusses the choice of solvent accessibility for a posteriori error estimation of PBE solutions and the implementation of such routines in the Adaptive Poisson-Boltzmann Solver (APBS) software package based on the Manifold Code (MC) libraries. Results are shown for the application of this method to several biomolecular systems.}
 }
 
 @article{wagoner2006assessing,
-  title="Assessing implicit models for nonpolar mean solvation forces: the importance of dispersion and volume terms",
+  title={Assessing implicit models for nonpolar mean solvation forces: the importance of dispersion and volume terms},
   author={Wagoner, Jason A and Baker, Nathan A},
   journal={Proceedings of the National Academy of Sciences},
   volume={103},
@@ -85,15 +90,16 @@
   pages={8331--8336},
   year={2006},
   publisher={National Acad Sciences},
-  keywords={impact,brown},
+  keywords={impact, brown, solvation, nonpolar},
   url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1482494/},
   doi={10.1073/pnas.0600118103},
   pmid={16709675},
-  pdf={wagoner2006assessing.pdf}
+  pdf={wagoner2006assessing.pdf},
+  abstract={Continuum solvation models provide appealing alternatives to explicit solvent methods because of their ability to reproduce solvation effects while alleviating the need for expensive sampling. Our previous work has demonstrated that Poisson-Boltzmann methods are capable of faithfully reproducing polar explicit solvent forces for dilute protein systems; however, the popular solvent-accessible surface area model was shown to be incapable of accurately describing nonpolar solvation forces at atomic-length scales. Therefore, alternate continuum methods are needed to reproduce nonpolar interactions at the atomic scale. In the present work, we address this issue by supplementing the solvent-accessible surface area model with additional volume and dispersion integral terms suggested by scaled particle models and Weeks-Chandler-Andersen theory, respectively. This more complete nonpolar implicit solvent model shows very good agreement with explicit solvent results and suggests that, although often overlooked, the inclusion of appropriate dispersion and volume terms are essential for an accurate implicit solvent description of atomic-scale nonpolar forces.}
 }
 
 @article{dolinsky2007pdb2pqr,
-  title="{PDB2PQR}: expanding and upgrading automated preparation of biomolecular structures for molecular simulations",
+  title={PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations},
   author={Dolinsky, Todd J and Czodrowski, Paul and Li, Hui and Nielsen, Jens E and Jensen, Jan H and Klebe, Gerhard and Baker, Nathan A},
   journal={Nucleic Acids Research},
   volume={35},
@@ -101,15 +107,16 @@
   pages={W522--W525},
   year={2007},
   publisher={Oxford University Press},
-  keywords={software, electrostatics, brown},
+  keywords={software, electrostatics, brown, titration, solvation},
   url={http://www.ncbi.nlm.nih.gov/pubmed/17488841},
   doi={10.1093/nar/gkm276},
   pmid={17488841},
-  pdf={dolinsky2007pdb2pqr.pdf}
+  pdf={dolinsky2007pdb2pqr.pdf},
+  abstract={Real-world observable physical and chemical characteristics are increasingly being calculated from the 3D structures of biomolecules. Methods for calculating pK(a) values, binding constants of ligands, and changes in protein stability are readily available, but often the limiting step in computational biology is the conversion of PDB structures into formats ready for use with biomolecular simulation software. The continued sophistication and integration of biomolecular simulation methods for systems- and genome-wide studies requires a fast, robust, physically realistic and standardized protocol for preparing macromolecular structures for biophysical algorithms. As described previously, the PDB2PQR web server addresses this need for electrostatic field calculations (Dolinsky et al., Nucleic Acids Research, 32, W665-W667, 2004). Here we report the significantly expanded PDB2PQR that includes the following features: robust standalone command line support, improved pK(a) estimation via the PROPKA framework, ligand parameterization via PEOE_PB charge methodology, expanded set of force fields and easily incorporated user-defined parameters via XML input files, and improvement of atom addition and optimization code. These features are available through a new web interface (http://pdb2pqr.sourceforge.net/), which offers users a wide range of options for PDB file conversion, modification and parameterization.}
 }
 
 @article{baker2001adaptive,
-  title="The adaptive multilevel finite element solution of the {Poisson-Boltzmann} equation on massively parallel computers",
+  title={The adaptive multilevel finite element solution of the Poisson-Boltzmann equation on massively parallel computers},
   author={Baker, Nathan A and Sept, David and Holst, Michael J and McCammon, James Andrew},
   journal={IBM Journal of Research and Development},
   volume={45},
@@ -117,21 +124,30 @@
   pages={427--438},
   year={2001},
   publisher={IBM},
-  keywords={fullonly}
+  keywords={fullonly, software, mathematics, electrostatics, solvation, finite_elements},
+  url={http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5389050},
+  doi={10.1147/rd.453.0427},
+  pdf={baker2001adaptive.pdf},
+  abstract={By using new methods for the parallel solution of elliptic partial differential equations, the teraflops computing power of massively parallel computers can be leveraged to perform electrostatic calculations on large biological systems. This paper describes the adaptive multilevel finite element solution of the Poisson-Boltzmann equation for a microtubule on the NPACI Blue Horizon—a massively parallel IBM RS/6000® SP with eight POWER3 SMP nodes. The microtubule system is 40 nm in length and 24 nm in diameter, consists of roughly 600000 atoms, and has a net charge of −1800 e. Poisson-Boltzmann calculations are performed for several processor configurations, and the algorithm used shows excellent parallel scaling.}
 }
 
 @article{baker2003poisson,
-  title="{Poisson-Boltzmann} methods for biomolecular electrostatics",
+  title={Poisson-Boltzmann methods for biomolecular electrostatics},
   author={Baker, Nathan A},
   journal={Methods in Enzymology},
   volume={383},
   pages={94--118},
   year={2003},
-  keywords={fullonly}
+  keywords={fullonly, review, electrostatics, solvation},
+  url={http://www.sciencedirect.com/science/article/pii/S0076687904830052},
+  doi={10.1016/S0076-6879(04)83005-2},
+  pmid={15063648},
+  pdf={baker2003poisson.pdf},
+  abstract={This chapter presents Poisson-Boltzmann (PB) methods for biomolecular electrostatics. The understanding of electrostatic properties is a basic aspect of the investigation of biomolecular processes. Structures of proteins and other biopolymers are being determined at an increasing rate through structural genomics and other effort. The nonlinear equations obtained from the full PB equation require more specialized techniques, such as Newton methods, to determine the solution to the discretized algebraic equation. The increasing size and number of biomolecular structures have necessitated the development of new parallel finite difference and finite element methods for solving the PB equation. These parallel techniques allow users to leverage supercomputing resources to determine the electrostatic properties of single-structure calculations on large biological systems consisting of millions of atoms. In addition, advances in improving the efficiency of PB force calculations have paved the way for a new era of biomolecular dynamics simulation methods using detailed implicit solvent models. It is anticipated that PB methods will continue to play an important role in computational biology as the study of biological systems grow from macromolecular to cellular scales.}
 }
 
 @article{sept2003physical,
-  title="The physical basis of microtubule structure and stability",
+  title={The physical basis of microtubule structure and stability},
   author={Sept, David and Baker, Nathan A and McCammon, J Andrew},
   journal={Protein Science},
   volume={12},
@@ -139,11 +155,16 @@
   pages={2257--2261},
   year={2003},
   publisher={Wiley Online Library},
-  keywords={fullonly}
+  keywords={fullonly, electrostatics, solvation},
+  url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2366909},
+  doi={10.1110/ps.03187503},
+  pmid={14500883},
+  pdf={sept2003physical.pdf},
+  abstract={Microtubules are cylindrical polymers found in every eukaryotic cell. They have a unique helical structure that has implications at both the cellular level, in terms of the functions they perform, and at the multicellular level, such as determining the left-right symmetry in plants. Through the combination of an atomically detailed model for a microtubule and large-scale computational techniques for computing electrostatic interactions, we are able to explain the observed microtubule structure. On the basis of the lateral interactions between protofilaments, we have determined that B lattice is the most favorable configuration. Further, we find that these lateral bonds are significantly weaker than the longitudinal bonds along protofilaments. This explains observations of microtubule disassembly and may serve as another step toward understanding the basis for dynamic instability.}
 }
 
 @article{feaster1996molecular,
-  title="Molecular recognition by cholesterol esterase of active site ligands: structure-reactivity effects for inhibition by aryl carbamates and subsequent carbamylenzyme turnover",
+  title={Molecular recognition by cholesterol esterase of active site ligands: structure-reactivity effects for inhibition by aryl carbamates and subsequent carbamylenzyme turnover},
   author={Feaster, Shawn R and Lee, Keun and Baker, Nathan and Hui, David Y and Quinn, Daniel M},
   journal={Biochemistry},
   volume={35},
@@ -151,11 +172,16 @@
   pages={16723--16734},
   year={1996},
   publisher={ACS Publications},
-  keywords={fullonly}
+  keywords={fullonly, cholesterol},
+  url={http://dx.doi.org/10.1021/bi961677v},
+  doi={10.1021/bi961677v},
+  pmid={8988009},
+  pdf={feaster1996molecular.pdf},
+  abstract={Interactions of mammalian pancreatic cholesterol esterases from pig and rat with a family of aryl carbamates CnH2n+1NHCOOAr [n = 4-9; Ar = phenyl, p-X-phenyl (X = acetamido, bromo, fluoro, nitro, trifluoromethyl), 2-naphthyl, 2-tetrahydronaphthyl, estronyl] have been investigated, with an aim of delineating the ligand structural features which lead to effective molecular recognition by the active site of the enzyme. These carbamates inhibit the catalytic activity of CEase by rapid carbamylation of the active site, a process that shows saturation kinetics. Subsequent slow decarbamylation usually leads to full restoration of activity, and therefore aryl carbamates are transient inhibitors, or pseudo-substrates, of CEase. Structural variation of carbamate inhibitors allowed molecular recognition in the fatty acid binding and steroid binding loci of the extended active site to be probed, and the electronic nature of the carbamylation transition state to be characterized. Optimal inhibitory activity is observed when the length of the carbamyl function is n = 6 and n = 7 for porcine and rat cholesterol esterases, respectively, equivalent to eight- and nine-carbon fatty acyl chains. In contrast, inhibitory activity increases progressively as the partial molecular volume of the aromatic fragment increases. Hammett plots for p-substituted phenyl-N-hexyl carbamates indicate that the rate-determining step for carbamate inhibition is phenolate anion expulsion. Effects of the bile salt activator taurocholate on the kinetically resolved phases of the pseudo-substrate turnover of aryl carbamates were also studied. Taurocholate increases the affinity of the carbamate for the active site of cholesterol esterase in the reversible, noncovalent complex that precedes carbamylation and increases the rate constants of the serial carbamylation and decarbamylation steps. Structural variation of the N-alkyl chain and of the aryl fused-ring system provides an accounting of bile salt modulation of the fatty acid and steroid binding sites, respectively. In that pseudo-substrate turnover of aryl carbamates proceeds by a three-step mechanism that is analogous to that for rapid turnover of lipid ester substrates, these investigations illuminate details of ligand recognition by the extended active site of cholesterol esterase that are prominent determinants of the substrate specificity and catalytic power of the enzyme.}
 }
 
 @article{wagoner2004solvation,
-  title="Solvation forces on biomolecular structures: a comparison of explicit solvent and {Poisson--Boltzmann} models",
+  title={Solvation forces on biomolecular structures: a comparison of explicit solvent and Poisson-Boltzmann models},
   author={Wagoner, Jason and Baker, Nathan A},
   journal={Journal of Computational Chemistry},
   volume={25},
@@ -163,11 +189,16 @@
   pages={1623--1629},
   year={2004},
   publisher={John Wiley \& Sons, Inc.},
-  keywords={fullonly}
+  keywords={fullonly, solvation, molecular_dynamics, electrostatics},
+  abstract={Continuum electrostatics methods have become increasingly popular due to their ability to provide approximate descriptions of solvation energies and forces without expensive sampling required by explicit solvent models. In particular, the Poisson-Boltzmann equation (PBE) provides electrostatic potentials, solvation energies, and forces by modeling the solvent as a featureless, dielectric material, and the mobile ions as a continuous distribution of charge. Polar solvation forces and energies obtained from the PBE are often supplemented with simple solvent-accessible surface area (SASA) models of nonpolar solvation. Given the recent development of methods that enable the use of PBE and SASA forces in molecular dynamics simulations, it is important to determine the ability of these implicit solvent models to accurately reproduce the solvation forces of more detailed explicit solvent simulations. In this article, we compare PBE and SASA solvation forces with explicit solvent forces for several snapshots from eight trajectories of static conformations of intestinal fatty acid binding protein. The results from this comparison show that current implementations of the PBE are capable of generating polar solvation forces that correlate well with explicit solvent forces but systematically overestimate the magnitude of the interaction. However, SASA-based nonpolar forces are found to have no significant correlation with nonpolar explicit solvent forces. Nevertheless, due to the small magnitude of the nonpolar forces in the current system, a good correlation is still obtained for total solvation forces. The good correlation of implicit solvent forces with more detailed explicit solvent models is encouraging and implies that the systematic errors identified in these models could be corrected by appropriate parameterization of the force fields.},
+  url={http://www.ncbi.nlm.nih.gov/pubmed/15264256},
+  doi={10.1002/jcc.20089},
+  pmid={15264256},
+  pdf={wagoner2004solvation.pdf}
 }
 
 @article{song2004finite,
-  title="Finite element solution of the steady-state {Smoluchowski} equation for rate constant calculations",
+  title={Finite element solution of the steady-state Smoluchowski equation for rate constant calculations},
   author={Song, Yuhua and Zhang, Yongjie and Shen, Tongye and Bajaj, Chandrajit L and McCammon, J Andrew and Baker, Nathan A},
   journal={Biophysical Journal},
   volume={86},
@@ -175,11 +206,16 @@
   pages={2017--2029},
   year={2004},
   publisher={Elsevier},
-  keywords={brown}
+  keywords={brown, finite_elements, diffusion},
+  abstract={This article describes the development and implementation of algorithms to study diffusion in biomolecular systems using continuum mechanics equations. Specifically, finite element methods have been developed to solve the steady-state Smoluchowski equation to calculate ligand binding rate constants for large biomolecules. The resulting software has been validated and applied to mouse acetylcholinesterase. Rates for inhibitor binding to mAChE were calculated at various ionic strengths with several different reaction criteria. The calculated rates were compared with experimental data and show very good agreement when the correct reaction criterion is used. Additionally, these finite element methods require significantly less computational resources than existing particle-based Brownian dynamics methods.},
+  url={http://www.sciencedirect.com/science/article/pii/S0006349504742630},
+  doi={10.1016/S0006-3495(04)74263-0},
+  pmid={15041644},
+  pdf={song2004finite.pdf}
 }
 
 @article{lin2002bridging,
-  title="Bridging implicit and explicit solvent approaches for membrane electrostatics",
+  title={Bridging implicit and explicit solvent approaches for membrane electrostatics},
   author={Lin, Jung-Hsin and Baker, Nathan A and McCammon, J Andrew},
   journal={Biophysical Journal},
   volume={83},
@@ -187,7 +223,7 @@
   pages={1374--1379},
   year={2002},
   publisher={Elsevier},
-  keywords={fullonly}
+  keywords={fullonly, biomembranes, electrostatics, solvation}
 }
 
 @article{ma2002binding,
