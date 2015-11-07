@@ -74,6 +74,7 @@ class Record:
         return " ".join(lines)
     def get_short_citation(self):
         """ Return a short citation string """
+        print(self.__dict__)
         raise NotImplementedError()
     def get_date(self, default_month="01", default_day="01"):
         """ Return date as string, filling in with default values as needed """
