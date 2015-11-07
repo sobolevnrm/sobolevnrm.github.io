@@ -1,7 +1,8 @@
 Title: Adaptive multilevel finite element solution of the Poisson-Boltzmann equation I. Algorithms and examples
 Date: 2000-01-01
 Category: Publications
-Tags: solvation, longmath, electrostatics, finite_elements, software
+Slug: holst2000adaptive
+Tags: solvation, longmath, finite_elements, software, electrostatics
 Authors: Holst, M, Baker, N, Wang, F
 Summary: Holst, M, Baker, N, Wang, F. Adaptive multilevel finite element solution of the Poisson-Boltzmann equation I. Algorithms and examples. Journal of Computational Chemistry, 21, 1319-1342, 2000. 
 

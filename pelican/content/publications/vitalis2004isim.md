@@ -1,7 +1,8 @@
 Title: ISIM: a program for grand canonical Monte Carlo simulations of the ionic environment of biomolecules
 Date: 2004-01-01
 Category: Publications
-Tags: electrostatics, monte_carlo, software
+Slug: vitalis2004isim
+Tags: monte_carlo, electrostatics, software
 Authors: Vitalis, A, Baker, NA, McCammon, JA
 Summary: Vitalis, A, Baker, NA, McCammon, JA. ISIM: a program for grand canonical Monte Carlo simulations of the ionic environment of biomolecules. Molecular Simulation, 30, 45-61, 2004. 
 

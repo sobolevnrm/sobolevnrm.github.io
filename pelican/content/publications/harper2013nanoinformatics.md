@@ -1,7 +1,8 @@
 Title: Nanoinformatics workshop report: current resources, community needs and the proposal of a collaborative framework for data sharing and information integration
 Date: 2013-01-01
 Category: Publications
-Tags: informatics, nanotechnology, review
+Slug: harper2013nanoinformatics
+Tags: review, informatics, nanotechnology
 Authors: Harper, SL, Hutchison, JE, Baker, N, Ostraat, M, Tinkle, S, Steevens, J, Hoover, MD, Adamick, J, Rajan, K, Gaheen, S, others 
 Summary: Harper, SL, Hutchison, JE, Baker, N, Ostraat, M, Tinkle, S, Steevens, J, Hoover, MD, Adamick, J, Rajan, K, Gaheen, S, others . Nanoinformatics workshop report: current resources, community needs and the proposal of a collaborative framework for data sharing and information integration. Computational Science \& Discovery, 6, 014008, 2013. 
 

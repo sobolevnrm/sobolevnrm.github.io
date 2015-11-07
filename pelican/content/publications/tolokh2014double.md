@@ -1,7 +1,8 @@
 Title: Why double-stranded RNA resists condensation
 Date: 2014-01-01
 Category: Publications
-Tags: nucleic_acids, molecular_dynamics, electrostatics, monte_carlo, rna
+Slug: tolokh2014double
+Tags: rna, nucleic_acids, monte_carlo, molecular_dynamics, electrostatics
 Authors: Tolokh, IS, Pabit, SA, Katz, AM, Chen, Y, Drozdetski, A, Baker, N, Pollack, L, Onufriev, AV
 Summary: Tolokh, IS, Pabit, SA, Katz, AM, Chen, Y, Drozdetski, A, Baker, N, Pollack, L, Onufriev, AV. Why double-stranded RNA resists condensation. Nucleic Acids Research, 42, 10823-31, 2014. 
 

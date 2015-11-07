@@ -1,7 +1,8 @@
 Title: Biomolecular electrostatics and solvation: a computational perspective
 Date: 2012-01-01
 Category: Publications
-Tags: solvation, electrostatics, review
+Slug: ren2012biomolecular
+Tags: solvation, review, electrostatics
 Authors: Ren, P, Chun, J, Thomas, DG, Schnieders, MJ, Marucho, M, Zhang, J, Baker, NA
 Summary: Ren, P, Chun, J, Thomas, DG, Schnieders, MJ, Marucho, M, Zhang, J, Baker, NA. Biomolecular electrostatics and solvation: a computational perspective. Quarterly Reviews of Biophysics, 45, 427-491, 2012. 
 

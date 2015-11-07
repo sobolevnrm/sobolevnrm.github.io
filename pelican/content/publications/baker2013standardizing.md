@@ -1,7 +1,8 @@
 Title: Standardizing data
 Date: 2013-01-01
 Category: Publications
-Tags: informatics, nanotechnology, review
+Slug: baker2013standardizing
+Tags: review, informatics, nanotechnology
 Authors: Baker, NA, Klemm, JD, Harper, SL, Gaheen, S, Heiskanen, M, Rocca-Serra, P, Sansone, S
 Summary: Baker, NA, Klemm, JD, Harper, SL, Gaheen, S, Heiskanen, M, Rocca-Serra, P, Sansone, S. Standardizing data. Nature Nanotechnology, 8, 73-74, 2013. 
 

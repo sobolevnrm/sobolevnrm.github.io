@@ -1,7 +1,8 @@
 Title: Using physicochemical properties of amino acids to induce graphical models of residue couplings
 Date: 2011-01-01
 Category: Publications
-Tags: informatics, nikr, allostery
+Slug: hossain2011using
+Tags: allostery, informatics, nikr
 Authors: Hossain, KT, Bailey-Kellogg, C, Friedman, AM, Bradley, MJ, Baker, N, Ramakrishnan, N
 Summary: Hossain, KT, Bailey-Kellogg, C, Friedman, AM, Bradley, MJ, Baker, N, Ramakrishnan, N. Using physicochemical properties of amino acids to induce graphical models of residue couplings. In BIOKDD '11, Article3, 2011.
 

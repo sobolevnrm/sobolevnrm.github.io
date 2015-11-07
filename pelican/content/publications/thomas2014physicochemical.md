@@ -1,7 +1,8 @@
 Title: Physicochemical signatures of nanoparticle-dependent complement activation
 Date: 2014-01-01
 Category: Publications
-Tags: informatics, nanotechnology, signatures, toxicity
+Slug: thomas2014physicochemical
+Tags: toxicity, informatics, signatures, nanotechnology
 Authors: Thomas, DG, Chikkagoudar, S, Heredia-Langner, A, Tardiff, MF, Xu, Z, Hourcade, DE, Pham, CT, Lanza, GM, Weinberger, KQ, Baker, NA
 Summary: Thomas, DG, Chikkagoudar, S, Heredia-Langner, A, Tardiff, MF, Xu, Z, Hourcade, DE, Pham, CT, Lanza, GM, Weinberger, KQ, Baker, NA. Physicochemical signatures of nanoparticle-dependent complement activation. Computational Science \& Discovery, 7, 015003, 2014. 
 

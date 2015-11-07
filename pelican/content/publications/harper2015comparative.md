@@ -1,7 +1,8 @@
 Title: Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ( EZ ) metric of toxicity
 Date: 2015-01-01
 Category: Publications
-Tags: informatics, nanotechnology, toxicity
+Slug: harper2015comparative
+Tags: toxicity, informatics, nanotechnology
 Authors: Harper, B, Thomas, D, Chikkagoudar, S, Baker, N, Tang, K, Heredia-Langner, A, Lins, R, Harper, S
 Summary: Harper, B, Thomas, D, Chikkagoudar, S, Baker, N, Tang, K, Heredia-Langner, A, Lins, R, Harper, S. Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ( EZ ) metric of toxicity. Journal of Nanoparticle Research, 17, 1-12, 2015. 
 

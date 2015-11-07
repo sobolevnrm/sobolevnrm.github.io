@@ -1,7 +1,8 @@
 Title: Biomolecular applications of Poisson-Boltzmann methods
 Date: 2005-01-01
 Category: Publications
-Tags: solvation, electrostatics, review
+Slug: baker2005biomolecular
+Tags: solvation, review, electrostatics
 Authors: Baker, NA
 Summary: Baker, NA. Biomolecular applications of Poisson-Boltzmann methods. Reviews in Computational Chemistry, 21, 349, 2005. 
 

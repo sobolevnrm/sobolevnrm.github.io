@@ -1,7 +1,8 @@
 Title: Low-barrier hydrogen bond in the catalytic triad of serine esterases
 Date: 1998-01-01
 Category: Publications
-Tags: quantum_mechanics, acetylcholinesterase
+Slug: medhekar1998low
+Tags: acetylcholinesterase, quantum_mechanics
 Authors: Medhekar, R, Baker, N, Kearney, W, Sando, K, Quinn, DM
 Summary: Medhekar, R, Baker, N, Kearney, W, Sando, K, Quinn, DM. Low-barrier hydrogen bond in the catalytic triad of serine esterases. In Structure and function of cholinesterases and related proteins, 233, 1998.
 

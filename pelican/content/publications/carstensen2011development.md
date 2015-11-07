@@ -1,7 +1,8 @@
 Title: On the development of protein p$K_a$ calculation algorithms
 Date: 2011-01-01
 Category: Publications
-Tags: titration, electrostatics, review
+Slug: carstensen2011development
+Tags: review, electrostatics, titration
 Authors: Carstensen, T, Farrell, D, Huang, Y, Baker, NA, Nielsen, JE
 Summary: Carstensen, T, Farrell, D, Huang, Y, Baker, NA, Nielsen, JE. On the development of protein p$K_a$ calculation algorithms. Proteins: Structure, Function, and Bioinformatics, 79, 3287-3298, 2011. 
 

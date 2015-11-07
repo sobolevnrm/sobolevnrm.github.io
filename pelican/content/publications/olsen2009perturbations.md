@@ -1,7 +1,8 @@
 Title: Perturbations of membrane structure by cholesterol and cholesterol derivatives are determined by sterol orientation
 Date: 2009-01-01
 Category: Publications
-Tags: oxysterols, molecular_dynamics, biomembranes, cholesterol
+Slug: olsen2009perturbations
+Tags: cholesterol, molecular_dynamics, oxysterols, biomembranes
 Authors: Olsen, BN, Schlesinger, PH, Baker, NA
 Summary: Olsen, BN, Schlesinger, PH, Baker, NA. Perturbations of membrane structure by cholesterol and cholesterol derivatives are determined by sterol orientation. Journal of the American Chemical Society, 131, 4854-4865, 2009. 
 

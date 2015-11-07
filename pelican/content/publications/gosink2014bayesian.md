@@ -1,7 +1,8 @@
 Title: Bayesian model aggregation for ensemble-based estimates of protein pKa values
 Date: 2014-01-01
 Category: Publications
-Tags: titration, statistics, informatics, electrostatics
+Slug: gosink2014bayesian
+Tags: statistics, informatics, electrostatics, titration
 Authors: Gosink, LJ, Hogan, EA, Pulsipher, TC, Baker, NA
 Summary: Gosink, LJ, Hogan, EA, Pulsipher, TC, Baker, NA. Bayesian model aggregation for ensemble-based estimates of protein pKa values. Proteins: Structure, Function, and Bioinformatics, 82, 354-363, 2014. 
 

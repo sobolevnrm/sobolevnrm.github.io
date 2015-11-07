@@ -1,7 +1,8 @@
 Title: Theoretical and experimental investigations of electrostatic effects on acetylcholinesterase catalysis and inhibition
 Date: 1999-01-01
 Category: Publications
-Tags: diffusion, electrostatics, monte_carlo, acetylcholinesterase
+Slug: malany1999theoretical
+Tags: acetylcholinesterase, electrostatics, monte_carlo, diffusion
 Authors: Malany, S, Baker, N, Verweyst, M, Medhekar, R, Quinn, DM, Velan, B, Kronman, C, Shafferman, A
 Summary: Malany, S, Baker, N, Verweyst, M, Medhekar, R, Quinn, DM, Velan, B, Kronman, C, Shafferman, A. Theoretical and experimental investigations of electrostatic effects on acetylcholinesterase catalysis and inhibition. Chemico-Biological Interactions, 119, 99-110, 1999. 
 

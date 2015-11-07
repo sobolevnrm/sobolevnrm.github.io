@@ -1,7 +1,8 @@
 Title: Differential geometry-based solvation and electrolyte transport models for biomolecular modeling: a review
 Date: 2014-01-01
 Category: Publications
-Tags: diffusion, geometric_flow, electrostatics, review, nonpolar
+Slug: wei2014differential
+Tags: geometric_flow, review, nonpolar, electrostatics, diffusion
 Authors: Wei, GW, Baker, NA
 Summary: Wei, GW, Baker, NA. Differential geometry-based solvation and electrolyte transport models for biomolecular modeling: a review. arXiv preprint arXiv:1412.0176, 2014. 
 

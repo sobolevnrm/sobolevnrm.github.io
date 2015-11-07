@@ -9,9 +9,7 @@ BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
 KNOWN_RECORD_TYPES = {'inproceedings', 'article', 'report', 'incollection'}
 IGNORE_KEYWORDS = {"impact", "fullonly", "fullmath"}
-print("CHECK FOR EMPTY KEYWORDS")
 print("CHECK FOR EMPTY DOI OR URL")
-print("ADD MORE IGNORED KEYWORDS")
 print("ADD AUTHORS TO TAGS AS WELL AS KEYWORDS")
 
 def tokens_to_dict(token_list):
@@ -95,6 +93,8 @@ class Record:
         return "-".join(date_values)
     def get_keywords(self, ignore_keywords=IGNORE_KEYWORDS):
         """ Return tags as a string, ignoring the specified tags """
+        if len(self.keywords) == 0:
+            raise IndexError("No keywords!")
         return ", ".join(self.keywords)
     def get_short_authors(self):
         """ Return authors in short form as string """
@@ -111,6 +111,7 @@ class Record:
             f.write("Title: %s\n" % self.get_string_attr("title"))
             f.write("Date: %s\n" % self.get_date())
             f.write("Category: Publications\n")
+            f.write("Slug: %s\n" % self.label)
             f.write("Tags: %s\n" % self.get_keywords())
             f.write("Authors: %s\n" % self.get_short_authors())
             f.write("Summary: %s\n" % self.get_short_citation())

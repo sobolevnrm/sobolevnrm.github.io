@@ -1,7 +1,8 @@
 Title: Non-Boltzmann rate distributions in stochastically gated reactions
 Date: 1999-01-01
 Category: Publications
-Tags: kinetics, diffusion, acetylcholinesterase
+Slug: baker1999non
+Tags: acetylcholinesterase, kinetics, diffusion
 Authors: Baker, NA, McCammon, JA
 Summary: Baker, NA, McCammon, JA. Non-Boltzmann rate distributions in stochastically gated reactions. The Journal of Physical Chemistry B, 103, 615-617, 1999. 
 

@@ -1,6 +1,7 @@
 Title: Quantifying the influence of conformational uncertainty in biomolecular solvation
 Date: 2015-01-01
 Category: Publications
+Slug: lei2014quantifying
 Tags: solvation, uncertainty_quantification, monte_carlo
 Authors: Lei, H, Yang, X, Zheng, B, Lin, G, Baker, NA
 Summary: Lei, H, Yang, X, Zheng, B, Lin, G, Baker, NA. Quantifying the influence of conformational uncertainty in biomolecular solvation. Multiscale Modeling \& Simulation, inpress, 2015. 

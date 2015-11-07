@@ -1,7 +1,8 @@
 Title: Energy Minimization of Discrete Protein Titration State Models Using Graph Theory
 Date: 2015-01-01
 Category: Publications
-Tags: titration, electrostatics, graph_theory
+Slug: hogan2015energy
+Tags: graph_theory, electrostatics, titration
 Authors: Hogan, E, Monson, K, Baker, NA
 Summary: Hogan, E, Monson, K, Baker, NA. Energy Minimization of Discrete Protein Titration State Models Using Graph Theory. arXiv preprint arXiv:1507.07021, 2015. 
 

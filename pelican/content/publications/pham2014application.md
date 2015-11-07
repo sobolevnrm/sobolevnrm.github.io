@@ -1,7 +1,8 @@
 Title: Application of a hemolysis assay for analysis of complement activation by perfluorocarbon nanoparticles
 Date: 2014-01-01
 Category: Publications
-Tags: informatics, nanotechnology, toxicity
+Slug: pham2014application
+Tags: toxicity, informatics, nanotechnology
 Authors: Pham, CT, Thomas, DG, Beiser, J, Mitchell, LM, Huang, JL, Senpan, A, Hu, G, Gordon, M, Baker, NA, Pan, D, others 
 Summary: Pham, CT, Thomas, DG, Beiser, J, Mitchell, LM, Huang, JL, Senpan, A, Hu, G, Gordon, M, Baker, NA, Pan, D, others . Application of a hemolysis assay for analysis of complement activation by perfluorocarbon nanoparticles. Nanomedicine: Nanotechnology, Biology and Medicine, 10, 651-660, 2014. 
 
