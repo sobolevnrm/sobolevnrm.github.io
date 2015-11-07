@@ -8,6 +8,10 @@ BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
 KNOWN_RECORD_TYPES = {'inproceedings', 'article', 'report', 'incollection'}
 IGNORE_KEYWORDS = {"impact", "brown"}
+print("CHECK FOR EMPTY KEYWORDS")
+print("CHECK FOR EMPTY DOI OR URL")
+print("ADD MORE IGNORED KEYWORDS")
+print("ADD AUTHORS TO TAGS AS WELL AS KEYWORDS")
 
 def tokens_to_dict(token_list):
     """ Create a dictionary of fields """
@@ -84,6 +88,8 @@ class Record:
             elif name == "type":
                 self.type = " ".join(value)
                 print(self.type)
+            elif name == "pdf":
+                self.pdf = "".join(value)
             else:
                 errstr = "Unknown article field: %s" % name
                 raise ValueError(errstr)
@@ -139,7 +145,6 @@ def parse_record(record_string):
     else:
         errstr = "Unknown record type:  %s" % record_type
         raise ValueError(errstr)
-
 
 def parse_bibtex(bibfile):
     """ Parse a BibTeX file into a list of dictionaries """

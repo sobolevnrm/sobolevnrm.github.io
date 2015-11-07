@@ -7,7 +7,7 @@
   pages={10037--10041},
   year={2001},
   publisher={National Acad Sciences},
-  keywords={impact, brown, mathematics, solvation, electrostatics, apbs, finite_differences, software},
+  keywords={impact, brown, solvation, electrostatics, apbs, finite_differences, software, ribosome, microtubules},
   doi={10.1073/pnas.181342398},
   url={http://www.pnas.org/content/98/18/10037.short},
   pmid={11517324},
@@ -58,7 +58,7 @@
   pages={1319--1342},
   year={2000},
   publisher={John Wiley \& Sons, Inc.},
-  keywords={longmath, brown, mathematics, software, finite_elements, electrostatics, solvation},
+  keywords={longmath, brown, software, finite_elements, electrostatics, solvation},
   doi={10.1002/1096-987X(20001130)21:15&lt;1319::AID-JCC1&gt;3.0.CO;2-8},
   url={http://doi.wiley.com/10.1002/1096-987X(20001130)21:15<1319::AID-JCC1>3.0.CO;2-8},
   pdf={holst2000adaptive.pdf},
@@ -74,7 +74,7 @@
   pages={1343--1352},
   year={2000},
   publisher={John Wiley \& Sons, Inc.},
-  keywords={longmath, brown, software, mathematics, electrostatics, finite_elements, solvation},
+  keywords={longmath, brown, software, electrostatics, finite_elements, solvation},
   url={http://doi.wiley.com/10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K},
   doi={10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K},
   pdf={baker2000adaptive.pdf},
@@ -124,7 +124,7 @@
   pages={427--438},
   year={2001},
   publisher={IBM},
-  keywords={fullonly, software, mathematics, electrostatics, solvation, finite_elements},
+  keywords={fullonly, software, electrostatics, solvation, finite_elements, microtubules},
   url={http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5389050},
   doi={10.1147/rd.453.0427},
   pdf={baker2001adaptive.pdf},
@@ -155,7 +155,7 @@
   pages={2257--2261},
   year={2003},
   publisher={Wiley Online Library},
-  keywords={fullonly, electrostatics, solvation},
+  keywords={fullonly, electrostatics, solvation, microtubules},
   url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2366909},
   doi={10.1110/ps.03187503},
   pmid={14500883},
@@ -223,11 +223,16 @@
   pages={1374--1379},
   year={2002},
   publisher={Elsevier},
-  keywords={fullonly, biomembranes, electrostatics, solvation}
+  keywords={fullonly, biomembranes, electrostatics, solvation},
+  abstract={Conformations of a zwitterionic bilayer were sampled from a molecular dynamics simulation and their electrostatic properties analyzed by solution of the Poisson equation. These traditionally implicit electrostatic calculations were performed in the presence of varying amounts of explicit solvent to assess the magnitude of error introduced by a uniform dielectric description of water surrounding the bilayer. It was observed that membrane dipole potential calculations in the presence of explicit water were significantly different than wholly implicit solvent calculations with the calculated dipole potential converging to a reasonable value when four or more hydration layers were included explicitly.},
+  url={http://www.sciencedirect.com/science/article/pii/S0006349502739088},
+  doi={10.1016/S0006-3495(02)73908-8},
+  pmid={12202363},
+  pdf={lin2002bridging.pdf}
 }
 
 @article{ma2002binding,
-  title="Binding of aminoglycoside antibiotics to the small ribosomal subunit: a continuum electrostatics investigation",
+  title={Binding of aminoglycoside antibiotics to the small ribosomal subunit: a continuum electrostatics investigation},
   author={Ma, Chiansan and Baker, Nathan A and Joseph, Simpson and McCammon, J Andrew},
   journal={Journal of the American Chemical Society},
   volume={124},
@@ -235,11 +240,15 @@
   pages={1438--1442},
   year={2002},
   publisher={ACS Publications},
-  keywords={fullonly}
+  keywords={fullonly, electrostatics, solvation, ribosome},
+  abstract={The binding of paromomycin and similar antibiotics to the small (30S) ribosomal subunit has been studied using continuum electrostatics methods. Crystallographic information from a complex of paromomycin with the 30S subunit was used as a framework to develop structures of similar antibiotics in the same ribosomal binding site. Total binding energies were calculated from electrostatic properties obtained by solution of the Poisson−Boltzmann equation combined with a surface area-dependent apolar term. These computed results showed good correlation with experimental data. Additionally, calculation of the ribosomal electrostatic potential in the paromomycin binding site provided insight into the electrostatic mechanisms for aminoglycoside binding and clues for the rational design of more effective antibiotics.},
+  url={http://pubs.acs.org/doi/abs/10.1021/ja016830+},
+  doi={10.1021/ja016830+},
+  pdf={ma2002binding.pdf}
 }
 
 @article{lee2008molecular,
-  title="Molecular dynamics simulations of asymmetric {NaCl} and {KCl} solutions separated by phosphatidylcholine bilayers: potential drops and structural changes induced by strong {Na}+-lipid interactions and finite size effects",
+  title={Molecular dynamics simulations of asymmetric NaCl and KCl solutions separated by phosphatidylcholine bilayers: potential drops and structural changes induced by strong Na+-lipid interactions and finite size effects},
   author={Lee, Sun-Joo and Song, Yuhua and Baker, Nathan A},
   journal={Biophysical Journal},
   volume={94},
@@ -247,11 +256,16 @@
   pages={3565--3576},
   year={2008},
   publisher={Cell Press},
-  keywords={fullonly}
+  keywords={fullonly, biomembranes, molecular_dynamics, electrostatics},
+  abstract={Differences of ionic concentrations across lipid bilayers are some of the primary energetic driving forces for cellular electrophysiology. While macroscopic models of asymmetric ionic solutions are well-developed, their connection to ion, water, and lipid interactions at the atomic scale are much more poorly understood. In this study, we used molecular dynamics to examine a system of two chambers of equal ionic strength, but differing amounts of NaCl and KCl, separated by a lipid bilayer. Our expectation was that the net electrostatic potential difference between the two chambers should be small or zero. Contrary to our expectation, a large potential difference (-70 mV) slowly evolved across the two water chambers over the course of our 172-ns simulation. This potential primarily originated from strong Na(+) binding to the carbonyls of the phosphatidylcholine lipids. This ion adsorption also led to significant structural and mechanical changes in the lipid bilayer. We discuss this surprising result in the context of indirect experimental evidence for Na(+) interaction with bilayers as well as potential caveats in current biomembrane simulation methodology, including force-field parameters and finite size effects.},
+  url={http://www.sciencedirect.com/science/article/pii/S0006349508704338},
+  doi={10.1529/biophysj.107.116335},
+  pmid={18222999},
+  pdf={lee2008molecular.pdf}
 }
 
 @article{tai2003finite,
-  title="Finite element simulations of acetylcholine diffusion in neuromuscular junctions",
+  title={Finite element simulations of acetylcholine diffusion in neuromuscular junctions},
   author={Tai, Kaihsu and Bond, Stephen D and MacMillan, Hugh R and Baker, Nathan Andrew and Holst, Michael Jay and McCammon, J Andrew},
   journal={Biophysical Journal},
   volume={84},
@@ -259,21 +273,31 @@
   pages={2234--2241},
   year={2003},
   publisher={Cell Press},
-  keywords={fullonly, brown}
+  keywords={fullonly, brown, diffusion, finite_elements, acetylcholinesterase},
+  abstract={A robust infrastructure for solving time-dependent diffusion using the finite element package FEtk has been developed to simulate synaptic transmission in a neuromuscular junction with realistic postsynaptic folds. Simplified rectilinear synapse models serve as benchmarks in initial numerical studies of how variations in geometry and kinetics relate to endplate currents associated with fast-twitch, slow-twitch, and dystrophic muscles. The flexibility and scalability of FEtk affords increasingly realistic and complex models that can be formed in concert with expanding experimental understanding from electron microscopy. Ultimately, such models may provide useful insight on the functional implications of controlled changes in processes, suggesting therapies for neuromuscular diseases.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1302790&tool=pmcentrez&rendertype=abstract},
+  doi={10.1016/S0006-3495(03)75029-2},
+  pmid={12668432},
+  pdf={tai2003finite.pdf}
 }
 
 @article{schnieders2007polarizable,
-  title="Polarizable atomic multipole solutes in a {Poisson-Boltzmann} continuum",
+  title={Polarizable atomic multipole solutes in a Poisson-Boltzmann continuum},
   author={Schnieders, Michael J and Baker, Nathan A and Ren, Pengyu and Ponder, Jay W},
   journal={The Journal of Chemical Physics},
   volume={126},
   pages={124114},
   year={2007},
-  keywords={brown}
+  keywords={brown, electrostatics, force_fields, solvation},
+  abstract={Modeling the change in the electrostatics of organic molecules upon moving from vacuum into solvent, due to polarization, has long been an interesting problem. In vacuum, experimental values for the dipole moments and polarizabilities of small, rigid molecules are known to high accuracy; however, it has generally been difficult to determine these quantities for a polar molecule in water. A theoretical approach introduced by Onsager [J. Am. Chem. Soc. 58, 1486 (1936)] used vacuum properties of small molecules, including polarizability, dipole moment, and size, to predict experimentally known permittivities of neat liquids via the Poisson equation. Since this important advance in understanding the condensed phase, a large number of computational methods have been developed to study solutes embedded in a continuum via numerical solutions to the Poisson-Boltzmann equation. Only recently have the classical force fields used for studying biomolecules begun to include explicit polarization in their functional forms. Here the authors describe the theory underlying a newly developed polarizable multipole Poisson-Boltzmann (PMPB) continuum electrostatics model, which builds on the atomic multipole optimized energetics for biomolecular applications (AMOEBA) force field. As an application of the PMPB methodology, results are presented for several small folded proteins studied by molecular dynamics in explicit water as well as embedded in the PMPB continuum. The dipole moment of each protein increased on average by a factor of 1.27 in explicit AMOEBA water and 1.26 in continuum solvent. The essentially identical electrostatic response in both models suggests that PMPB electrostatics offers an efficient alternative to sampling explicit solvent molecules for a variety of interesting applications, including binding energies, conformational analysis, and pK(a) prediction. Introduction of 150 mM salt lowered the electrostatic solvation energy between 2 and 13 kcalmole, depending on the formal charge of the protein, but had only a small influence on dipole moments.},
+  url={http://scitation.aip.org/content/aip/journal/jcp/126/12/10.1063/1.2714528},
+  doi={10.1063/1.2714528},
+  pmid={17411115},
+  pdf={schnieders2007polarizable.pdf}
 }
 
 @article{bradley2008molecular,
-  title="Molecular dynamics simulation of the Escherichia coli {NikR} protein: equilibrium conformational fluctuations reveal interdomain allosteric communication pathways",
+  title={Molecular dynamics simulation of the Escherichia coli NikR protein: equilibrium conformational fluctuations reveal interdomain allosteric communication pathways},
   author={Bradley, Michael J and Chivers, Peter T and Baker, Nathan A},
   journal={Journal of Molecular Biology},
   volume={378},
@@ -281,11 +305,15 @@
   pages={1155--1173},
   year={2008},
   publisher={Academic Press},
-  keywords={fullonly}
+  keywords={fullonly, allostery, nikr, molecular_dynamics, metalloregulation},
+  abstract={Escherichia coli NikR is a homotetrameric Ni 2+- and DNA-binding protein that functions as a transcriptional repressor of the NikABCDE nickel permease. The protein is composed of two distinct domains. The N-terminal 50 amino acids of each chain forms part of the dimeric ribbon-helix-helix (RHH) domains, a well-studied DNA-binding fold. The 83-residue C-terminal nickel-binding domain forms an ACT (aspartokinase, chorismate mutase, and TyrA) fold and contains the tetrameric interface. In this study, we have utilized an equilibrium molecular dynamics simulation in order to explore the conformational dynamics of the NikR tetramer and determine important residue interactions within and between the RHH and ACT domains to gain insight into the effects of Ni 2+ on DNA-binding activity. The molecular simulation data were analyzed using two different correlation measures based on fluctuations in atomic position and noncovalent contacts together with a clustering algorithm to define groups of residues with similar correlation patterns for both types of correlation measure. Based on these analyses, we have defined a series of residue interrelationships that describe an allosteric communication pathway between the Ni 2+- and DNA-binding sites, which are separated by 40????. Several of the residues identified by our analyses have been previously shown experimentally to be important for NikR function. An additional subset of the identified residues structurally connects the experimentally implicated residues and may help coordinate the allosteric communication between the ACT and RHH domains. ?? 2008 Elsevier Ltd. All rights reserved.},
+  url={http://dx.doi.org/10.1016/j.jmb.2008.03.010},
+  doi={10.1016/j.jmb.2008.03.010},
+  pdf={bradley2008molecular.pdf}
 }
 
 @article{zhang2004electrostatic,
-  title="Electrostatic interaction between {RNA} and protein capsid in cowpea chlorotic mottle virus simulated by a coarse-grain {RNA} model and a {Monte Carlo} approach",
+  title={Electrostatic interaction between RNA and protein capsid in cowpea chlorotic mottle virus simulated by a coarse-grain RNA model and a Monte Carlo approach},
   author={Zhang, Deqiang and Konecny, Robert and Baker, Nathan A and McCammon, J Andrew},
   journal={Biopolymers},
   volume={75},
@@ -293,11 +321,16 @@
   pages={325--337},
   year={2004},
   publisher={Wiley Online Library},
-  keywords={fullonly}
+  keywords={fullonly, nucleic_acids, rna, dna, electrostatics, monte_carlo, coarse-graining, virus},
+  abstract={Although many viruses have been crystallized and the protein capsid structures have been determined by x-ray crystallography, the nucleic acids often cannot be resolved. This is especially true for RNA viruses. The lack of information about the conformation of DNA/RNA greatly hinders our understanding of the assembly mechanism of various viruses. Here we combine a coarse-grain model and a Monte Carlo method to simulate the distribution of viral RNA inside the capsid of cowpea chlorotic mottle virus. Our results show that there is very strong interaction between the N-terminal residues of the capsid proteins, which are highly positive charged, and the viral RNA. Without these residues, the binding energy disfavors the binding of RNA by the capsid. The RNA forms a shell close to the capsid with the highest densities associated with the capsid dimers. These high-density regions are connected to each other in the shape of a continuous net of triangles. The overall icosahedral shape of the net overlaps with the capsid subunit icosahedral organization. Medium density of RNA is found under the pentamers of the capsid. These findings are consistent with experimental observations.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2426774&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/bip.20120},
+  pmid={15386271},
+  pdf={zhang2004electrostatic.pdf}
 }
 
 @article{song2005molecular,
-  title="Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer",
+  title={Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer},
   author={Song, Yuhua and Guallar, Victor and Baker, Nathan A},
   journal={Biochemistry},
   volume={44},
@@ -305,23 +338,32 @@
   pages={13425--13438},
   year={2005},
   publisher={ACS Publications},
-  keywords={fullonly}
+  keywords={fullonly, biomembranes, salicylate, molecular_dynamics},
+  abstract={Salicylate, an amphiphilic molecule and a popular member of the nonsteroidal anti-inflammatory drug family, is known to affect hearing through reduction of the electromechanical coupling in the outer hair cells of the ear. This reduction of electromotility by salicylate has been widely studied, but the molecular mechanism of the phenomenon is still unknown. In this study, we investigated one aspect of salicylate's action, namely the perturbation of electrical and mechanical membrane properties by salicylate in the absence of cytoskeletal or membrane-bound motor proteins such as prestin. In particular, we simulated the interaction of salicylate with a dipalmitoylphosphatidylcholine (DPPC) bilayer via atomically detailed molecular dynamics simulations to observe the effect of salicylate on the microscopic and mesoscopic properties of the bilayer. The results demonstrate that salicylate interacts with the bilayer by associating at the water-DPPC interface in a nearly perpendicular orientation and penetrating more deeply into the bilayer than either sodium or chloride. This association has several affects on the membrane properties. First, binding of salicylate to the membrane displaces chloride from the bilayer-water interface. Second, salicylate influences the electrostatic potential and dielectric properties of the bilayer, with significant changes at the water-lipid bilayer interface. Third, salicylate association results in structural changes, including decreased headgroup area per lipid and increased lipid tail order. However, salicylate does not significantly alter the mechanical properties of the DPPC bilayer; bulk compressibility, area compressibility, and bending modulus were only perturbed by small, statistically insignificant amounts by the presence of salicylate. The observations from these simulations are in qualitative agreement with experimental data and support the conclusion that salicylate influences the electrical but not the mechanical properties of DPPC membranes.},
+  url={http://dx.doi.org/10.1021/bi0506829},
+  doi={10.1021/bi0506829},
+  pmid={16216066},
+  pdf={song2005molecular.pdf}
 }
 
 @article{baker1999polarization,
-  title="Polarization around an ion in a dielectric continuum with truncated electrostatic interactions",
-  author={Baker, Nathan A and H{\"u}nenberger, Philippe H and McCammon, J Andrew},
+  title={Polarization around an ion in a dielectric continuum with truncated electrostatic interactions},
+  author={Baker, Nathan A and Hunenberger, Philippe H and McCammon, J Andrew},
   journal={The Journal of Chemical Physics},
   volume={110},
   number={22},
   pages={10679--10692},
   year={1999},
   publisher={AIP Publishing},
-  keywords={fullonly}
+  keywords={fullonly, electrostatics, solvation},
+  abstract={In order to reduce computational effort and to allow for the use of periodic boundary conditions,electrostatic interactions in explicit solvent simulations of molecular systems do not obey Coulomb’s law. Instead, a number of “effective potentials” have been proposed, including truncated Coulomb, shifted, switched, reaction-field corrected, or Ewald potentials. The present study compares the performance of these schemes in the context of ionic solvation. To this purpose, a generalized form of the Born continuum model for ion solvation is developed, where ion–solvent and solvent–solvent interactions are determined by these effective potentials instead of Coulomb’s law. An integral equation is formulated for calculating the polarization around a spherical ion from which the solvation free energy can be extracted. Comparison of the polarizations and free energies calculated for specific effective potentials and the exact Born result permits an assessment of the accuracy of these different schemes. Additionally, the present formalism can be used to develop corrections to the ionic solvation free energies calculated by molecular simulations implementing such effective potentials. Finally, an arbitrary effective potential is optimized to reproduce the Born polarization.},
+  url={http://scitation.aip.org/content/aip/journal/jcp/110/22/10.1063/1.479013},
+  doi={10.1063/1.479013},
+  pdf={baker1999polarization.pdf}
 }
 
 @article{song2004continuum,
-  title="Continuum diffusion reaction rate calculations of wild-type and mutant mouse acetylcholinesterase: adaptive finite element analysis",
+  title={Continuum diffusion reaction rate calculations of wild-type and mutant mouse acetylcholinesterase: adaptive finite element analysis},
   author={Song, Yuhua and Zhang, Yongjie and Bajaj, Chandrajit L and Baker, Nathan A},
   journal={Biophysical Journal},
   volume={87},
@@ -329,77 +371,116 @@
   pages={1558--1566},
   year={2004},
   publisher={Cell Press},
-  keywords={brown}
+  keywords={brown, diffusion, finite_elements, acetylcholinesterase},
+  abstract={As described previously, continuum models, such as the Smoluchowski equation, offer a scalable framework for studying diffusion in biomolecular systems. This work presents new developments in the efficient solution of the continuum diffusion equation. Specifically, we present methods for adaptively refining finite element solutions of the Smoluchowski equation based on a posteriori error estimates. We also describe new, molecular-surface-based models, for diffusional reaction boundary criteria and compare results obtained from these models with the traditional spherical criteria. The new methods are validated by comparison of the calculated reaction rates with experimental values for wild-type and mutant forms of mouse acetylcholinesterase. The results show good agreement with experiment and help to define optimal reactive boundary conditions.},
+  url={http://www.sciencedirect.com/science/article/pii/S0006349504736383},
+  doi={10.1529/biophysj.104.041517},
+  pmid={15345536},
+  pdf={song2004continuum.pdf}
 }
 
 @article{showalter2005iron,
-  title="Iron responsive element {RNA} flexibility described by {NMR} and isotropic reorientational eigenmode dynamics",
+  title={Iron responsive element RNA flexibility described by NMR and isotropic reorientational eigenmode dynamics},
   author={Showalter, Scott A and Baker, Nathan A and Tang, Changguo and Hall, Kathleen B},
   journal={Journal of Biomolecular NMR},
   volume={32},
   number={3},
   pages={179--193},
   year={2005},
-  publisher={Kluwer Academic Publishers}
+  publisher={Kluwer Academic Publishers},
+  keywords={rna, nucleic_acids, molecular_dynamics},
+  abstract={The first example of the application of reorientational eigenmode dynamics (RED) to RNA is shown here for the small and floppy Iron Responsive Element (IRE) RNA hairpin. Order parameters calculated for bases and riboses from a 12 ns molecular dynamics trajectory are compared to experimentally determined order parameters from 13C-1H NMR relaxation experiments, and shown to be in qualitative agreement. Given the small size of the IRE hairpin and its very flexible loop, isotropic RED (iRED) was also used to analyze the trajectory in order to describe its dynamic motions. iRED analysis shows that the global and internal dynamics of the IRE are not rigorously separable, which will result in inaccurate experimental order parameters. In addition, the iRED analysis described the many correlated motions that comprise the dynamics of the IRE RNA. The combined use of NMR relaxation, RED, and iRED provide a uniquely detailed description of IRE RNA dynamics.},
+  url={http://www.ncbi.nlm.nih.gov/pubmed/16132819},
+  doi={10.1007/s10858-005-7948-2},
+  pmid={16132819},
+  pdf={showalter2005iron.pdf}
 }
 
 @article{zhang2005tetrameric,
-  title="Tetrameric mouse acetylcholinesterase: continuum diffusion rate calculations by solving the steady-state {Smoluchowski} equation using finite element methods",
+  title={Tetrameric mouse acetylcholinesterase: continuum diffusion rate calculations by solving the steady-state Smoluchowski equation using finite element methods},
   author={Zhang, Deqiang and Suen, Jason and Zhang, Yongjie and Song, Yuhua and Radic, Zoran and Taylor, Palmer and Holst, Michael J and Bajaj, Chandrajit and Baker, Nathan A and McCammon, J Andrew},
   journal={Biophysical Journal},
   volume={88},
   number={3},
   pages={1659--1665},
   year={2005},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  keywords={finite_elements, diffusion, electrostatics, acetylcholinesterase},
+  abstract={The tetramer is the most important form for acetylcholinesterase in physiological conditions, i.e., in the neuromuscular junction and the nervous system. It is important to study the diffusion of acetylcholine to the active sites of the tetrameric enzyme to understand the overall signal transduction process in these cellular components. Crystallographic studies revealed two different forms of tetramers, suggesting a flexible tetramer model for acetylcholinesterase. Using a recently developed finite element solver for the steady-state Smoluchowski equation, we have calculated the reaction rate for three mouse acetylcholinesterase tetramers using these two crystal structures and an intermediate structure as templates. Our results show that the reaction rates differ for different individual active sites in the compact tetramer crystal structure, and the rates are similar for different individual active sites in the other crystal structure and the intermediate structure. In the limit of zero salt, the reaction rates per active site for the tetramers are the same as that for the monomer, whereas at higher ionic strength, the rates per active site for the tetramers are approximately 67-75 pct of the rate for the monomer. By analyzing the effect of electrostatic forces on ACh diffusion, we find that electrostatic forces play an even more important role for the tetramers than for the monomer. This study also shows that the finite element solver is well suited for solving the diffusion problem within complicated geometries.},
+  url={http://www.sciencedirect.com/science/article/pii/S000634950573232X},
+  doi={10.1529/biophysj.104.053850},
+  pmid={15626705},
+  pdf={zhang2005tetrameric.pdf}
 }
 
 @article{konecny2006electrostatic,
-  title="Electrostatic properties of cowpea chlorotic mottle virus and cucumber mosaic virus capsids",
+  title={Electrostatic properties of cowpea chlorotic mottle virus and cucumber mosaic virus capsids},
   author={Konecny, Robert and Trylska, Joanna and Tama, Florence and Zhang, Deqiang and Baker, Nathan A and Brooks, Charles L and McCammon, J Andrew},
   journal={Biopolymers},
   volume={82},
   number={2},
   pages={106--120},
   year={2006},
-  publisher={Wiley Subscription Services, Inc., A Wiley Company}
+  publisher={Wiley Subscription Services, Inc., A Wiley Company},
+  keywords={electrostatics, finite_differences, finite_elements, virus},
+  abstract={Electrostatic properties of cowpea chlorotic mottle virus (CCMV) and cucumber mosaic virus (CMV) were investigated using numerical solutions to the Poisson-Boltzmann equation. Experimentally, it has been shown that CCMV particles swell in the absence of divalent cations when the pH is raised from 5 to 7. CMV, although structurally homologous, does not undergo this transition. An analysis of the calculated electrostatic potential confirms that a strong electrostatic repulsion at the calcium-binding sites in the CCMV capsid is most likely the driving force for the capsid swelling process during the release of calcium. The binding interaction between the encapsulated genome material (RNA) inside of the capsid and the inner capsid shell is weakened during the swelling transition. This probably aids in the RNA release process, but it is unlikely that the RNA is released through capsid openings due to unfavorable electrostatic interaction between the RNA and capsid inner shell residues at these openings. Calculations of the calcium binding energies show that Ca(2+) can bind both to the native and swollen forms of the CCMV virion. Favorable binding to the swollen form suggests that Ca(2+) ions can induce the capsid contraction and stabilize the native form.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2440512&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/bip.20409},
+  pmid={16278831},
+  pdf={konecny2006electrostatic.pdf}
 }
 
 @article{quinn2000delineation,
-  title="Delineation and decomposition of energies involved in quaternary ammonium binding in the active site of acetylcholinesterase",
+  title={Delineation and decomposition of energies involved in quaternary ammonium binding in the active site of acetylcholinesterase},
   author={Quinn, Daniel M and Feaster, Shawn R and Nair, Haridasan K and Baker, Nathan A and Radic, Zoran and Taylor, Palmer},
   journal={Journal of the American Chemical Society},
   volume={122},
   number={13},
   pages={2975--2980},
   year={2000},
-  publisher={ACS Publications}
+  publisher={ACS Publications},
+  keywords={acetylcholinesterase},
+  abstract={The quaternary ammonium binding locus in the active site of mammalian acetylcholinesterase is subtended by the side chains of Trp86, Tyr133, Glu202, and Tyr337. Linear free-energy relationships define the interactions involved in molecular recognition by mouse acetylcholinesterase of the quaternary ammonium moiety of ligands. For substrates CH3C(O)XCH2CH2Y [X = O, Y = CHMe2, or CH2CH3; X = S, Y = H, NH+Me2, or N+Me3 ] and trifluoroacetophenone transition state analogue inhibitors m-YC6H4C(O)CF3 [Y = H, Me, Et, iPr, tBu, CF3, NH2, NO2, NMe2, or N+Me3], log(kcat/Km) and pKi depend linearly on the molar refractivity, but not the hydrophobicity, of the substituents Y. These correlations indicate that, in the acylation stage of catalysis, interactions in the quaternary ammonium binding locus stabilize the tetrahedral intermediate (as modeled by transition state analogue affinity) by (5 105)-fold (GTI = 32.5 kJ mol-1) and the transition state by (2 104)-fold (G = 24.5 kJ mol-1). To evaluate the contribution of cation- interactions, Trp86 was converted into Tyr, Phe, and Ala by site-specific mutagenesis. For this set of enzymes, a linear free-energy relationship is observed between the pKi values for inhibitions by the respective neutral and cationic transition state analogue inhibitors, m-tert-butyltrifluoroacetophenone and m-(N,N,N-trimethylammonio)trifluoroacetophenone, which indicates that the free energy released on interaction of the quaternary ammonium moiety with Trp86 arises about equally from cation- and charge-independent interactions. The quaternary ammonium binding locus in the active site of mammalian acetylcholinesterase is subtended by the side chains of Trp86, Tyr133, Glu202, and Tyr337. Linear free-energy relationships define the interactions involved in molecular recognition by mouse acetylcholinesterase of the quaternary ammonium moiety of ligands. For substrates CH3C(O)XCH2CH2Y [X = O, Y = CHMe2, or CH2CH3; X = S, Y = H, NH+Me2, or N+Me3 ] and trifluoroacetophenone transition state analogue inhibitors m-YC6H4C(O)CF3 [Y = H, Me, Et, iPr, tBu, CF3, NH2, NO2, NMe2, or N+Me3], log(kcat/Km) and pKi depend linearly on the molar refractivity, but not the hydrophobicity, of the substituents Y. These correlations indicate that, in the acylation stage of catalysis, interactions in the quaternary ammonium binding locus stabilize the tetrahedral intermediate (as modeled by transition state analogue affinity) by (5 105)-fold (GTI = 32.5 kJ mol-1) and the transition state by (2 104)-fold (G = 24.5 kJ mol-1). To evaluate the contribution of cation- interactions, Trp86 was converted into Tyr, Phe, and Ala by site-specific mutagenesis. For this set of enzymes, a linear free-energy relationship is observed between the pKi values for inhibitions by the respective neutral and cationic transition state analogue inhibitors, m-tert-butyltrifluoroacetophenone and m-(N,N,N-trimethylammonio)trifluoroacetophenone, which indicates that the free energy released on interaction of the quaternary ammonium moiety with Trp86 arises about equally from cation- and charge-independent interactions.},
+  url={http://dx.doi.org/10.1021/ja9933588},
+  doi={10.1021/ja9933588},
+  pdf={quinn2000delineation.pdf}
 }
 
 @article{cheng2007finite,
-  title="Finite element analysis of the time-dependent {Smoluchowski} equation for acetylcholinesterase reaction rate calculations",
+  title={Finite element analysis of the time-dependent Smoluchowski equation for acetylcholinesterase reaction rate calculations},
   author={Cheng, Yuhui and Suen, Jason K and Zhang, Deqiang and Bond, Stephen D and Zhang, Yongjie and Song, Yuhua and Baker, Nathan A and Bajaj, Chandrajit L and Holst, Michael J and McCammon, J Andrew},
   journal={Biophysical Journal},
   volume={92},
   number={10},
   pages={3397--3406},
   year={2007},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  keywords={finite_elements, acetylcholinesterase, diffusion},
+  abstract={This article describes the numerical solution of the time-dependent Smoluchowski equation to study diffusion in biomolecular systems. Specifically, finite element methods have been developed to calculate ligand binding rate constants for large biomolecules. The resulting software has been validated and applied to the mouse acetylcholinesterase (mAChE) monomer and several tetramers. Rates for inhibitor binding to mAChE were calculated at various ionic strengths with several different time steps. Calculated rates show very good agreement with experimental and theoretical steady-state studies. Furthermore, these finite element methods require significantly fewer computational resources than existing particle-based Brownian dynamics methods and are robust for complicated geometries. The key finding of biological importance is that the rate accelerations of the monomeric and tetrameric mAChE that result from electrostatic steering are preserved under the non-steady-state conditions that are expected to occur in physiological circumstances.},
+  url={http://www.sciencedirect.com/science/article/pii/S0006349507711451},
+  doi={10.1529/biophysj.106.102533},
+  pmid={17307827},
+  pdf={cheng2007finite.pdf}
 }
 
 @article{vitalis2004isim,
-  title="{ISIM}: a program for grand canonical {Monte Carlo} simulations of the ionic environment of biomolecules",
+  title={{ISIM}: a program for grand canonical {Monte Carlo} simulations of the ionic environment of biomolecules},
   author={Vitalis, Andreas and Baker, Nathan A and McCammon, J Andrew},
   journal={Molecular Simulation},
   volume={30},
   number={1},
   pages={45--61},
   year={2004},
-  publisher={Taylor \& Francis GroupAbingdon, UK}
+  publisher={Taylor \& Francis Group, Abingdon, UK},
+  keywords={monte_carlo, electrostatics, software},
+  abstract={In this work we present a new software package (ISIM), which represents a flexible, computational tool for simulations of electrolyte solutions via a grand canonical Monte Carlo procedure (GCMC) with a specific capability of treating biomolecules in solution. The GCMC method provides a powerful tool for studying the ionic environments of highly charged macromolecules with attention to the atomic detail of both the solute and the mobile counterions. The ISIM software differs from previous schemes mainly by treating different ion types independently and offering a new parameterization procedure for calibrating excess chemical potentials and bulk ion concentrations. Additionally, ISIM leverages the APBS software package to provide accurate descriptions of the biomolecular electrostatic potential through the efficient solution of Poisson's equation. ISIM has been validated on a variety of test systems; we successfully reproduce elementary properties of electrolyte solutions as well as theoretical and experime...},
+  url={http://www.tandfonline.com/doi/abs/10.1080/08927020310001597862#.VKSAbyvF8T0},
+  doi={10.1080/08927020310001597862},
+  pdf={vitalis2004isim.pdf}
 }
 
 @article{silva2009multiscale,
-  title="A multiscale model linking ion-channel molecular dynamics and electrostatics to the cardiac action potential",
+  title={A multiscale model linking ion-channel molecular dynamics and electrostatics to the cardiac action potential},
   author={Silva, Jonathan R and Pan, Hua and Wu, Dick and Nekouzadeh, Ali and Decker, Keith F and Cui, Jianmin and Baker, Nathan A and Sept, David and Rudy, Yoram},
   journal={Proceedings of the National Academy of Sciences},
   volume={106},
@@ -407,41 +488,61 @@
   pages={11102--11106},
   year={2009},
   publisher={National Acad Sciences},
-  keywords={brown}
+  keywords={brown, ion_channels, electrostatics, molecular_dynamics, multiscale},
+  abstract={Ion-channel function is determined by its gating movement. Yet, molecular dynamics and electrophysiological simulations were never combined to link molecular structure to function. We performed multiscale molecular dynamics and continuum electrostatics calculations to simulate a cardiac K(+) channel (I(Ks)) gating and its alteration by mutations that cause arrhythmias and sudden death. An all-atom model of the I(Ks) alpha-subunit KCNQ1, based on the recent Kv1.2 structure, is used to calculate electrostatic energies during gating. Simulations are compared with experiments where varying degrees of positive charge-added via point mutation-progressively reduce current. Whole-cell simulations show that mutations cause action potential and ECG QT interval prolongation, consistent with clinical phenotypes. This framework allows integration of multiscale observations to study the molecular basis of excitation and its alteration by disease.},
+  url={http://www.pnas.org/content/106/27/11102.short},
+  doi={10.1073/pnas.0904505106},
+  pmid={19549851},
+  pdf={silva2009multiscale.pdf}
 }
 
 @article{swanson2007optimizing,
-  title="Optimizing the {Poisson} dielectric boundary with explicit solvent forces and energies: lessons learned with atom-centered dielectric functions",
+  title={Optimizing the {Poisson} dielectric boundary with explicit solvent forces and energies: lessons learned with atom-centered dielectric functions},
   author={Swanson, Jessica MJ and Wagoner, Jason A and Baker, Nathan A and McCammon, J Andrew},
   journal={Journal of Chemical Theory and Computation},
   volume={3},
   number={1},
   pages={170--183},
   year={2007},
-  publisher={American Chemical Society}
+  publisher={American Chemical Society},
+  keywords={electrostatics, molecular_dynamics},
+  abstract={Accurate implicit solvent models require parameters that have been optimized in a system- or atom-specific manner on the basis of experimental data or more rigorous explicit solvent simulations. Models based on the Poisson or Poisson?Boltzmann equation are particularly sensitive to the nature and location of the boundary which separates the low dielectric solute from the high dielectric solvent. Here, we present a novel method for optimizing the solute radii, which define the dielectric boundary, on the basis of forces and energies from explicit solvent simulations. We use this method to optimize radii for protein systems defined by AMBER ff99 partial charges and a spline-smoothed solute surface. The spline-smoothed surface is an atom-centered dielectric function that enables stable and efficient force calculations. We explore the relative performance of radii optimized with forces alone and those optimized with forces and energies. We show that our radii reproduce the explicit solvent forces and energies more accurately than four other parameter sets commonly used in conjunction with the AMBER force field, each of which has been appropriately scaled for spline-smoothed surfaces. Finally, we demonstrate that spline-smoothed surfaces show surprising accuracy for small, compact systems but may have limitations for highly solvated protein systems. The optimization method presented here is efficient and applicable to any system with explicit solvent parameters. It can be used to determine the optimal continuum parameters when experimental solvation energies are unavailable and the computational costs of explicit solvent charging free energies are prohibitive. Accurate implicit solvent models require parameters that have been optimized in a system- or atom-specific manner on the basis of experimental data or more rigorous explicit solvent simulations. Models based on the Poisson or Poisson-Boltzmann equation are particularly sensitive to the nature and location of the boundary which separates the low dielectric solute from the high dielectric solvent. Here, we present a novel method for optimizing the solute radii, which define the dielectric boundary, on the basis of forces and energies from explicit solvent simulations. We use this method to optimize radii for protein systems defined by AMBER ff99 partial charges and a spline-smoothed solute surface. The spline-smoothed surface is an atom-centered dielectric function that enables stable and efficient force calculations. We explore the relative performance of radii optimized with forces alone and those optimized with forces and energies. We show that our radii reproduce the explicit solvent forces and energies more accurately than four other parameter sets commonly used in conjunction with the AMBER force field, each of which has been appropriately scaled for spline-smoothed surfaces. Finally, we demonstrate that spline-smoothed surfaces show surprising accuracy for small, compact systems but may have limitations for highly solvated protein systems. The optimization method presented here is efficient and applicable to any system with explicit solvent parameters. It can be used to determine the optimal continuum parameters when experimental solvation energies are unavailable and the computational costs of explicit solvent charging free energies are prohibitive.},
+  url={http://dx.doi.org/10.1021/ct600216k},
+  doi={10.1021/ct600216k},
+  pdf={swanson2007optimizing.pdf}
 }
 
 @article{cerutti2007solvent,
-  title="Solvent reaction field potential inside an uncharged globular protein: A bridge between implicit and explicit solvent models?",
+  title={Solvent reaction field potential inside an uncharged globular protein: A bridge between implicit and explicit solvent models?},
   author={Cerutti, David S and Baker, Nathan A and McCammon, J Andrew},
   journal={The Journal of Chemical Physics},
   volume={127},
   pages={155101},
   year={2007},
-  keywords={brown}
+  keywords={brown, solvation, nonpolar, electrostatics, molecular_dynamics},
+  abstract={The solvent reaction field potential of an uncharged protein immersed in simple point charge/extended explicit solvent was computed over a series of molecular dynamics trajectories, in total 1560 ns of simulation time. A finite, positive potential of 13-24 kbTec(-1) (where T=300 K), dependent on the geometry of the solvent-accessible surface, was observed inside the biomolecule. The primary contribution to this potential arose from a layer of positive charge density 1.0 A from the solute surface, on average 0.008 ec/A3, which we found to be the product of a highly ordered first solvation shell. Significant second solvation shell effects, including additional layers of charge density and a slight decrease in the short-range solvent-solvent interaction strength, were also observed. The impact of these findings on implicit solvent models was assessed by running similar explicit solvent simulations on the fully charged protein system. When the energy due to the solvent reaction field in the uncharged system is accounted for, correlation between per-atom electrostatic energies for the explicit solvent model and a simple implicit (Poisson) calculation is 0.97, and correlation between per-atom energies for the explicit solvent model and a previously published, optimized Poisson model is 0.99.},
+  url={http://scitation.aip.org/content/aip/journal/jcp/127/15/10.1063/1.2771171},
+  doi={10.1063/1.2771171},
+  pmid={17949217},
+  pdf={cerutti2007solvent.pdf}
 }
 
 @incollection{baker2006implicit,
-  title="Implicit solvent electrostatics in biomolecular simulation",
+  title={Implicit solvent electrostatics in biomolecular simulation},
   author={Baker, Nathan A and Bashford, Donald and Case, David A},
   booktitle={New Algorithms for Macromolecular Simulation},
   pages={263--295},
   year={2006},
-  publisher={Springer Berlin Heidelberg}
+  publisher={Springer Berlin Heidelberg},
+  keywords={review, solvation, electrostatics, titration},
+  abstract={We give an overview of how implicit solvent models are currently used in protein simulations. The emphasis is on numerical algorithms and approximations: since even folded proteins sample many distinct configurations, it is of considerable importance to be both accurate and efficient in estimating the energetic consequences of this dynamical behavior. Particular attention is paid to calculations of pH-dependent behavior, as a paradigm for the analysis of electrostatic interactions in complex systems.},
+  url={http://www.springerlink.com/index/10.1007/3-540-31618-3},
+  doi={10.1007/3-540-31618-3},
+  pdf={baker2006implicit.pdf}
 }
 
 @article{chen2010differential,
-  title="Differential geometry based solvation model {I}: {Eulerian} formulation",
+  title={Differential geometry based solvation model {I}: {Eulerian} formulation},
   author={Chen, Zhan and Baker, Nathan A and Wei, Guo-Wei},
   journal={Journal of Computational Physics},
   volume={229},
@@ -449,31 +550,47 @@
   pages={8231--8258},
   year={2010},
   publisher={Elsevier},
-  keywords={brown}
+  keywords={brown, geometric_flow, nonpolar, solvation, electrostatics, software},
+  abstract={This paper presents a differential geometry based model for the analysis and computation of the equilibrium property of solvation. Differential geometry theory of surfaces is utilized to define and construct smooth interfaces with good stability and differentiability for use in characterizing the solvent-solute boundaries and in generating continuous dielectric functions across the computational domain. A total free energy functional is constructed to couple polar and nonpolar contributions to the salvation process. Geometric measure theory is employed to rigorously convert a Lagrangian formulation of the surface energy into an Eulerian formulation so as to bring all energy terms into an equal footing. By minimizing the total free energy functional, we derive coupled generalized Poisson-Boltzmann equation (GPBE) and generalized geometric flow equation (GGFE) for the electrostatic potential and the construction of realistic solvent-solute boundaries, respectively. By solving the coupled GPBE and GGFE, we obtain the electrostatic potential, the solvent-solute boundary profile, and the smooth dielectric function, and thereby improve the accuracy and stability of implicit solvation calculations. We also design efficient second order numerical schemes for the solution of the GPBE and GGFE. Matrix resulted from the discretization of the GPBE is accelerated with appropriate preconditioners. An alternative direct implicit (ADI) scheme is designed to improve the stability of solving the GGFE. Two iterative approaches are designed to solve the coupled system of nonlinear partial differential equations. Extensive numerical experiments are designed to validate the present theoretical model, test computational methods, and optimize numerical algorithms. Example solvation analysis of both small compounds and proteins are carried out to further demonstrate the accuracy, stability, efficiency and robustness of the present new model and numerical approaches. Comparison is given to both experimental and theoretical results in the literature.},
+  url={http://www.sciencedirect.com/science/article/pii/S0021999110003517},
+  doi={10.1016/j.jcp.2010.06.036},
+  pmid={20938489},
+  pdf={chen2010differential.pdf}
 }
 
 @article{dong2008computational,
-  title="Computational methods for biomolecular electrostatics",
+  title={Computational methods for biomolecular electrostatics},
   author={Dong, Feng and Olsen, Brett and Baker, Nathan A},
   journal={Methods in Cell Biology},
   volume={84},
   pages={843--870},
   year={2008},
-  publisher={Academic Press}
+  publisher={Academic Press},
+  keywords={review, solvation, electrostatics},
+  abstract={An understanding of intermolecular interactions is essential for insight into how cells develop, operate, communicate, and control their activities. Such interactions include several components: contributions from linear, angular, and torsional forces in covalent bonds, van der waals forces, as well as electrostatics. Among the various components of molecular interactions, electrostatics are of special importance because of their long range and their influence on polar or charged molecules, including water, aqueous ions, and amino or nucleic acids, which are some of the primary components of living systems. Electrostatics, therefore, play important roles in determining the structure, motion, and function of a wide range of biological molecules. This chapter presents a brief overview of electrostatic interactions in cellular systems, with a particular focus on how computational tools can be used to investigate these types of interactions.},
+  url={http://www.sciencedirect.com/science/article/pii/S0091679X0784026X},
+  doi={10.1016/S0091-679X(07)84026-X},
+  pmid={17964951},
+  pdf={dong2008computational.pdf}
 }
 
 @article{baker2005biomolecular,
-  title="Biomolecular applications of {Poisson-Boltzmann} methods",
+  title={Biomolecular applications of {Poisson-Boltzmann} methods},
   author={Baker, Nathan A},
   journal={Reviews in Computational Chemistry},
   volume={21},
   pages={349},
   year={2005},
-  publisher={Wiley; 1999}
+  publisher={Wiley; 1999},
+  keywords={review, solvation, electrostatics},
+  abstract={Chapter 5 covers biomolecular applications of the Poisson-Boltzmann Equation (PBE). An introduction to biomolecular electrostatics is first given, where the factors influencing long-range electric interactions during molecular simulations are highlighted. A perspective of explicit versus implicit aqueous environments is presented and a historical account of implicit solvent methods is given. Warnings about when not to use such simplifications are stressed and situations where implicit solvent treatments are applicable are presented. How to treat polar and nonpolar interactions is given next; leading references to scaled particle theory methods, solvent accessible surface area methods and the like are abundant in this chapter. Following a brief overview of the PBE, the author describes for the novice modeler the methods commonly used to solve it with a major emphasis placed on discretization techniques including finite difference, boundary element, and finite element methods. Multilevel solvers, and parallel methods for solving the PBE are also presented and a list of available software for computational electrostatics is given. The author then takes the reader through applications of PB methods to determine solvation free energies, conformational free energies, binding free energies, titration calculations and other applications.},
+  url={http://doi.wiley.com/10.1002/0471720895},
+  doi={10.1002/0471720895},
+  pdf={baker2005biomolecular.pdf}
 }
 
 @article{zhang2006application,
-  title="Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity",
+  title={Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity},
   author={Zhang, Xiaoyu and Bajaj, Chandrajit L and Kwon, Bongjune and Dolinsky, Todd J and Nielsen, Jens E and Baker, Nathan A},
   journal={Multiscale Modeling \& Simulation},
   volume={5},
@@ -481,51 +598,72 @@
   pages={1196},
   year={2006},
   publisher={NIH Public Access},
-  keywords={brown}
+  keywords={brown, geometry, topology, multiscale, electrostatics, informatics, software},
+  abstract={In this paper we present a method for the multi-resolution comparison of biomolecular electrostatic potentials without the need for global structural alignment of the biomolecules. The underlying computational geometry algorithm uses multi-resolution attributed contour trees (MACTs) to compare the topological features of volumetric scalar fields. We apply the MACTs to compute electrostatic similarity metrics for a large set of protein chains with varying degrees of sequence, structure, and function similarity. For calibration, we also compute similarity metrics for these chains by a more traditional approach based upon 3D structural alignment and analysis of Carbo similarity indices. Moreover, because the MACT approach does not rely upon pairwise structural alignment, its accuracy and efficiency promises to perform well on future large-scale classification efforts across groups of structurally-diverse proteins. The MACT method discriminates between protein chains at a level comparable to the Carbo similarity index method; i.e., it is able to accurately cluster proteins into functionally-relevant groups which demonstrate strong dependence on ligand binding sites. The results of the analyses are available from the linked web databases http://ccvweb.cres.utexas.edu/MolSignature/ and http://agave.wustl.edu/similarity/. The MACT analysis tools are available as part of the public domain library of the Topological Analysis and Quantitative Tools (TAQT) from the Center of Computational Visualization, at the University of Texas at Austin (http://ccvweb.csres.utexas.edu/software). The Carbo software is available for download with the open-source APBS software package at http://apbs.sf.net/.},
+  doi={10.1137/050647670},
+  url={http://dx.doi.org/10.1137/050647670},
+  pdf={zhang2006application.pdf}
 }
 
 @article{quinn1999ester,
-  title="Ester hydrolysis",
+  title={Ester hydrolysis},
   author={Quinn, Daniel M and Medhekar, Rohit and Baker, N},
   journal={Enzymes, Enzyme Mechanisms, Proteins, and Aspects of NO Chemistry},
   pages={101--137},
-  year={1999}
+  year={1999},
+  keywords={review, acetylcholinesterase},
+  url={http://scholar.google.com/citations?view_op=view_citation&hl=en&user=L9dwKyUAAAAJ&pagesize=80&sortby=title&citation_for_view=L9dwKyUAAAAJ:Wp0gIr-vW9MC}
 }
 
 @article{baker1999non,
-  title="Non-{Boltzmann} rate distributions in stochastically gated reactions",
+  title={Non-Boltzmann rate distributions in stochastically gated reactions},
   author={Baker, Nathan A and McCammon, J Andrew},
   journal={The Journal of Physical Chemistry B},
   volume={103},
   number={4},
   pages={615--617},
   year={1999},
-  publisher={ACS Publications}
+  publisher={ACS Publications},
+  keywords={diffusion, acetylcholinesterase, kinetics},
+  abstract={Recently, a new mechanism for reaction selectivity, arising from conformational gating of the reactions, has been reported in the acetylcholinesterase system. Fluctuations in the enzyme are thought to greatly slow the access of molecules larger than the normal substrate to the active-site region. By assuming the gate fluctuations occur as a Brownian process in a harmonic well, it is possible to approximate the reaction rates for various limiting cases of substrate size. However, it is not possible to simplify the rates into a ratio which is equivalent to the Boltzmann distribution of states for the gate fluctuations.},
+  url={http://pubs.acs.org/doi/abs/10.1021/jp984151o},
+  doi={10.1021/jp984151o},
+  pdf={baker1999non.pdf}
 }
 
 @article{baker1999dynamical,
-  title="Dynamical properties of fasciculin-2",
+  title={Dynamical properties of fasciculin-2},
   author={Baker, Nathan A and Helms, Volkhard and McCammon, J Andrew},
   journal={Proteins: Structure, Function, and Bioinformatics},
   volume={36},
   number={4},
   pages={447--453},
   year={1999},
-  publisher={John Wiley \& Sons, Inc.}
+  publisher={John Wiley \& Sons, Inc.},
+  keywords={molecular_dynamics, acetylcholinesterase},
+  abstract={Fasciculin-2 (FAS2) is a potent protein inhibitor of the hydrolytic enzyme acetylcholinesterase. A 2-ns isobaric-isothermal ensemble molecular dynamics simulation of this toxin was performed to examine the dynamic structural properties which may play a role in this inhibition. Conformational fluctuations of the FAS2 protein were examined by a variety of techniques to identify flexible residues and determine their characteristic motion. The tips of the toxin "finger" loops and the turn connecting loops I and II were found to fluctuate, while the rest of the protein remained fairly rigid throughout the simulation. Finally, the structural fluctuations were compared to NMR data of fluctuations on a similar timescale in a related three-finger toxin. The molecular dynamics results were in good qualitative agreement with the experimental measurements. Proteins 1999;36:447-453.},
+  url={http://www.ncbi.nlm.nih.gov/pubmed/10450086},
+  pmid={10450086},
+  pdf={baker1999dynamical.pdf}
 }
 
 @article{malany1999theoretical,
-  title="Theoretical and experimental investigations of electrostatic effects on acetylcholinesterase catalysis and inhibition",
+  title={Theoretical and experimental investigations of electrostatic effects on acetylcholinesterase catalysis and inhibition},
   author={Malany, Siobhan and Baker, Nathan and Verweyst, Michelle and Medhekar, Rohit and Quinn, Daniel M and Velan, Baruch and Kronman, Chanoch and Shafferman, Avigdor},
   journal={Chemico-Biological Interactions},
   volume={119},
   pages={99--110},
   year={1999},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  keywords={acetylcholinesterase, electrostatics, diffusion, monte_carlo},
+  abstract={The role of electrostatics in the function of acetylcholinesterase (AChE) has been investigated by both theoretical and experimental approaches. Second-order rate constants (kE=kcat/Km) for acetylthiocholine (ATCh) turnover have been measured as a function of ionic strength of the reaction medium for wild-type and mutant AChEs. Also, binding and dissociation rate constants have been measured as a function of ionic strength for the respective charged and neutral transition state analog inhibitors m-(N,N,N-trimethylammonio)trifluoroacetophenone (TMTFA) and m-(t-butyl)trifluoroacetophenone (TBTFA). Linear free-energy correlations between catalytic rate constants and inhibition constants indicate that kE for ATCh turnover is rate limited by terminal binding events. Comparison of binding rate constants for TMTFA and TBTFA attests to the sizable electrostatic discrimination of AChE. Free energy profiles for cationic ligand release from the active sites of wild-type and mutant AChEs have been calculated via a model that utilizes the structure of T. californica AChE, a spherical ligand, and energy terms that account for electrostatic and van der Waals interactions and chemical potential. These calculations indicate that EA and EI complexes are not bound with respect to electrostatic interactions, which obviates the need for a ‘back door’ for cationic ligand release. Moreover, the computed energy barriers for ligand release give linear free-energy correlations with log(kE) for substrate turnover, which supports the general correctness of the computational model.},
+  url={http://www.sciencedirect.com/science/article/pii/S0009279799000186},
+  doi={10.1016/S0009-2797(99)00018-6},
+  pdf={malany1999theoretical.pdf}
 }
 
 @article{olsen2009perturbations,
-  title="Perturbations of membrane structure by cholesterol and cholesterol derivatives are determined by sterol orientation",
+  title={Perturbations of membrane structure by cholesterol and cholesterol derivatives are determined by sterol orientation},
   author={Olsen, Brett N and Schlesinger, Paul H and Baker, Nathan A},
   journal={Journal of the American Chemical Society},
   volume={131},
@@ -533,44 +671,67 @@
   pages={4854--4865},
   year={2009},
   publisher={ACS Publications},
-  keywords={impact}
+  keywords={impact, cholesterol, oxysterols, molecular_dynamics, biomembranes},
+  abstract={Cholesterol is essential for proper function and regulation of eukaryotic membranes, and significant amounts of metabolic energy are dedicated to controlling cellular cholesterol levels. Oxidation products of cholesterol, the oxysterols, are enzymatically produced molecules that play a major role in mediating cholesterol homeostasis through mechanisms which have not yet been fully elucidated. Certain oxysterols are known to have direct effects on membrane permeability and structure, effects that are strikingly different from that of cholesterol. We use molecular dynamics simulations of these oxysterols in 1-palmitoyl 2-oleoyl phosphatidylcholine (POPC) bilayers to explain the structural origins for the differing effects of cholesterol and 25-hydroxycholesterol on bilayer properties. In particular, we demonstrate that the source for these differing perturbations is the much wider range of molecular orientations accessible to 25-hydroxycholesterol when compared to cholesterol. This study shows that direct membrane perturbation by side-chain oxysterols is significant and suggests that these membrane perturbations may play a role in the oxysterol regulation of cholesterol homeostasis.},
+  url={http://dx.doi.org/10.1021/ja8095224},
+  doi={10.1021/ja8095224},
+  pmid={19334779},
+  pdf={olsen2009perturbations.pdf}
 }
 
 @article{wong2006probing,
-  title="Probing 3'-{ssDNA} Loop Formation in {E. coli RecBCD/RecBC-DNA} Complexes Using Non-natural {DNA}: A Model for {'Chi'} Recognition Complexes",
+  title={Probing 3'-ssDNA Loop Formation in {E. coli RecBCD/RecBC-DNA} Complexes Using Non-natural {DNA}: A Model for {'Chi'} Recognition Complexes},
   author={Wong, C Jason and Rice, Rachel L and Baker, Nathan A and Ju, Tao and Lohman, Timothy M},
   journal={Journal of Molecular Biology},
   volume={362},
   number={1},
   pages={26--43},
   year={2006},
-  publisher={Elsevier Ltd}
+  publisher={Elsevier Ltd},
+  keywords={dna, helicases, geometry, molecular_dynamics, kinetics},
+  abstract={The equilibrium binding of Escherichia coli RecBC and RecBCD helicases to duplex DNA ends containing varying lengths of polyethylene glycol (PEG) spacers within pre-formed 3'-single-stranded (ss) DNA ((dT)n) tails was studied. These studies were designed to test a previous proposal that the 3'-(dT)n tail can be looped out upon binding RecBC and RecBCD for 3'-ssDNA tails with n>or=6 nucleotides. Equilibrium binding of protein to unlabeled DNA substrates with ends containing PEG-substituted 3'-ssDNA tails was examined by competition with a Cy3-labeled reference DNA which undergoes a Cy3 fluorescence enhancement upon protein binding. We find that the binding affinities of both RecBC and RecBCD for a DNA end are unaffected upon substituting PEG for the ssDNA between the sixth and the final two nucleotides of the 3'-(dT)n tail. However, placing PEG at the end of the 3'-(dT)n tail increases the binding affinities to their maximum values (i.e. the same as binding constants for RecBC or RecBCD to a DNA end with only a 3'-(dT)6 tail). Equilibrium binding studies of a RecBC mutant containing a nuclease domain deletion, RecB(Deltanuc)C, suggest that looping of the 3'-tail (when n>or=6 nucleotides) occurs even in the absence of the RecB nuclease domain, although the nuclease domain stabilizes such loop formation. Computer modeling of the RecBCD-DNA complexes suggests that the loop in the 3'-ssDNA tail may form at the RecB/RecC interface. Based on these results we suggest a model for how a loop in the 3'-ssDNA tail might form upon encounter of a "Chi" recognition sequence during unwinding of DNA by the RecBCD helicase.},
+  url={http://www.sciencedirect.com/science/article/pii/S0022283606008795},
+  doi={10.1016/j.jmb.2006.07.016},
+  pmid={16901504},
+  pdf={wong2006probing.pdf}
 }
 
 @article{dolinsky2004sprcy,
-  title="{SPrCY}: comparison of structural predictions in the {Saccharomyces} cerevisiae genome",
+  title={{SPrCY}: comparison of structural predictions in the {Saccharomyces} cerevisiae genome},
   author={Dolinsky, Todd J and Burgers, PMJ and Karplus, Kevin and Baker, Nathan A},
   journal={Bioinformatics},
   volume={20},
   number={14},
   pages={2312--2314},
   year={2004},
-  publisher={Oxford University Press}
+  publisher={Oxford University Press},
+  keywords={informatics, software},
+  abstract={SUMMARY: SPrCY is a web-accessible database which provides comparison of structure prediction results for the Saccharomyces cerevisiae genome. This web service offers the ability to search, analyze and compare the yeast structural predictions from sequence-only (Superfamily, PDBAA BLAST and Pfam) and sequence-structure-based (SAM-T02, 3D-PSSM, mGenTHREADER) methods. AVAILABILITY: The service is freely available via web at http://agave.wustl.edu/yeast/},
+  url={http://bioinformatics.oxfordjournals.org/content/20/14/2312.short},
+  doi={10.1093/bioinformatics/bth223},
+  pmid={15059824},
+  pdf={dolinsky2004sprcy.pdf}
 }
 
 @article{dong2008assessing,
-  title="Assessing the performance of implicit solvation models at a nucleic acid surface",
+  title={Assessing the performance of implicit solvation models at a nucleic acid surface},
   author={Dong, Feng and Wagoner, Jason A and Baker, Nathan A},
   journal={Physical Chemistry Chemical Physics},
   volume={10},
   number={32},
   pages={4889--4902},
   year={2008},
-  publisher={Royal Society of Chemistry}
+  publisher={Royal Society of Chemistry},
+  keywords={electrostatics, molecular_dynamics, rna, nucleic_acids},
+  abstract={Implicit solvation models are popular alternatives to explicit solvent methods due to their ability to "pre-average" solvent behavior and thus reduce the need for computationally-expensive sampling. Previously, we have demonstrated that Poisson-Boltzmann models for polar solvation and integral-based models for nonpolar solvation can reproduce explicit solvation forces in a low-charge density protein system. In the present work, we examine the ability of these continuum models to describe solvation forces at the surface of a RNA hairpin. While these models do not completely describe all of the details of solvent behavior at this highly-charged biomolecular interface, they do provide a reasonable description of average solvation forces and therefore show significant promise for developing more robust implicit descriptions of solvent around nucleic acid systems for use in biomolecular simulation and modeling. Additionally, we observe fairly good transferability in the nonpolar model parameters optimized for protein systems, suggesting its robustness for modeling general nonpolar solvation phenomena in biomolecular systems.},
+  url={http://pubs.rsc.org/en/content/articlehtml/2008/cp/b807384h},
+  doi={10.1039/b807384h},
+  pmid={18688533},
+  pdf={dong2008assessing.pdf}
 }
 
 @article{thomas2010nanoparticle,
-  title="{NanoParticle Ontology} for cancer nanotechnology research",
+  title={{NanoParticle Ontology} for cancer nanotechnology research},
   author={Thomas, Dennis G and Pappu, Rohit V and Baker, Nathan A},
   journal={Journal of Biomedical Informatics},
   volume={44},
@@ -578,11 +739,16 @@
   pages={59--74},
   year={2010},
   publisher={Academic Press},
-  keywords={brown}
+  keywords={brown, nanotechnology, ontology, informatics},
+  abstract={Data generated from cancer nanotechnology research are so diverse and large in volume that it is difficult to share and efficiently use them without informatics tools. In particular, ontologies that provide a unifying knowledge framework for annotating the data are required to facilitate the semantic integration, knowledge-based searching, unambiguous interpretation, mining and inferencing of the data using informatics methods. In this paper, we discuss the design and development of NanoParticle Ontology (NPO), which is developed within the framework of the Basic Formal Ontology (BFO), and implemented in the Ontology Web Language (OWL) using well-defined ontology design principles. The NPO was developed to represent knowledge underlying the preparation, chemical composition, and characterization of nanomaterials involved in cancer research. Public releases of the NPO are available through BioPortal website, maintained by the National Center for Biomedical Ontology. Mechanisms for editorial and governance processes are being developed for the maintenance, review, and growth of the NPO.},
+  url={http://www.sciencedirect.com/science/article/pii/S1532046410000341},
+  doi={10.1016/j.jbi.2010.03.001},
+  pmid={20211274},
+  pdf={thomas2010nanoparticle.pdf}
 }
 
 @article{chen2011differential,
-  title="Differential geometry based solvation model {II}: {Lagrangian} formulation",
+  title={Differential geometry based solvation model {II}: {Lagrangian} formulation},
   author={Chen, Zhan and Baker, Nathan A and Wei, GW},
   journal={Journal of Mathematical Biology},
   volume={63},
@@ -590,177 +756,275 @@
   pages={1139--1200},
   year={2011},
   publisher={Springer-Verlag},
-  keywords={brown}
+  keywords={brown, geometry, geometric_flow, solvation, nonpolar, electrostatics},
+  abstract={Solvation is an elementary process in nature and is of paramount importance to more sophisticated chemical, biological and biomolecular processes. The understanding of solvation is an essential prerequisite for the quantitative description and analysis of biomolecular systems. This work presents a Lagrangian formulation of our differential geometry based solvation models. The Lagrangian representation of biomolecular surfaces has a few utilities/advantages. First, it provides an essential basis for biomolecular visualization, surface electrostatic potential map and visual perception of biomolecules. Additionally, it is consistent with the conventional setting of implicit solvent theories and thus, many existing theoretical algorithms and computational software packages can be directly employed. Finally, the Lagrangian representation does not need to resort to artificially enlarged van der Waals radii as often required by the Eulerian representation in solvation analysis. The main goal of the present work is to analyze the connection, similarity and difference between the Eulerian and Lagrangian formalisms of the solvation model. Such analysis is important to the understanding of the differential geometry based solvation model. The present model extends the scaled particle theory of nonpolar solvation model with a solvent-solute interaction potential. The nonpolar solvation model is completed with a Poisson-Boltzmann (PB) theory based polar solvation model. The differential geometry theory of surfaces is employed to provide a natural description of solvent-solute interfaces. The optimization of the total free energy functional, which encompasses the polar and nonpolar contributions, leads to coupled potential driven geometric flow and PB equations. Due to the development of singularities and nonsmooth manifolds in the Lagrangian representation, the resulting potential-driven geometric flow equation is embedded into the Eulerian representation for the purpose of computation, thanks to the equivalence of the Laplace-Beltrami operator in the two representations. The coupled partial differential equations (PDEs) are solved with an iterative procedure to reach a steady state, which delivers desired solvent-solute interface and electrostatic potential for problems of interest. These quantities are utilized to evaluate the solvation free energies and protein-protein binding affinities. A number of computational methods and algorithms are described for the interconversion of Lagrangian and Eulerian representations, and for the solution of the coupled PDE system. The proposed approaches have been extensively validated. We also verify that the mean curvature flow indeed gives rise to the minimal molecular surface and the proposed variational procedure indeed offers minimal total free energy. Solvation analysis and applications are considered for a set of 17 small compounds and a set of 23 proteins. The salt effect on protein-protein binding affinity is investigated with two protein complexes by using the present model. Numerical results are compared to the experimental measurements and to those obtained by using other theoretical methods in the literature.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3113640&tool=pmcentrez&rendertype=abstract},
+  doi={10.1007/s00285-011-0402-z},
+  pmid={21279359},
+  pdf={chen2011differential.pdf}
 }
 
 @article{lee2010characterization,
-  title="Characterization of Perfluorooctylbromide-Based Nanoemulsion Particles Using Atomistic Molecular Dynamics Simulations",
+  title={Characterization of perfluorooctylbromide-based nanoemulsion particles using atomistic molecular dynamics simulations},
   author={Lee, Sun-Joo and Olsen, Brett and Schlesinger, Paul H and Baker, Nathan A},
   journal={The Journal of Physical Chemistry B},
   volume={114},
   number={31},
   pages={10086--10096},
   year={2010},
-  publisher={American Chemical Society}
+  publisher={American Chemical Society},
+  keywords={nanotechnology, biomembranes, force_fields, molecular_dynamics},
+  abstract={Perfluorocarbon-based nanoemulsion particles have arisen as promising platforms for the cellular delivery of imaging and therapeutic agents to specific targets. However, current knowledge of the agent delivery mechanism is limited to qualitative and phenomenological models. Lack of detail at the molecular level has hence delayed optimizing or customizing nanoemulsion particles for therapeutic and imaging applications. Here we report the first atomistic structural details of a perfluorooctylbromide-based (PFOB-based) nanoemulsion particle (NEP) with a 1-palmitoyl-2-oleoyl-phosphatidylcholine (POPC) lipid emulsifier. Newly developed PFOB force-field parameters were used in molecular dynamics simulations to model the PFOB-NEP interface in a planar configuration. These PFOB force field parameters were developed and tested to reproduce the characteristics of bulk PFOB as well as PFOB at interfaces with water and emulsifying phospholipids. The modeled PFOB-NEP interface demonstrated significant intercalation of PFOB into the emulsifying lipid monolayer and consequent changes in the structural, electrostatic, and mechanical properties of the POPC monolayer and PFOB. This intercalation provides an explanation for experimental data demonstrating melittin tryptophan fluorescence quenching upon binding to the nanoemulsion particles through the observation of direct contact between the melittin tryptophan and the PFOB bromine. Additionally, the atomistic details of the PFOB-NEP interface structure provided by our simulations are used to suggest the influence of each component on PFOB-NEP delivery function which will be tested in future coarse-grained simulations.},
+  url={http://dx.doi.org/10.1021/jp103228c},
+  doi={10.1021/jp103228c},
+  pmid={20684632},
+  pdf={lee2010characterization.pdf}
 }
 
 @article{chen2009simulations,
-  title="Simulations of {RNA} interactions with monovalent ions",
+  title={Simulations of {RNA} interactions with monovalent ions},
   author={Chen, Alan A and Marucho, Marcelo and Baker, Nathan A and Pappu, Rohit V},
   journal={Methods in Enzymology},
   volume={469},
   pages={411--432},
   year={2009},
-  publisher={Academic Press}
+  publisher={Academic Press},
+  abstract={RNA folding and binding reactions are mediated by interactions with ions that make up the surrounding aqueous electrolytic milieu. Although Mg(2+) ions are often implicated as being crucial for RNA folding, it is known that folding is feasible in high concentrations of monovalent alkali-halide salts. Experiments have yielded important information regarding the salt dependence of RNA stability. Recent work has shown that molecular simulations based on explicit representations of solvent molecules and monovalent ions can also provide useful insights regarding the ionic atmospheres around model RNA systems. These insights can help rationalize intriguing observations regarding the dependence of RNA stability on cation type providing one pays attention to important considerations that go into the proper design of molecular simulations. These issues are discussed in detail and the methods are applied to an A-form RNA and B-form DNA sequence. The results of these simulations are compared to previous work on a kissing-loop system with analogous sequence. In particular, ionic atmospheres obtained from molecular simulations are compared to those obtained using the nonlinear Poisson Boltzmann model for continuum electrostatics for these three different nucleic acid systems. The comparisons indicate reasonable agreement in terms of coarse-grained observables such as the numbers of counterions accumulated around the solutes. However, details of the ionic atmospheres, captured in terms of spatial free energy density profiles, are quite different between the two approaches. These comparisons suggest the need for improvements in continuum models to capture sequence-specific effects, ion-ion correlation, and the effects of partial dehydration of ions.},
+  keywords={electrostatics, review, rna, nucleic_acids},
+  url={http://www.ncbi.nlm.nih.gov/pubmed/20946801},
+  doi={10.1016/S0076-6879(09)69020-0},
+  pmid={20946801},
+  pdf={chen2009simulations.pdf}
 }
 
 @incollection{baker2002mathematics,
-  title="Mathematics and molecular neurobiology",
+  title={Mathematics and molecular neurobiology},
   author={Baker, Nathan A and Tai, Kaihsu and Henchman, Richard and Sept, David and Elcock, Adrian and Holst, Michael and McCammon, J Andrew},
   booktitle={Computational Methods for Macromolecules: Challenges and Applications},
   pages={31--60},
   year={2002},
-  publisher={Springer Berlin Heidelberg}
+  publisher={Springer Berlin Heidelberg},
+  keywords={review, electrostatics, diffusion, acetylcholinesterase, finite_elements},
+  abstract={Advances in mathematics and computer technology, together with advances in structural biology, are opening the way to detailed modeling of biology at the molecular and cellular levels. One objective of such studies is the development of a more complete understanding of biological systems, including the emergence of behavior at the cellular level from that at the molecular level. Another objective is the development of more sophisticated models for structure-aided discovery of new pharmaceuticals.},
+  url={http://www.springerlink.com/index/10.1007/978-3-642-56080-4},
+  doi={10.1007/978-3-642-56080-4}
 }
 
 @inproceedings{thomas2009ontologies,
-  title="Ontologies for cancer nanotechnology research",
+  title={Ontologies for cancer nanotechnology research},
   author={Thomas, Dennis G and Pappu, Rohit V and Baker, Nathan and others},
   booktitle={Engineering in Medicine and Biology Society, 2009. EMBC 2009. Annual International Conference of the IEEE},
   pages={4158--4161},
   year={2009},
-  organization={IEEE}
+  organization={IEEE},
+  keywords={ontology, nanotechnology, informatics},
+  abstract={Cancer nanotechnology research data are diverse. Ontologies that provide a unifying knowledge framework for annotation of data are necessary to facilitate the sharing and semantic integration of data for advancing the research via informatics methods. In this work, we report the development of NanoParticle Ontology (NPO) to support the terminological and informatics needs of cancer nanotechnology. The NPO is developed within the framework of the Basic Formal Ontology (BFO) using well-defined principles, and implemented in the Ontology Web Language (OWL). The NPO currently represents entities related to physical, chemical and functional descriptions of nanoparticles that are formulated and tested for applications in cancer diagnostics and therapeutics. Public releases of the NPO are available through the BioPortal web site, maintained by the National Center for Biomedical Ontology. Expansion of the scope and application of the NPO will depend on the needs of and feedback from the user community, and its adoption in nanoparticle database applications. As the NPO continues to grow, it will require a governance structure and well-organized community effort for the maintenance, review and development of the NPO.},
+  url={http://www.ncbi.nlm.nih.gov/pubmed/19964619},
+  doi={10.1109/IEMBS.2009.5333941},
+  pmid={19964619},
+  pdf={thomas2009ontologies.pdf}
 }
 
 @article{olsen201125,
-  title="25-Hydroxycholesterol increases the availability of cholesterol in phospholipid membranes",
+  title={25-Hydroxycholesterol increases the availability of cholesterol in phospholipid membranes},
   author={Olsen, Brett N and Schlesinger, Paul H and Ory, Daniel S and Baker, Nathan A},
   journal={Biophysical Journal},
   volume={100},
   number={4},
   pages={948--956},
   year={2011},
-  publisher={Cell Press}
+  publisher={Cell Press},
+  keywords={oxysterols, biomembranes, cholesterol, molecular_dynamics},
+  abstract={Side-chain oxysterols are enzymatically generated oxidation products of cholesterol that serve a central role in mediating cholesterol homeostasis. Recent work has shown that side-chain oxysterols, such as 25-hydroxycholesterol (25-HC), alter membrane structure in very different ways from cholesterol, suggesting a possible mechanism for how these oxysterols regulate cholesterol homeostasis. Here we extend our previous work by using molecular-dynamics simulations of 25-HC and cholesterol mixtures in 1-palmitoyl-2-oleoyl- phosphatidylcholine bilayers to examine the combined effects of 25-HC and cholesterol in the same bilayer. 25-HC causes larger changes in membrane structure when added to cholesterol-containing membranes than when added to cholesterol-free membranes. We also find that the presence of 25-HC changes the position, orientation, and solvent accessibility of cholesterol, shifting it into the water interface and thus increasing its availability to external acceptors. This is consistent with experimental results showing that oxysterols can trigger cholesterol trafficking from the plasma membrane to the endoplasmic reticulum. These effects provide a potential mechanism for 25-HC-mediated regulation of cholesterol trafficking and homeostasis through modulation of cholesterol availability. ?? 2011 by the Biophysical Society.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3037553&tool=pmcentrez&rendertype=abstract},
+  doi={10.1016/j.bpj.2010.12.3728},
+  pmid={21320439},
+  pdf={olsen201125.pdf}
 }
 
 @article{callenberg2010apbsmem,
-  title="{APBSmem}: a graphical interface for electrostatic calculations at the membrane",
+  title={{APBSmem}: a graphical interface for electrostatic calculations at the membrane},
   author={Callenberg, Keith M and Choudhary, Om P and de Forest, Gabriel L and Gohara, David W and Baker, Nathan A and Grabe, Michael},
   journal={PloS ONE},
   volume={5},
   number={9},
   pages={e12722},
   year={2010},
-  publisher={Public Library of Science}
+  publisher={Public Library of Science},
+  keywords={biomembranes, electrostatics, solvation, software},
+  abstract={Electrostatic forces are one of the primary determinants of molecular interactions. They help guide the folding of proteins, increase the binding of one protein to another and facilitate protein-DNA and protein-ligand binding. A popular method for computing the electrostatic properties of biological systems is to numerically solve the Poisson-Boltzmann (PB) equation, and there are several easy-to-use software packages available that solve the PB equation for soluble proteins. Here we present a freely available program, called APBSmem, for carrying out these calculations in the presence of a membrane. The Adaptive Poisson-Boltzmann Solver (APBS) is used as a back-end for solving the PB equation, and a Java-based graphical user interface (GUI) coordinates a set of routines that introduce the influence of the membrane, determine its placement relative to the protein, and set the membrane potential. The software Jmol is embedded in the GUI to visualize the protein inserted in the membrane before the calculation and the electrostatic potential after completing the computation. We expect that the ease with which the GUI allows one to carry out these calculations will make this software a useful resource for experimenters and computational researchers alike. Three examples of membrane protein electrostatic calculations are carried out to illustrate how to use APBSmem and to highlight the different quantities of interest that can be calculated.},
+  url={http://dx.doi.org/10.1371/journal.pone.0012722},
+  doi={10.1371/journal.pone.0012722},
+  pmid={20949122},
+  pdf={callenberg2010apbsmem.pdf}
 }
 
 @article{thomas2011informatics,
-  title="Informatics and standards for nanomedicine technology",
+  title={Informatics and standards for nanomedicine technology},
   author={Thomas, Dennis G and Klaessig, Fred and Harper, Stacey L and Fritts, Martin and Hoover, Mark D and Gaheen, Sharon and Stokes, Todd H and Reznik-Zellen, Rebecca and Freund, Elaine T and Klemm, Juli D and others},
   journal={Wiley Interdisciplinary Reviews: Nanomedicine and Nanobiotechnology},
   volume={3},
   pages={511--532},
   year={2011},
-  publisher={John Wiley \& Sons, Inc.}
+  publisher={John Wiley \& Sons, Inc.},
+  keywords={review, nanotechnology, informatics},
+  abstract={There are several issues to be addressed concerning the management and effective use of information (or data), generated from nanotechnology studies in biomedical research and medicine. These data are large in volume, diverse in content, and are beset with gaps and ambiguities in the description and characterization of nanomaterials. In this work, we have reviewed three areas of nanomedicine informatics: information resources; taxonomies, controlled vocabularies, and ontologies; and information standards. Informatics methods and standards in each of these areas are critical for enabling collaboration; data sharing; unambiguous representation and interpretation of data; semantic (meaningful) search and integration of data; and for ensuring data quality, reliability, and reproducibility. In particular, we have considered four types of information standards in this article, which are standard characterization protocols, common terminology standards, minimum information standards, and standard data communication (exchange) formats. Currently, because of gaps and ambiguities in the data, it is also difficult to apply computational methods and machine learning techniques to analyze, interpret, and recognize patterns in data that are high dimensional in nature, and also to relate variations in nanomaterial properties to variations in their chemical composition, synthesis, characterization protocols, and so on. Progress toward resolving the issues of information management in nanomedicine using informatics methods and standards discussed in this article will be essential to the rapidly growing field of nanomedicine informatics.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3189420&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/wnan.152},
+  pmid={21721140},
+  pdf={thomas2011informatics.pdf}
 }
 
 @article{olsen2012side,
-  title="Side-chain oxysterols: from cells to membranes to molecules",
+  title={Side-chain oxysterols: from cells to membranes to molecules},
   author={Olsen, Brett N and Schlesinger, Paul H and Ory, Daniel S and Baker, Nathan A},
   journal={Biochimica et Biophysica Acta (BBA)-Biomembranes},
   volume={1818},
   number={2},
   pages={330--336},
   year={2012},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  keywords={biomembranes, oxysterols, cholesterol},
+  abstract={This review discusses the application of cellular biology, molecular biophysics, and computational simulation to understand membrane-mediated mechanisms by which oxysterols regulate cholesterol homeostasis. Side-chain oxysterols, which are produced enzymatically in vivo, are physiological regulators of cholesterol homeostasis and primarily serve as cellular signals for excess cholesterol. These oxysterols regulate cholesterol homeostasis through both transcriptional and non-transcriptional pathways; however, many molecular details of their interactions in these pathways are still not well understood. Cholesterol trafficking provides one mechanism for regulation. The current model of cholesterol trafficking regulation is based on the existence of two distinct cholesterol pools in the membrane: a low and a high availability/activity pool. It is proposed that the low availability/activity pool of cholesterol is integrated into tightly packing phospholipids and relatively inaccessible to water or cellular proteins, while the high availability cholesterol pool is more mobile in the membrane and is present in membranes where the phospholipids are not as compressed. Recent results suggest that oxysterols may promote cholesterol egress from membranes by shifting cholesterol from the low to the high activity pools. Furthermore, molecular simulations suggest a potential mechanism for oxysterol "activation" of cholesterol through its displacement in the membrane. This review discusses these results as well as several other important interactions between oxysterols and cholesterol in cellular and model lipid membranes. This article is part of a Special Issue entitled: Membrane protein structure and function.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3197895&tool=pmcentrez&rendertype=abstract},
+  doi={10.1016/j.bbamem.2011.06.014},
+  pmid={21745458},
+  pdf={olsen2012side.pdf}
 }
 
 @article{unni2011web,
-  title="Web servers and services for electrostatics calculations with {APBS} and {PDB2PQR}",
+  title={Web servers and services for electrostatics calculations with {APBS} and {PDB2PQR}},
   author={Unni, Samir and Huang, Yong and Hanson, Robert M and Tobias, Malcolm and Krishnan, Sriram and Li, Wilfred W and Nielsen, Jens E and Baker, Nathan A},
   journal={Journal of Computational Chemistry},
   volume={32},
   number={7},
   pages={1488--1491},
   year={2011},
-  publisher={Wiley Subscription Services, Inc., A Wiley Company}
+  publisher={Wiley Subscription Services, Inc., A Wiley Company},
+  keywords={electrostatics, solvation, software},
+  abstract={APBS and PDB2PQR are widely utilized free software packages for biomolecular electrostatics calculations. Using the Opal toolkit, we have developed a Web services framework for these software packages that enables the use of APBS and PDB2PQR by users who do not have local access to the necessary amount of computational capabilities. This not only increases accessibility of the software to a wider range of scientists, educators, and students but also increases the availability of electrostatics calculations on portable computing platforms. Users can access this new functionality in two ways. First, an Opal-enabled version of APBS is provided in current distributions, available freely on the web. Second, we have extended the PDB2PQR web server to provide an interface for the setup, execution, and visualization of electrostatic potentials as calculated by APBS. This web interface also uses the Opal framework which ensures the scalability needed to support the large APBS user community. Both of these resources are available from the APBS/PDB2PQR website: http://www.poissonboltzmann.org/.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3062090&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/jcc.21720},
+  pmid={21425296},
+  pdf={unni2011web.pdf}
 }
 
 @article{carstensen2011development,
-  title="On the development of protein {p$K_a$} calculation algorithms",
+  title={On the development of protein {p$K_a$} calculation algorithms},
   author={Carstensen, Tommy and Farrell, Damien and Huang, Yong and Baker, Nathan A and Nielsen, Jens Erik},
   journal={Proteins: Structure, Function, and Bioinformatics},
   volume={79},
   number={12},
   pages={3287--3298},
   year={2011},
-  publisher={Wiley Subscription Services, Inc., A Wiley Company}
+  publisher={Wiley Subscription Services, Inc., A Wiley Company},
+  keywords={review, titration, electrostatics},
+  abstract={Protein pK(a) calculation methods are developed partly to provide fast non-experimental estimates of the ionization constants of protein side chains. However, the most significant reason for developing such methods is that a good pK(a) calculation method is presumed to provide an accurate physical model of protein electrostatics, which can be applied in methods for drug design, protein design, and other structure-based energy calculation methods. We explore the validity of this presumption by simulating the development of a pK(a) calculation method using artificial experimental data derived from a human-defined physical reality. We examine the ability of an RMSD-guided development protocol to retrieve the correct (artificial) physical reality and find that a rugged optimization landscape and a huge parameter space prevent the identification of the correct physical reality. We examine the importance of the training set in developing pK(a) calculation methods and investigate the effect of experimental noise on our ability to identify the correct physical reality, and find that both effects have a significant and detrimental impact on the physical reality of the optimal model identified. Our findings are of relevance to all structure-based methods for protein energy calculations and simulation, and have large implications for all types of current pK(a) calculation methods. Our analysis furthermore suggests that careful and extensive validation on many types of experimental data can go some way in making current models more realistic.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3193850&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/prot.23091},
+  pmid={21744393},
+  pdf={carstensen2011development.pdf}
 }
 
 @inproceedings{hossain2011using,
-  title="Using Physicochemical Properties of Amino Acids to induce Graphical Models of Residue Couplings",
+  title={Using physicochemical properties of amino acids to induce graphical models of residue couplings},
   author={Hossain, KSM Tozammel and Bailey-Kellogg, Chris and Friedman, Alan M and Bradley, Michael J and Baker, Nathan and Ramakrishnan, Naren},
   booktitle={BIOKDD '11},
-  year={2011}
+  year={2011},
+  keywords={informatics, allostery, nikr},
+  abstract={Residue coupling in protein families is an important indicator for structural and functional conservation. Two residues are coupled if changes of amino acid at one residue location are correlated with changes in the other. Many algorithmic techniques have been proposed to discover couplings in protein families. These approaches discover couplings over amino acid combinations but do not yield mechanistic or other explanations for such couplings. We propose to study couplings in terms of amino acid classes such as polarity, hydrophobicity, size, and reactivity, and present two algorithms for learning probabilistic graphical models of amino acid class-based residue couplings. Our probabilistic graphical models provide a sound basis for predictive, diagnostic, and abductive reasoning. Further, our methods can take optional structural priors into account for building graphical models. The resulting models are useful in assessing the likelihood of a new protein to be a member of a family and for designing new protein sequences by sampling from the graphical model. We apply our approaches to understand couplings in two protein families: Nickel-responsive transription factors (NikR) and G-protein coupled receptors (GPCRs). The results demonstrate that our graphcial models based on sequences, physicochemical properties, and protein structure are capable of detecting amino acid class-based couplings between important residues that play roles in activities of these two families.},
+  url={http://dl.acm.org/citation.cfm?id=2003351.2003354},
+  doi={10.1145/2003351.2003354},
+  pdf={hossain2011using.pdf}
 }
 
 @article{alexov2011progress,
-  title="Progress in the prediction of {p$K_a$} values in proteins",
-  author={Alexov, Emil and Mehler, Ernest L and Baker, Nathan and M Baptista, Ant{\'o}nio and Huang, Yong and Milletti, Francesca and Erik Nielsen, Jens and Farrell, Damien and Carstensen, Tommy and Olsson, Mats HM and others},
+  title={Progress in the prediction of {p$K_a$} values in proteins},
+  author={Alexov, Emil and Mehler, Ernest L and Baker, Nathan and M Baptista, Antonio and Huang, Yong and Milletti, Francesca and Erik Nielsen, Jens and Farrell, Damien and Carstensen, Tommy and Olsson, Mats HM and others},
   journal={Proteins: structure, function, and bioinformatics},
   volume={79},
   number={12},
   pages={3260--3275},
   year={2011},
-  publisher={Wiley Subscription Services, Inc., A Wiley Company}
+  publisher={Wiley Subscription Services, Inc., A Wiley Company},
+  keywords={review, electrostatics, titration},
+  abstract={The pK(a) -cooperative aims to provide a forum for experimental and theoretical researchers interested in protein pK(a) values and protein electrostatics in general. The first round of the pK(a) -cooperative, which challenged computational labs to carry out blind predictions against pK(a) s experimentally determined in the laboratory of Bertrand Garcia-Moreno, was completed and results discussed at the Telluride meeting (July 6-10, 2009). This article serves as an introduction to the reports submitted by the blind prediction participants that will be published in a special issue of PROTEINS: Structure, Function and Bioinformatics. Here, we briefly outline existing approaches for pK(a) calculations, emphasizing methods that were used by the participants in calculating the blind pK(a) values in the first round of the cooperative. We then point out some of the difficulties encountered by the participating groups in making their blind predictions, and finally try to provide some insights for future developments aimed at improving the accuracy of pK(a) calculations.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3243943&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/prot.23189},
+  pmid={22002859},
+  pdf={alexov2011progress.pdf}
 }
 
 @article{lee2011interaction,
-  title="Interaction of melittin peptides with perfluorocarbon nanoemulsion particles",
+  title={Interaction of melittin peptides with perfluorocarbon nanoemulsion particles},
   author={Lee, Sun-Joo and Schlesinger, Paul H and Wickline, Samuel A and Lanza, Gregory M and Baker, Nathan A},
   journal={The Journal of Physical Chemistry B},
   volume={115},
   number={51},
   pages={15271--15279},
   year={2011},
-  publisher={American Chemical Society}
+  publisher={American Chemical Society},
+  keywords={emulsions, perfluorocarbons, nanotechnology, biomembranes, molecular_dynamics},
+  abstract={Melittin, an antimicrobial peptide, forms pores in biological membranes and triggers cell death. Therefore, it has potential as an anticancer therapy. However, until recently, the therapeutic application of melittin has been impractical because a suitable platform for delivery was not available. Recently, we showed that phospholipid-stabilized perfluorooctyl bromide based nanoemulsion particles (PFOB-NEPs) were resistant to destruction by melittin and enabled specific delivery of melittin to tumor cells, killing them and reducing tumor growth. Earlier, prior work also showed that melittin adsorbed onto the stabilizing phospholipid monolayer of PFOB-NEP but did not disrupt the phospholipid monolayer or produce "cracking" of the PFOB-NEPs. The present work identifies the important structural motifs for melittin binding to PFOB-NEPs through a series of atomistic molecular dynamics simulations. The conformational ensemble of melittin bound to PFOB-NEP lipid monolayer was compared to structure from a control simulation of melittin bound to a lipid bilayer to identify several differences in melittin-lipid interactions between the two systems. First, melittin was deeply buried in the hydrophobic tail region of bilayer, while its depth was attenuated in the PFOB-NEP monolayer. Second, a helical conformation was the major secondary structure in the bilayer, but the fraction of helix was reduced in the PFOB-NEP. Finally, the overall pattern for the direct interaction of melittin with surrounding lipids was similar between liposome and PFOB-NEP, but the level of interaction was slightly decreased in the PFOB-NEP. These results suggest that melittin interacts with the monolayer of PFOB-NEP in a way that is similar way to its interaction with bilayers but that deeper penetration into the hydrophobic interior is inhibited.},
+  url={http://dx.doi.org/10.1021/jp209543c},
+  doi={10.1021/jp209543c},
+  pmid={22050303},
+  pdf={lee2011interaction.pdf}
 }
 
 @article{maojo2012nanoinformatics,
-  title="Nanoinformatics: developing new computing applications for nanomedicine",
+  title={Nanoinformatics: developing new computing applications for nanomedicine},
   author={Maojo, Victor and Fritts, Martin and Martin-Sanchez, Fernando and De la Iglesia, Diana and Cachau, Raul E and Garcia-Remesal, Miguel and Crespo, Jose and Mitchell, Joyce A and Anguita, Alberto and Baker, Nathan and others},
   journal={Computing},
   volume={94},
   number={6},
   pages={521--539},
   year={2012},
-  publisher={Springer Vienna}
+  publisher={Springer Vienna},
+  keywords={nanotechnology, informatics, review},
+  abstract={Nanoinformatics has recently emerged to address the need of computing applications at the nano level. In this regard, the authors have participated in various initiatives to identify its concepts, foundations and challenges. While nanomaterials open up the possibility for developing new devices in many industrial and scientific areas, they also offer breakthrough perspectives for the prevention, diagnosis and treatment of diseases. In this paper, we analyze the different aspects of nanoinformatics and suggest five research topics to help catalyze new research and development in the area, particularly focused on nanomedicine. We also encompass the use of informatics to further the biological and clinical applications of basic research in nanoscience and nanotechnology, and the related concept of an extended "nanotype" to coalesce information related to nanoparticles. We suggest how nanoinformatics could accelerate developments in nanomedicine, similarly to what happened with the Human Genome and other -omics projects, on issues like exchanging modeling and simulation methods and tools, linking toxicity information to clinical and personal databases or developing new approaches for scientific ontologies, among many others.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3430140&tool=pmcentrez&rendertype=abstract},
+  doi={10.1007/s00607-012-0191-2},
+  pmid={22942787},
+  pdf={maojo2012nanoinformatics.pdf}
 }
 
 @article{lee2012simulation,
-  title="Simulation of fusion-mediated nanoemulsion interactions with model lipid bilayers",
+  title={Simulation of fusion-mediated nanoemulsion interactions with model lipid bilayers},
   author={Lee, Sun-Joo and Schlesinger, Paul H and Wickline, Samuel A and Lanza, Gregory M and Baker, Nathan A},
   journal={Soft Matter},
   volume={8},
   number={26},
   pages={7024--7035},
   year={2012},
-  publisher={Royal Society of Chemistry}
+  publisher={Royal Society of Chemistry},
+  keywords={emulsions, nanotechnology, coarse-graining, biomembranes, perfluorocarbons},
+  abstract={Perfluorocarbon-based nanoemulsion particles have become promising platforms for the delivery of therapeutic and diagnostic agents to specific target cells in a non-invasive manner. A "contact-facilitated" delivery mechanism has been proposed wherein the emulsifying phospholipid monolayer on the nanoemulsion surface contacts and forms a lipid complex with the outer monolayer of target cell plasma membrane, allowing cargo to diffuse to the surface of target cell. While this mechanism is supported by experimental evidence, its molecular details are unknown. The present study develops a coarse-grained model of nanoemulsion particles that are compatible with the MARTINI force field. Simulations using this coarse-grained model have demonstrated multiple fusion events between the particles and a model vesicular lipid bilayer. The fusion proceeds in the following sequence: dehydration at the interface, close apposition of the particles, protrusion of hydrophobic molecules to the particle surface, transient lipid complex formation, absorption of nanoemulsion into the liposome. The initial monolayer disruption acts as a rate-limiting step and is strongly influenced by particle size as well as by the presence of phospholipids supporting negative spontaneous curvature. The core-forming perfluorocarbons play critical roles in initiating the fusion process by facilitating protrusion of hydrophobic moieties into the interface between the two particles. This study directly supports the hypothesized nanoemulsion delivery mechanism and provides the underlying molecular details that enable engineering of nanoemulsions for a variety of medical applications.},
+  url={http://pubs.rsc.org/en/content/articlehtml/2012/sm/c2sm25847a},
+  doi={10.1039/C2SM25847A},
+  pmid={22712024},
+  pdf={lee2012simulation.pdf}
 }
 
 @article{konecny2012iapbs,
-  title="{iAPBS}: a programming interface to the adaptive Poisson--Boltzmann solver",
+  title={{iAPBS}: a programming interface to the adaptive Poisson--Boltzmann solver},
   author={Konecny, Robert and Baker, Nathan A and McCammon, J Andrew},
   journal={Computational Science \& Discovery},
   volume={5},
   number={1},
   pages={015005},
   year={2012},
-  publisher={IOP Publishing}
+  publisher={IOP Publishing},
+  keywords={electrostatics, software, molecular_dynamics},
+  abstract={The Adaptive Poisson-Boltzmann Solver (APBS) is a state-of-the-art suite for performing Poisson-Boltzmann electrostatic calculations on biomolecules. The iAPBS package provides a modular programmatic interface to the APBS library of electrostatic calculation routines. The iAPBS interface library can be linked with a FORTRAN or C/C++ program thus making all of the APBS functionality available from within the application. Several application modules for popular molecular dynamics simulation packages - Amber, NAMD and CHARMM are distributed with iAPBS allowing users of these packages to perform implicit solvent electrostatic calculations with APBS.},
+  url={http://stacks.iop.org/1749-4699/5/i=1/a=015005},
+  doi={10.1088/1749-4699/5/1/015005},
+  pmid={22905037},
+  pdf={konecny2012iapbs.pdf}
 }
 
 @article{chen2012variational,
-  title="Variational approach for nonpolar solvation analysis",
+  title={Variational approach for nonpolar solvation analysis},
   author={Chen, Zhan and Zhao, Shan and Chun, Jaehun and Thomas, Dennis G and Baker, Nathan A and Bates, Peter W and Wei, GW},
   journal={The Journal of Chemical Physics},
   volume={137},
@@ -768,31 +1032,47 @@
   pages={084101},
   year={2012},
   publisher={AIP Publishing},
-  keywords={brown}
+  keywords={brown, nonpolar, geometric_flow, solvation},
+  abstract={Implicit solvent models are popular for their high computational efficiency and simplicity over explicit solvent models and are extensively used for computing molecular solvation properties. The accuracy of implicit solvent models depends on the geometric description of the solute-solvent interface and the solvent dielectric profile that is defined near the surface of the solute molecule. Typically, it is assumed that the dielectric profile is spatially homogeneous in the bulk solvent medium and varies sharply across the solute-solvent interface. However, the specific form of this profile is often described by ad hoc geometric models rather than physical solute-solvent interactions. Hence, it is of significant interest to improve the accuracy of these implicit solvent models by more realistically defining the solute-solvent boundary within a continuum setting. Recently, a differential geometry-based geometric flow solvation model was developed, in which the polar and nonpolar free energies are coupled through a characteristic function that describes a smooth dielectric interface profile across the solvent-solute boundary in a thermodynamically self-consistent fashion. The main parameters of the model are the solute/solvent dielectric coefficients, solvent pressure on the solute, microscopic surface tension, solvent density, and molecular force-field parameters. In this work, we investigate how changes in the pressure, surface tension, solute dielectric coefficient, and choice of different force-field charge and radii parameters affect the prediction accuracy for hydration free energies of 17 small organic molecules based on the geometric flow solvation model. The results of our study provide insights on the parameterization, accuracy, and predictive power of this new implicit solvent model.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3578971&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/jcc.23181},
+  pmid={23212974},
+  pdf={chen2012variational.pdf}
 }
 
 @inproceedings{jacob2012domain,
-  title="Domain-specific languages for composing signature discovery workflows",
+  title={Domain-specific languages for composing signature discovery workflows},
   author={Jacob, Ferosh and Gray, Jeff and Wynne, Adam and Liu, Yan and Baker, Nathan},
   booktitle={Proceedings of the 2012 workshop on Domain-specific modeling},
   pages={61--64},
   year={2012},
-  organization={ACM}
+  organization={ACM},
+  keywords={signatures, informatics},
+  abstract={Domain-agnostic signature discovery entails study across multiple scientific disciplines. The cross-disciplinary nature and breadth of this work requires that existing executable applications be integrated with new capabilities into workflows, representing a wide range of user tasks. An algorithm may be written in multiple programming languages for various hardware platforms, and so workflow composition requires integrating executables from any number of remote hosts. This raises an engineering issue on how to generate web service wrappers for these heterogeneous executables and to compose them into a scientific workflow environment (e.g., Taverna). In this position paper, we summarize our work on two simple Domain-Specific Languages (DSLs) that automate these processes. Our Service Description Language (SDL) describes key elements of a signature discovery service and automatically generates its implementation code. The Workflow Description Language (WDL) describes the pipeline of services and generates deployable artifacts for the Taverna workflow management system. We demonstrate our approach with a real-world workflow composed of services wrapping remote executables.},
+  url={http://dx.doi.org/10.1145/2420918.2420934},
+  doi={10.1145/2420918.2420934},
+  pdf={jacob2012domain.pdf}
 }
 
 @article{thomas2013parameterization,
-  title="Parameterization of a geometric flow implicit solvation model",
+  title={Parameterization of a geometric flow implicit solvation model},
   author={Thomas, Dennis G and Chun, Jaehun and Chen, Zhan and Wei, Guowei and Baker, Nathan A},
   journal={Journal of Computational Chemistry},
   volume={34},
   number={8},
   pages={687--695},
   year={2013},
-  publisher={Wiley Subscription Services, Inc., A Wiley Company}
+  publisher={Wiley Subscription Services, Inc., A Wiley Company},
+  keywords={force_fields, electrostatics, nonpolar, geometric_flow},
+  abstract={Implicit solvent models are popular for their high computational efficiency and simplicity over explicit solvent models and are extensively used for computing molecular solvation properties. The accuracy of implicit solvent models depends on the geometric description of the solute-solvent interface and the solvent dielectric profile that is defined near the surface of the solute molecule. Typically, it is assumed that the dielectric profile is spatially homogeneous in the bulk solvent medium and varies sharply across the solute-solvent interface. However, the specific form of this profile is often described by ad hoc geometric models rather than physical solute-solvent interactions. Hence, it is of significant interest to improve the accuracy of these implicit solvent models by more realistically defining the solute-solvent boundary within a continuum setting. Recently, a differential geometry-based geometric flow solvation model was developed, in which the polar and nonpolar free energies are coupled through a characteristic function that describes a smooth dielectric interface profile across the solvent-solute boundary in a thermodynamically self-consistent fashion. The main parameters of the model are the solute/solvent dielectric coefficients, solvent pressure on the solute, microscopic surface tension, solvent density, and molecular force-field parameters. In this work, we investigate how changes in the pressure, surface tension, solute dielectric coefficient, and choice of different force-field charge and radii parameters affect the prediction accuracy for hydration free energies of 17 small organic molecules based on the geometric flow solvation model. The results of our study provide insights on the parameterization, accuracy, and predictive power of this new implicit solvent model.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3578971&tool=pmcentrez&rendertype=abstract},
+  doi={10.1002/jcc.23181},
+  pmid={23212974},
+  pdf={thomas2013parameterization.pdf}
 }
 
 @article{thomas2013isa,
-  title="{ISA-TAB-Nano}: a specification for sharing nanomaterial research data in spreadsheet-based format",
+  title={{ISA-TAB-Nano}: a specification for sharing nanomaterial research data in spreadsheet-based format},
   author={Thomas, Dennis G and Gaheen, Sharon and Harper, Stacey L and Fritts, Martin and Klaessig, Fred and Hahn-Dantona, Elizabeth and Paik, David and Pan, Sue and Stafford, Grace A and Freund, Elaine T and others},
   journal={BMC Biotechnology},
   volume={13},
@@ -800,19 +1080,28 @@
   pages={2},
   year={2013},
   publisher={BioMed Central Ltd},
-  keywords={brown}
+  keywords={brown, nanotechnology, informatics},
+  abstract={BACKGROUND AND MOTIVATION: The high-throughput genomics communities have been successfully using standardized spreadsheet-based formats to capture and share data within labs and among public repositories. The nanomedicine community has yet to adopt similar standards to share the diverse and multi-dimensional types of data (including metadata) pertaining to the description and characterization of nanomaterials. Owing to the lack of standardization in representing and sharing nanomaterial data, most of the data currently shared via publications and data resources are incomplete, poorly-integrated, and not suitable for meaningful interpretation and re-use of the data. Specifically, in its current state, data cannot be effectively utilized for the development of predictive models that will inform the rational design of nanomaterials. RESULTS: We have developed a specification called ISA-TAB-Nano, which comprises four spreadsheet-based file formats for representing and integrating various types of nanomaterial data. Three file formats (Investigation, Study, and Assay files) have been adapted from the established ISA-TAB specification; while the Material file format was developed de novo to more readily describe the complexity of nanomaterials and associated small molecules. In this paper, we have discussed the main features of each file format and how to use them for sharing nanomaterial descriptions and assay metadata. CONCLUSION: The ISA-TAB-Nano file formats provide a general and flexible framework to record and integrate nanomaterial descriptions, assay data (metadata and endpoint measurements) and protocol information. Like ISA-TAB, ISA-TAB-Nano supports the use of ontology terms to promote standardized descriptions and to facilitate search and integration of the data. The ISA-TAB-Nano specification has been submitted as an ASTM work item to obtain community feedback and to provide a nanotechnology data-sharing standard for public development and adoption.},
+  url={http://www.biomedcentral.com/1472-6750/13/2/abstract},
+  doi={10.1186/1472-6750-13-2},
+  pmid={23311978},
+  pdf={thomas2013isa.pdf}
 }
 
 @incollection{medhekar1998low,
-  title="Low-barrier hydrogen bond in the catalytic triad of serine esterases",
+  title={Low-barrier hydrogen bond in the catalytic triad of serine esterases},
   author={Medhekar, Rohit and Baker, Nathan and Kearney, William and Sando, Kenneth and Quinn, Daniel M.},
   booktitle={Structure and function of cholinesterases and related proteins},
   pages={233},
-  year={1998}
+  year={1998},
+  keywords={acetylcholinesterase, quantum_mechanics},
+  abstract={Acetylcholinesterase (AChE) and chymotrypsin are serine enzymes whose catalytic mechanism involves a nucleophilic attack (serine) and a general acid-base moiety (histidine). The incipient imidiazolium which is formed as a result of the nucleophilic attack by serine is stabilized by the negatively charged carboxylate (Glu or Asp). This transition state stabilization is thought to be gained by a low-barrier hydrogen bond (LBHB) in which the proton is centrally located between N5 and the carboxylate oxygen.},
+  url={http://link.springer.com/10.1007/978-1-4899-1540-5},
+  doi={10.1007/978-1-4899-1540-5}
 }
 
 @article{ren2012biomolecular,
-  title="Biomolecular electrostatics and solvation: a computational perspective",
+  title={Biomolecular electrostatics and solvation: a computational perspective},
   author={Ren, Pengyu and Chun, Jaehun and Thomas, Dennis G and Schnieders, Michael J and Marucho, Marcelo and Zhang, Jiajing and Baker, Nathan A},
   journal={Quarterly Reviews of Biophysics},
   volume={45},
@@ -820,166 +1109,253 @@
   pages={427--491},
   year={2012},
   publisher={Cambridge University Press},
-  keywords={brown}
+  keywords={brown, electrostatics, solvation, review},
+  abstract={An understanding of molecular interactions is essential for insight into biological systems at the molecular scale. Among the various components of molecular interactions, electrostatics are of special importance because of their long-range nature and their influence on polar or charged molecules, including water, aqueous ions, proteins, nucleic acids, carbohydrates, and membrane lipids. In particular, robust models of electrostatic interactions are essential for understanding the solvation properties of biomolecules and the effects of solvation upon biomolecular folding, binding, enzyme catalysis, and dynamics. Electrostatics, therefore, are of central importance to understanding biomolecular structure and modeling interactions within and among biological molecules. This review discusses the solvation of biomolecules with a computational biophysics view toward describing the phenomenon. While our main focus lies on the computational aspect of the models, we provide an overview of the basic elements of biomolecular solvation (e.g. solvent structure, polarization, ion binding, and non-polar behavior) in order to provide a background to understand the different types of solvation models.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3533255&tool=pmcentrez&rendertype=abstract},
+  doi={10.1017/S003358351200011X},
+  pmid={23217364},
+  pdf={ren2012biomolecular.pdf}
 }
 
 @article{baker2013standardizing,
-  title="Standardizing data",
+  title={Standardizing data},
   author={Baker, Nathan A and Klemm, Juli D and Harper, Stacey L and Gaheen, Sharon and Heiskanen, Mervi and Rocca-Serra, Philippe and Sansone, Susanna-Assunta},
   journal={Nature Nanotechnology},
   volume={8},
   number={2},
   pages={73--74},
   year={2013},
-  publisher={Nature Publishing Group}
+  publisher={Nature Publishing Group},
+  keywords={review, nanotechnology, informatics},
+  abstract={To rationally design nanomaterials with improved efficacy and safety it is critical to understand and exploit the physicochemical properties that cause a biological response1. Data mining and computer simulation are important for deriving information about the behaviour of nanomaterials, but the datasets needed to support such studies are sparse and stored across a variety of repositories and resources. The need for more coherence and structure in the conduct of nanotechnology research has been suggested before2 and was highlighted in your recent Editorial3. However, the lack of common reporting standards and non-uniformity of information reported are also significant barriers to data sharing and re-use. The Nanotechnology Working Group (Nano WG) of the US National Institutes of Health National Cancer Informatics Program has been focused on addressing these issues.},
+  url={http://www.nature.com/nnano/journal/v8/n2/full/nnano.2013.12.html},
+  doi={10.1038/nnano.2013.12},
+  pmid={23380926},
+  pdf={baker2013standardizing.pdf}
 }
 
 @inproceedings{thomas2012annotating,
-  title="Annotating the structure and components of a nanoparticle formulation using computable string expressions",
+  title={Annotating the structure and components of a nanoparticle formulation using computable string expressions},
   author={Thomas, Dennis G and Chikkagoudar, Satish and Chappell, Alan R and Baker, Nathan and others},
   booktitle={Bioinformatics and Biomedicine Workshops (BIBMW), 2012 IEEE International Conference on},
   pages={889--894},
   year={2012},
-  organization={IEEE}
+  organization={IEEE},
+  keywords={nanotechology, informatics},
+  abstract={Nanoparticle formulations that are being developed and tested for various medical applications are typically multi-component systems that vary in their structure, chemical composition, and function. It is difficult to compare and understand the differences between the structural and chemical descriptions of hundreds and thousands of nanoparticle formulations found in text documents. We have developed a string nomenclature to create computable string expressions that identify and enumerate the different high-level types of material parts of a nanoparticle formulation and represent the spatial order of their connectivity to each other. The string expressions are intended to be used as IDs, along with terms that describe a nanoparticle formulation and its material parts, in data sharing documents and nanomaterial research databases. The strings can be parsed and represented as a directed acyclic graph. The nodes of the graph can be used to display the string ID, name and other text descriptions of the nanoparticle formulation or its material part, while the edges represent the connectivity between the material parts with respect to the whole nanoparticle formulation. The different patterns in the string expressions can be searched for and used to compare the structure and chemical components of different nanoparticle formulations. The proposed string nomenclature is extensible and can be applied along with ontology terms to annotate the complete description of nanoparticles formulations.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3922075&tool=pmcentrez&rendertype=abstract},
+  doi={10.1109/BIBMW.2012.6470259},
+  pmid={24533226},
+  pdf={thomas2012annotating.pdf}
 }
 
 @article{chakraborty2013structural,
-  title="Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator",
-  author={Chakraborty, Sandeep and Rao, Basuthkar J and Baker, Nathan and {\'A}sgeirsson, Bjarni},
+  title={Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator},
+  author={Chakraborty, Sandeep and Rao, Basuthkar J and Baker, Nathan and Asgeirsson, Bjarni},
   journal={Intrinsically Disordered Proteins},
   volume={1},
   number={1},
   pages={e25463},
   year={2013},
-  publisher={Taylor \& Francis}
+  publisher={Taylor \& Francis},
+  keywords={informatics, electrostatics, software},
+  abstract={Phylogenetic analysis of proteins using multiple sequence alignment (MSA) assumes an underlying evolutionary relationship in these proteins which occasionally remains undetected due to considerable sequence divergence. Structural alignment programs have been developed to unravel such fuzzy relationships. However, none of these structure based methods have used electrostatic properties to discriminate between spatially equivalent residues. We present a methodology for MSA of a set of related proteins with known structures using electrostatic properties as an additional discriminator (STEEP). STEEP first extracts a profile, then generates a multiple structural superimposition providing a consolidated spatial framework for comparing residues and finally emits the MSA. Residues that are aligned differently by including or excluding electrostatic properties can be targeted by directed evolution experiments to transform the enzymatic properties of one protein into another. We have compared STEEP results to those obtained from a MSA program (ClustalW) and a structural alignment method (MUSTANG) for chymotrypsin serine proteases. Subsequently, we used PhyML to generate phylogenetic trees for the serine and metallo-β-lactamase superfamilies from the STEEP generated MSA, and corroborated the accepted relationships in these superfamilies. We have observed that STEEP acts as a functional classifier when electrostatic congruence is used as a discriminator, and thus identifies potential targets for directed evolution experiments. In summary, STEEP is unique among phylogenetic methods for its ability to use electrostatic congruence to specify mutations that might be the source of the functional divergence in a protein family. Based on our results, we also hypothesize that the active site and its close vicinity contains enough information to infer the correct phylogeny for related proteins.},
+  url={http://dx.doi.org/10.4161/idp.25463},
+  doi={10.4161/idp.25463},
+  pmid={25364645},
+  pdf={chakraborty2013structural.pdf}
 }
 
 @article{gosink2014bayesian,
-  title="{Bayesian} model aggregation for ensemble-based estimates of protein {p$K_a$} values",
+  title={{Bayesian} model aggregation for ensemble-based estimates of protein {pKa} values},
   author={Gosink, Luke J and Hogan, Emilie A and Pulsipher, Trenton C and Baker, Nathan A},
   journal={Proteins: Structure, Function, and Bioinformatics},
   volume={82},
   number={3},
   pages={354--363},
   year={2014},
-  keywords={brown}
+  keywords={brown, statistics, informatics, electrostatics, titration},
+  abstract={This article investigates an ensemble-based technique called Bayesian Model Averaging (BMA) to improve the performance of protein amino acid pKa predictions. Structure-based pKa calculations play an important role in the mechanistic interpretation of protein structure and are also used to determine a wide range of protein properties. A diverse set of methods currently exist for pKa prediction, ranging from empirical statistical models to ab initio quantum mechanical approaches. However, each of these methods are based on a set of conceptual assumptions that can effect a model's accuracy and generalizability for pKa prediction in complicated biomolecular systems. We use BMA to combine eleven diverse prediction methods that each estimate pKa values of amino acids in staphylococcal nuclease. These methods are based on work conducted for the pKa Cooperative and the pKa measurements are based on experimental work conducted by the García-Moreno lab. Our cross-validation study demonstrates that the aggregated estimate obtained from BMA outperforms all individual prediction methods with improvements ranging from 45 to 73 pct over other method classes. This study also compares BMA's predictive performance to other ensemble-based techniques and demonstrates that BMA can outperform these approaches with improvements ranging from 27 to 60 pct. This work illustrates a new possible mechanism for improving the accuracy of pKa prediction and lays the foundation for future work on aggregate models that balance computational cost with prediction accuracy.},
+  url={http://onlinelibrary.wiley.com/doi/10.1002/prot.24390/abstract},
+  doi={10.1002/prot.24390},
+  pmid={23946048},
+  pdf={gosink2014bayesian.pdf}
 }
 
 @inproceedings{baker2013research,
-  title="Research towards a systematic signature discovery process",
+  title={Research towards a systematic signature discovery process},
   author={Baker, Nathan and Barr, Jonathan L and Bonheyo, George T and Joslyn, Cliff and Krishnaswami, Kannan and Oxley, Mark E and Quadrel, Rich and Sego, Landon H and Tardiff, Mark F and Wynne, Adam S and others},
   booktitle={Intelligence and Security Informatics (ISI), 2013 IEEE International Conference on},
   pages={301--308},
   year={2013},
-  organization={IEEE}
+  organization={IEEE},
+  keywords={signatures, review},
+  abstract={In its most general form, a signature is a unique or distinguishing measurement, pattern, or collection of data that identifies a phenomenon (object, action, or behavior) of interest. The discovery of signatures is an important aspect of a wide range of disciplines from basic science to national security for the rapid and efficient detection and/or prediction of phenomena. Current practice in signature discovery is typically accomplished by asking domain experts to characterize and/or model individual phenomena to identify what might compose a useful signature. What is lacking is an approach that can be applied across a broad spectrum of domains and information sources to efficiently and robustly construct candidate signatures, validate their reliability, measure their quality, and overcome the challenge of detection - all in the face of dynamic conditions, measurement obfuscation, and noisy data environments. Our research has focused on the identification of common elements of signature discovery across application domains and the synthesis of those elements into a systematic process for more robust and efficient signature development. In this way, a systematic signature discovery process lays the groundwork for leveraging knowledge obtained from signatures to a particular domain or problem area, and, more generally, to problems outside that domain. This paper presents the initial results of this research by discussing a mathematical framework for representing signatures and placing that framework in the context of a systematic signature discovery process. Additionally, the basic steps of this process are described with details about the methods available to support the different stages of signature discovery, development, and deployment.},
+  url={http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6578848},
+  doi={10.1109/isi.2013.6578848},
+  pdf={baker2013research.pdf}
 }
 
 @article{olsen2013structural,
-  title="The structural basis of cholesterol accessibility in membranes",
+  title={The structural basis of cholesterol accessibility in membranes},
   author={Olsen, Brett N and Bielska, Agata A and Lee, Tiffany and Daily, Michael D and Covey, Douglas F and Schlesinger, Paul H and Baker, Nathan A and Ory, Daniel S},
   journal={Biophysical Journal},
   volume={105},
   number={8},
   pages={1838--1847},
   year={2013},
-  publisher={Cell Press}
+  publisher={Cell Press},
+  keywords={molecular_dynamics, biomembranes, sterols, cholesterol},
+  abstract={Although the majority of free cellular cholesterol is present in the plasma membrane, cholesterol homeostasis is principally regulated through sterol-sensing proteins that reside in the cholesterol-poor endoplasmic reticulum (ER). In response to acute cholesterol loading or depletion, there is rapid equilibration between the ER and plasma membrane cholesterol pools, suggesting a biophysical model in which the availability of plasma membrane cholesterol for trafficking to internal membranes modulates ER membrane behavior. Previous studies have predominantly examined cholesterol availability in terms of binding to extramembrane acceptors, but have provided limited insight into the structural changes underlying cholesterol activation. In this study, we use both molecular dynamics simulations and experimental membrane systems to examine the behavior of cholesterol in membrane bilayers. We find that cholesterol depth within the bilayer provides a reasonable structural metric for cholesterol availability and that this is correlated with cholesterol-acceptor binding. Further, the distribution of cholesterol availability in our simulations is continuous rather than divided into distinct available and unavailable pools. This data provide support for a revised cholesterol activation model in which activation is driven not by saturation of membrane-cholesterol interactions but rather by bulk membrane remodeling that reduces membrane-cholesterol affinity.},
+  url={http://www.sciencedirect.com/science/article/pii/S0006349513009892},
+  doi={10.1016/j.bpj.2013.08.042},
+  pmid={24138860},
+  pdf={olsen2013structural.pdf}
 }
 
 @article{pham2014application,
-  title="Application of a hemolysis assay for analysis of complement activation by perfluorocarbon nanoparticles",
+  title={Application of a hemolysis assay for analysis of complement activation by perfluorocarbon nanoparticles},
   author={Pham, Christine TN and Thomas, Dennis G and Beiser, Julia and Mitchell, Lynne M and Huang, Jennifer L and Senpan, Angana and Hu, Grace and Gordon, Mae and Baker, Nathan A and Pan, Dipanjan and others},
   journal={Nanomedicine: Nanotechnology, Biology and Medicine},
   volume={10},
   number={3},
   pages={651--660},
   year={2014},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  keywords={nanotechnology, toxicity, informatics},
+  abstract={Nanoparticles offer new options for medical diagnosis and therapeutics with their capacity to specifically target cells and tissues with imaging agents and/or drug payloads. The unique physical aspects of nanoparticles present new challenges for this promising technology. Studies indicate that nanoparticles often elicit moderate to severe complement activation. Using human in vitro assays that corroborated the mouse in vivo results we previously presented mechanistic studies that define the pathway and key components involved in modulating complement interactions with several gadolinium-functionalized perfluorocarbon nanoparticles (PFOB). Here we employ a modified in vitro hemolysis-based assay developed in conjunction with the mouse in vivo model to broaden our analysis to include PFOBs of varying size, charge and surface chemistry and examine the variations in nanoparticle-mediated complement activity between individuals. This approach may provide the tools for an in-depth structure-activity relationship study that will guide the eventual development of biocompatible nanoparticles.},
+  url={http://dx.doi.org/10.1016/j.nano.2013.10.012},
+  doi={10.1016/j.nano.2013.10.012},
+  pmid={24211337},
+  pdf={pham2014application.pdf}
 }
 
 @article{harper2013nanoinformatics,
-  title="Nanoinformatics workshop report: current resources, community needs and the proposal of a collaborative framework for data sharing and information integration",
+  title={Nanoinformatics workshop report: current resources, community needs and the proposal of a collaborative framework for data sharing and information integration},
   author={Harper, Stacey L and Hutchison, James E and Baker, Nathan and Ostraat, Michele and Tinkle, Sally and Steevens, Jeffrey and Hoover, Mark D and Adamick, Jessica and Rajan, Krishna and Gaheen, Sharon and others},
   journal={Computational Science \& Discovery},
   volume={6},
   number={1},
   pages={014008},
   year={2013},
-  publisher={IOP Publishing}
+  publisher={IOP Publishing},
+  keywords={review, nanotechnology, informatics},
+  abtract={The quantity of information on nanomaterial properties and behavior continues to grow rapidly. Without a concerted effort to collect, organize and mine disparate information coming out of current research efforts, the value and effective use of this information will be limited at best. Data will not be translated to knowledge. At worst, erroneous conclusions will be drawn and future research may be misdirected. Nanoinformatics can be a powerful approach to enhance the value of global information in nanoscience and nanotechnology. Much progress has been made through grassroots efforts in nanoinformatics resulting in a multitude of resources and tools for nanoscience researchers. In 2012, the nanoinformatics community believed it was important to critically evaluate and refine currently available nanoinformatics approaches in order to best inform the science and support the future of predictive nanotechnology. The Greener Nano 2012: Nanoinformatics Tools and Resources Workshop brought together informatics groups with materials scientists active in nanoscience research to evaluate and reflect on the tools and resources that have recently emerged in support of predictive nanotechnology. The workshop goals were to establish a better understanding of current nanoinformatics approaches and to clearly define immediate and projected informatics infrastructure needs of the nanotechnology community. The theme of nanotechnology environmental health and safety (nanoEHS) was used to provide real-world, concrete examples on how informatics can be utilized to advance our knowledge and guide nanoscience. The benefit here is that the same properties that impact the performance of products could also be the properties that inform EHS. From a decision management standpoint, the dual use of such data should be considered a priority. Key outcomes include a proposed collaborative framework for data collection, data sharing and information integration.},
+  url={http://iopscience.iop.org/1749-4699/6/1/014008},
+  doi={10.1088/1749-4699/6/1/014008},
+  pmid={24454543},
+  pdf={harper2013nanoinformatics.pdf}
 }
 
 @article{daily2013origin,
-  title="Origin of parameter degeneracy and molecular shape relationships in geometric-flow calculations of solvation free energies",
+  title={Origin of parameter degeneracy and molecular shape relationships in geometric-flow calculations of solvation free energies},
   author={Daily, Michael D and Chun, Jaehun and Heredia-Langner, Alejandro and Wei, Guowei and Baker, Nathan A},
   journal={The Journal of Chemical Physics},
   volume={139},
   number={20},
   pages={204108},
   year={2013},
-  publisher={AIP Publishing}
+  publisher={AIP Publishing},
+  keywords={force_fields, geometric_flow, nonpolar, solvation, electrostatics},
+  abstract={Implicit solvent models are important tools for calculating solvation free energies for chemical and biophysical studies since they require fewer computational resources but can achieve accuracy comparable to that of explicit-solvent models. In past papers, geometric flow-based solvation models have been established for solvation analysis of small and large compounds. In the present work, the use of realistic experiment-based parameter choices for the geometric flow models is studied. We find that the experimental parameters of solvent internal pressure p = 172 MPa and surface tension γ = 72 mN/m produce solvation free energies within 1 RT of the global minimum root-mean-squared deviation from experimental data over the expanded set. Our results demonstrate that experimental values can be used for geometric flow solvent model parameters, thus eliminating the need for additional parameterization. We also examine the correlations between optimal values of p and γ which are strongly anti-correlated. Geometric analysis of the small molecule test set shows that these results are inter-connected with an approximately linear relationship between area and volume in the range of molecular sizes spanned by the data set. In spite of this considerable degeneracy between the surface tension and pressure terms in the model, both terms are important for the broader applicability of the model.},
+  url={http://scitation.aip.org/content/aip/journal/jcp/139/20/10.1063/1.4832900},
+  doi={10.1063/1.4832900},
+  pmid={24289345},
+  pdf={daily2013origin.pdf}
 }
 
 @article{thomas2014physicochemical,
-  title="Physicochemical signatures of nanoparticle-dependent complement activation",
+  title={Physicochemical signatures of nanoparticle-dependent complement activation},
   author={Thomas, Dennis G and Chikkagoudar, Satish and Heredia-Langner, Alejandro and Tardiff, Mark F and Xu, Zhixiang and Hourcade, Dennis E and Pham, Christine TN and Lanza, Gregory M and Weinberger, Kilian Q and Baker, Nathan A},
   journal={Computational Science \& Discovery},
   volume={7},
   number={1},
   pages={015003},
   year={2014},
-  publisher={IOP Publishing}
+  publisher={IOP Publishing},
+  keywords={nanotechnology, signatures, toxicity, informatics},
+  abstract={Nanoparticles are potentially powerful therapeutic tools that have the capacity to target drug payloads and imaging agents. However, some nanoparticles can activate complement, a branch of the innate immune system, and cause adverse side-effects. Recently, we employed an in vitro hemolysis assay to measure the serum complement activity of perfluorocarbon nanoparticles that differed by size, surface charge, and surface chemistry, quantifying the nanoparticle-dependent complement activity using a metric called Residual Hemolytic Activity (RHA). In the present work, we have used a decision tree learning algorithm to derive the rules for estimating nanoparticle-dependent complement response based on the data generated from the hemolytic assay studies. Our results indicate that physicochemical properties of nanoparticles, namely, size, polydispersity index, zeta potential, and mole percentage of the active surface ligand of a nanoparticle, can serve as good descriptors for prediction of nanoparticle-dependent complement activation in the decision tree modeling framework.},
+  url={http://stacks.iop.org/1749-4699/7/i=1/a=015003},
+  doi={10.1088/1749-4699/7/1/015003},
+  pmid={25254068},
+  pdf={thomas2014physicochemical.pdf}
 }
 
 @article{daily2014improved,
-  title="Improved coarse-grained modeling of cholesterol-containing lipid bilayers",
+  title={Improved coarse-grained modeling of cholesterol-containing lipid bilayers},
   author={Daily, Michael D and Olsen, Brett N and Schlesinger, Paul H and Ory, Daniel S and Baker, Nathan A},
   journal={Journal of Chemical Theory and Computation},
   volume={10},
   number={5},
   pages={2137--2150},
   year={2014},
-  publisher={American Chemical Society}
+  publisher={American Chemical Society},
+  keywords={sterols, cholesterol, force_fields, molecular_dynamics, coarse-graining},
+  abstract={Cholesterol trafficking, which is an essential function in mammalian cells, is intimately connected to molecular-scale interactions through cholesterol modulation of membrane structure and dynamics and interaction with membrane receptors. Since these effects of cholesterol occur on micro- to millisecond timescales, it is essential to develop accurate coarse-grained simulation models that can reach these timescales. Cholesterol has been shown experimentally to thicken the membrane and increase phospholipid tail order between 0-40 pct cholesterol, above which these effects plateau or slightly decrease. Here, we showed that the published MARTINI coarse-grained force-field for phospholipid (POPC) and cholesterol fails to capture these effects. Using reference atomistic simulations, we systematically modified POPC and cholesterol bonded parameters in MARTINI to improve its performance. We showed that the corrections to pseudo-bond angles between glycerol and the lipid tails and around the oleoyl double bond particle (the "angle-corrected model") slightly improves the agreement of MARTINI with experimentally measured thermal, elastic, and dynamic properties of POPC membranes. The angle-corrected model improves prediction of the thickening and ordering effects up to 40 pct cholesterol but overestimates these effects at higher cholesterol concentration. In accordance with prior work that showed the cholesterol rough face methyl groups are important for limiting cholesterol self-association, we revised the coarse-grained representation of these methyl groups to better match cholesterol-cholesterol radial distribution functions from atomistic simulations. In addition, by using a finer-grained representation of the branched cholesterol tail than MARTINI, we improved predictions of lipid tail order and bilayer thickness across a wide range of concentrations. Finally, transferability testing shows that a model incorporating our revised parameters into DOPC outperforms other CG models in a DOPC/cholesterol simulation series, which further argues for its efficacy and generalizability. These results argue for the importance of systematic optimization for coarse-graining biologically important molecules like cholesterol with complicated molecular structure.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4044725&tool=pmcentrez&rendertype=abstract},
+  doi={10.1021/ct401028g},
+  pmid={24910542},
+  pdf={daily2014improved.pdf}
 }
 
 @article{bielska2014side,
-  title="Side-Chain Oxysterols Modulate Cholesterol Accessibility through Membrane Remodeling",
+  title={Side-Chain Oxysterols Modulate Cholesterol Accessibility through Membrane Remodeling},
   author={Bielska, Agata A and Olsen, Brett N and Gale, Sarah E and Mydock-McGrane, Laurel and Krishnan, Kathiresan and Baker, Nathan Andrew and Schlesinger, Paul H and Covey, Douglas F and Ory, Daniel S},
   journal={Biochemistry},
   volume={53},
   number={18},
   pages={3042--3051},
   year={2014},
-  publisher={American Chemical Society}
+  publisher={American Chemical Society},
+  keywords={sterols, oxysterols, cholesterol, biomembranes, molecular_dynamics},
+  abstract={Side-chain oxysterols, such as 25-hydroxycholesterol (25-HC), are key regulators of cholesterol homeostasis. New evidence suggests that the alteration of membrane structure by 25-HC contributes to its regulatory effects. We have examined the role of oxysterol membrane effects on cholesterol accessibility within the membrane using perfringolysin O (PFO), a cholesterol-dependent cytolysin that selectively binds accessible cholesterol, as a sensor of membrane cholesterol accessibility. We show that 25-HC increases cholesterol accessibility in a manner dependent on the membrane lipid composition. Structural analysis of molecular dynamics simulations reveals that increased cholesterol accessibility is associated with membrane thinning, and that the effects of 25-HC on cholesterol accessibility are driven by these changes in membrane thickness. Further, we find that the 25-HC antagonist LY295427 (agisterol) abrogates the membrane effects of 25-HC in a nonenantioselective manner, suggesting that agisterol antagonizes the cholesterol-homeostatic effects of 25-HC indirectly through its membrane interactions. These studies demonstrate that oxysterols regulate cholesterol accessibility, and thus the availability of cholesterol to be sensed and transported throughout the cell, by modulating the membrane environment. This work provides new insights into how alterations in membrane structure can be used to relay cholesterol regulatory signals.},
+  url={http://dx.doi.org/10.1021/bi5000096},
+  doi={10.1021/bi5000096},
+  pmid={24758724},
+  pdf={bielska2014side.pdf}
 }
 
 @article{tolokh2014double,
-  title="Why double-stranded {RNA} resists condensation",
+  title={Why double-stranded {RNA} resists condensation},
   author={Tolokh, Igor S and Pabit, Suzette A and Katz, Andrea M and Chen, Yujie and Drozdetski, Aleksander and Baker, Nathan and Pollack, Lois and Onufriev, Alexey V},
   journal={Nucleic Acids Research},
   volume={42},
   number={16},
   pages={10823--31},
   year={2014},
-  publisher={Oxford University Press}
+  publisher={Oxford University Press},
+  keywords={nucleic_acids, monte_carlo, molecular_dynamics, rna, electrostatics},
+  abstract={The addition of small amounts of multivalent cations to solutions containing double-stranded DNA leads to inter-DNA attraction and eventual condensation. Surprisingly, the condensation is suppressed in double-stranded RNA, which carries the same negative charge as DNA, but assumes a different double helical form. Here, we combine experiment and atomistic simulations to propose a mechanism that explains the variations in condensation of short (25 base-pairs) nucleic acid (NA) duplexes, from B-like form of homopolymeric DNA, to mixed sequence DNA, to DNA:RNA hybrid, to A-like RNA. Circular dichroism measurements suggest that duplex helical geometry is not the fundamental property that ultimately determines the observed differences in condensation. Instead, these differences are governed by the spatial variation of cobalt hexammine (CoHex) binding to NA. There are two major NA-CoHex binding modes--internal and external--distinguished by the proximity of bound CoHex to the helical axis. We find a significant difference, up to 5-fold, in the fraction of ions bound to the external surfaces of the different NA constructs studied. NA condensation propensity is determined by the fraction of CoHex ions in the external binding mode.},
+  url={http://dx.doi.org/10.1093/nar/gku756},
+  doi={10.1093/nar/gku756},
+  pmid={25123663},
+  pdf={tolokh2014double.pdf}
 }
 
 @article{lei2014quantifying,
-  title="Quantifying the influence of conformational uncertainty in biomolecular solvation",
+  title={Quantifying the influence of conformational uncertainty in biomolecular solvation},
   author={Lei, Huan and Yang, Xiu and Zheng, Bin and Lin, Guang and Baker, Nathan A},
   journal={Multiscale Modeling \& Simulation},
   year={in press},
-  keywords={brown}
+  keywords={brown, uncertainty_quantification, solvation, monte_carlo},
+  abstract={Biomolecules exhibit conformational fluctuations near equilibrium states, inducing uncertainty in various biological properties in a dynamic way. We have developed a general method to quantify the uncertainty of target properties induced by conformational fluctuations. Using a generalized polynomial chaos (gPC) expansion, we construct a surrogate model of the target property with respect to varying conformational states. We also propose a method to increase the sparsity of the gPC expansion by defining a set of conformational "active space" random variables. With the increased sparsity, we employ the compressive sensing method to accurately construct the surrogate model. We demonstrate the performance of the surrogate model by evaluating fluctuation-induced uncertainty in solvent-accessible surface area for the bovine trypsin inhibitor protein system and show that the new approach offers more accurate statistical information than standard Monte Carlo approaches. Further more, the constructed surrogate model also enables us to directly evaluate the target property under various conformational states, yielding a more accurate response surface than standard sparse grid collocation methods. In particular, the new method provides higher accuracy in high-dimensional systems, such as biomolecules, where sparse grid performance is limited by the accuracy of the computed quantity of interest. Our new framework is generalizable and can be used to investigate the uncertainty of a wide variety of target properties in biomolecular systems.},
+  url={http://arxiv.org/abs/1408.5629},
+  pdf={lei2014quantifying.pdf}
 }
 
 @article{wei2014differential,
-  title="Differential geometry-based solvation and electrolyte transport models for biomolecular modeling: a review",
+  title={Differential geometry-based solvation and electrolyte transport models for biomolecular modeling: a review},
   author={Wei, Guo Wei and Baker, Nathan A},
   journal={arXiv preprint arXiv:1412.0176},
   year={2014},
-  keywords={brown}
+  keywords={brown, review, geometric_flow, nonpolar, electrostatics, diffusion},
+  abstract={This chapter reviews the differential geometry-based solvation and electrolyte transport for biomolecular solvation that have been developed over the past decade. A key component of these methods is the differential geometry of surfaces theory, as applied to the solvent-solute boundary. In these approaches, the solvent-solute boundary is determined by a variational principle that determines the major physical observables of interest, for example, biomolecular surface area, enclosed volume, electrostatic potential, ion density, electron density, etc. Recently, differential geometry theory has been used to define the surfaces that separate the microscopic (solute) domains for biomolecules from the macroscopic (solvent) domains. In these approaches, the microscopic domains are modeled with atomistic or quantum mechanical descriptions, while continuum mechanics models (including fluid mechanics, elastic mechanics, and continuum electrostatics) are applied to the macroscopic domains. This multiphysics description is integrated through an energy functional formalism and the resulting Euler-Lagrange equation is employed to derive a variety of governing partial differential equations for different solvation and transport processes; e.g., the Laplace-Beltrami equation for the solvent-solute interface, Poisson or Poisson-Boltzmann equations for electrostatic potentials, the Nernst-Planck equation for ion densities, and the Kohn-Sham equation for solute electron density. Extensive validation of these models has been carried out over hundreds of molecules, including proteins and ion channels, and the experimental data have been compared in terms of solvation energies, voltage-current curves, and density distributions. We also propose a new quantum model for electrolyte transport.},
+  url={http://arxiv.org/abs/1412.0176},
+  pdf={wei2014differential.pdf}
 }
 
 @article{pan2015numerical,
-  title="Numerical calculation of protein-ligand binding rates through solution of the {Smoluchowski} equation using smoothed particle hydrodynamics",
+  title={Numerical calculation of protein-ligand binding rates through solution of the {Smoluchowski} equation using smoothed particle hydrodynamics},
   author={Pan, Wenxiao and Daily, Michael and Baker, Nathan A},
   journal={BMC Biophysics},
   volume={8},
@@ -987,39 +1363,56 @@
   pages={7},
   year={2015},
   publisher={BioMed Central Ltd},
-  keywords={brown}
+  keywords={brown, diffusion, acetylcholinesterase},
+  abstract={Background. The calculation of diffusion-controlled ligand binding rates is important for understanding enzyme mechanisms as well as designing enzyme inhibitors. We demonstrate the accuracy and effectiveness of a Lagrangian particle-based method, smoothed particle hydrodynamics (SPH), to study diffusion in biomolecular systems by numerically solving the time-dependent Smoluchowski equation for continuum diffusion. Results. The numerical method is first verified in simple systems and then applied to the calculation of ligand binding to an acetylcholinesterase monomer. Unlike previous studies, a reactive Robin boundary condition (BC), rather than the absolute absorbing (Dirichlet) boundary condition, is considered on the reactive boundaries. This new boundary condition treatment allows for the analysis of enzymes with ``imperfect'' reaction rates. Rates for inhibitor binding to mAChE are calculated at various ionic strengths and compared with experiment and other numerical methods. We find that imposition of the Robin BC improves agreement between calculated and experimental reaction rates. Conclusions. Although this initial application focuses on a single monomer system, our new method provides a framework to explore broader applications of SPH in larger-scale biomolecular complexes by taking advantage of its Lagrangian particle-based nature.},
+  url={http://www.biomedcentral.com/2046-1682/8/7/abstract},
+  doi={10.1186/s13628-015-0021-y},
+  pdf={pan2015numerical.pdf}
 }
 
 @article{harper2015comparative,
-  title="Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ({EZ}) metric of toxicity",
+  title={Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ({EZ}) metric of toxicity},
   author={Harper, Bryan and Thomas, Dennis and Chikkagoudar, Satish and Baker, Nathan and Tang, Kaizhi and Heredia-Langner, Alejandro and Lins, Roberto and Harper, Stacey},
   journal={Journal of Nanoparticle Research},
   volume={17},
   number={6},
   pages={1--12},
   year={2015},
-  publisher={Springer Netherlands}
+  publisher={Springer Netherlands},
+  keywords={nanotechnology, toxicity, informatics},
+  abstract={The integration of rapid assays, large datasets, informatics, and modeling can overcome current barriers in understanding nanomaterial structure-toxicity relationships by providing a weight-of-the-evidence mechanism to generate hazard rankings for nanomaterials. Here, we present the use of a rapid, low-cost assay to perform screening-level toxicity evaluations of nanomaterials in vivo. Calculated EZ Metric scores, a combined measure of morbidity and mortality in developing embryonic zebrafish, were established at realistic exposure levels and used to develop a hazard ranking of diverse nanomaterial toxicity. Hazard ranking and clustering analysis of 68 diverse nanomaterials revealed distinct patterns of toxicity related to both the core composition and outermost surface chemistry of nanomaterials. The resulting clusters guided the development of a surface chemistry-based model of gold nanoparticle toxicity. Our findings suggest that risk assessments based on the size and core composition of nanomaterials alone may be wholly inappropriate, especially when considering complex engineered nanomaterials. Research should continue to focus on methodologies for determining nanomaterial hazard based on multiple sub-lethal responses following realistic, low-dose exposures, thus increasing the availability of quantitative measures of nanomaterial hazard to support the development of nanoparticle structure-activity relationships.},
+  url={http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4454819&tool=pmcentrez&rendertype=abstract},
+  doi={10.1007/s11051-015-3051-0},
+  pmid={26069453},
+  pdf={harper2015comparative.pdf}
 }
 
 @article{sushko2015role,
-  title="The role of correlation and solvation in ion interactions with {B-DNA}",
+  title={The role of correlation and solvation in ion interactions with {B-DNA}},
   author={Sushko, Maria L and Thomas, Dennis G and Pabit, Suzette A and Pollack, Lois and Onufriev, Alexey V and Baker, Nathan A},
   journal={arXiv preprint arXiv:1506.07951},
-  year={2015}
+  year={2015},
+  keywords={density_functional, electrostatics, nucleic_acids, dna},
+  abstract={The ionic atmospheres around nucleic acids play important roles in biological function. Large-scale explicit solvent simulations coupled to experimental assays such as anomalous small-angle X-ray scattering (ASAXS) can provide important insights into the structure and energetics of such atmospheres but are time- and resource-intensive. In this paper, we use classical density functional theory (cDFT) to explore the balance between ion-DNA, ion-water, and ion-ion interactions in ionic atmospheres of RbCl, SrCl$_2$, and CoHexCl$_3$ (cobalt hexammine chloride) around a B-form DNA molecule. The accuracy of the cDFT calculations was assessed by comparison between simulated and experimental ASAXS curves, demonstrating that an accurate model should take into account ion-ion correlation and ion hydration forces, DNA topology, and the discrete distribution of charges on DNA strands. As expected, these calculations revealed significant differences between monovalent, divalent, and trivalent cation distributions around DNA. About half of the DNA-bound Rb$^+$ ions penetrate into the minor groove of the DNA and half adsorb on the DNA strands. The fraction of cations in the minor groove decreases for the larger Sr$^{2+}$ ions and becomes zero for CoHex$^{3+}$ ions, which all adsorb on the DNA strands. The distribution of CoHex$^{3+}$ ions is mainly determined by Coulomb and steric interactions, while ion-correlation forces play a central role in the monovalent Rb$^+$ distribution and a combination of ion-correlation and hydration forces affect the Sr$^{2+}$ distribution around DNA.},
+  url={http://arxiv.org/abs/1506.07951}
 }
 
 @article{hogan2015energy,
-  title="Energy Minimization of Discrete Protein Titration State Models Using Graph Theory",
+  title={Energy Minimization of Discrete Protein Titration State Models Using Graph Theory},
   author={Hogan, Emilie and Monson, Kyle and Baker, Nathan A},
   journal={arXiv preprint arXiv:1507.07021},
   year={2015},
-  keywords={brown}
+  keywords={brown, graph_theory, titration, electrostatics},
+  abstract={There are several applications in computational biophysics which require the optimization of discrete interacting states; e.g., amino acid titration states, ligand oxidation states, or discrete rotamer angles. Such optimization can be very time-consuming as it scales exponentially in the number of sites to be optimized. In this paper, we describe a new polynomial-time algorithm for optimization of discrete states in macromolecular systems. This algorithm was adapted from image processing and uses techniques from discrete mathematics and graph theory to restate the optimization problem in terms of "maximum flow-minimum cut" graph analysis. The interaction energy graph, a graph in which vertices (amino acids) and edges (interactions) are weighted with their respective energies, is transformed into a flow network in which the value of the minimum cut in the network equals the minimum free energy of the protein, and the cut itself encodes the state that achieves the minimum free energy. Because of its deterministic nature and polynomial-time performance, this algorithm has the potential to allow for the ionization state of larger proteins to be discovered.},
+  url={http://arxiv.org/abs/1507.07021}
 }
 
 @report{richardson2014materials,
-	title="Materials Frontiers to Empower Quantum Computing",
+	title={Materials Frontiers to Empower Quantum Computing},
 	author={Richardson, C and Sarrao, J and Taylor, A and Baker NA, and Ballarotto, V and Blain, M and Dawson, J and Dean, David and Dubois, J and Lordi, V and Muller, R and Perry, K and Warner MG},
-	type="Technical report",
-	year=2014,
-	institution={Los Alamos National Laboratory}
+	type={Technical report},
+	year={2014},
+	institution={Los Alamos National Laboratory},
+    keywords={review, materials, quantum_computing},
+    pdf={richardson2014materials.pdf}
 }
