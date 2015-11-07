@@ -2,12 +2,13 @@
 BibTeX file with custom fields. """
 
 import re
+from io import StringIO
 from pyparsing import nestedExpr
 
 BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
 KNOWN_RECORD_TYPES = {'inproceedings', 'article', 'report', 'incollection'}
-IGNORE_KEYWORDS = {"impact", "brown"}
+IGNORE_KEYWORDS = {"impact", "fullonly", "fullmath"}
 print("CHECK FOR EMPTY KEYWORDS")
 print("CHECK FOR EMPTY DOI OR URL")
 print("ADD MORE IGNORED KEYWORDS")
@@ -30,6 +31,7 @@ def tokens_to_dict(token_list):
                 field_values.append(token)
         except TypeError:
             field_values.append(token)
+    entries[field_name] = field_values
     return entries
 
 def flatten_list(input_list):
@@ -39,7 +41,13 @@ def flatten_list(input_list):
             output_list.remove(",")
         except ValueError:
             break
-    return output_list
+    clean_list = []
+    for item in output_list:
+        if type(item) == type("foo"):
+            clean_list.append(item)
+        else:
+            clean_list = clean_list + item.asList()
+    return clean_list
 
 class Record:
     """ BibTeX record """
@@ -48,31 +56,104 @@ class Record:
         self.label = label
         field_dict = tokens_to_dict(token_list)
         self.parse_field_dict(field_dict)
+    def get_links(self):
+        """ Return links as string """
+        link_strings = []
+        link_strings.append("[%s](%s)" % (self.url, self.url))
+        try:
+            link_strings.append("PMID:[%s](http://www.ncbi.nlm.nih.gov/pubmed/%s)" % (self.pmid, self.pmid))
+        except AttributeError:
+            pass
+        try:
+            link_strings.append("DOI:[%s](http://dx.doi.org/%s)" % (self.doi, self.doi))
+        except AttributeError:
+            pass
+        return ". ".join(link_strings)
+    def get_string_attr(self, attrname):
+        lines = getattr(self, attrname).splitlines()
+        return " ".join(lines)
+    def get_short_citation(self):
+        """ Return a short citation string """
+        raise NotImplementedError()
+    def get_date(self, default_month="01", default_day="01"):
+        """ Return date as string, filling in with default values as needed """
+        date_values = [self.year]
+        try:
+            date_values.append(self.month)
+        except AttributeError:
+            print("%s is missing month" % self.label)
+            date_values.append(default_month)
+        try:
+            date_values.append(self.day)
+        except AttributeError:
+            print("%s is missing day" % self.label)
+            date_values.append(default_day)
+        return "-".join(date_values)
+    def get_keywords(self, ignore_keywords=IGNORE_KEYWORDS):
+        """ Return tags as a string, ignoring the specified tags """
+        return ", ".join(self.keywords)
+    def get_short_authors(self):
+        """ Return authors in short form as string """
+        authors = []
+        for author in self.authors:
+            author_string = author[0] + " "
+            for name in author[1:]:
+                author_string = author_string + name[0]
+            authors.append(author_string)
+        return ", ".join(authors)
+    def markdown(self):
+        """ Return a Markdown document as a string """
+        with StringIO() as f:
+            f.write("Title: %s\n" % self.get_string_attr("title"))
+            f.write("Date: %s\n" % self.get_date())
+            f.write("Category: Publications\n")
+            f.write("Tags: %s\n" % self.get_keywords())
+            f.write("Authors: %s\n" % self.get_short_authors())
+            f.write("Summary: %s\n" % self.get_string_attr("abstract"))
+            f.write("\n%s\n" % self.get_short_citation())
+            f.write("\n%s\n" % self.get_links())
+            f.write("\n%s\n" % self.get_string_attr("abstract"))
+            return f.getvalue()
     def parse_field_dict(self, field_dict):
         """ Parse a dictionary of fields associated with an entry """
         for name, value in field_dict.items():
             value = flatten_list(value)
+            name = name.lower().strip(",")
             if name == "year":
                 year_string = " ".join(value)
                 self.year = year_string
+            elif name == "day":
+                day_string = " ".join(value)
+                self.day = day_string
+            elif name == "month":
+                month_string = " ".join(value)
+                self.month = month_string
             elif name == "keywords":
-                for keyword in IGNORE_KEYWORDS:
-                    try:
-                        value.remove(keyword)
-                    except ValueError:
-                        pass
-                self.keywords = value
+                keywords = set([kw.strip(",") for kw in value])
+                self.keywords = keywords - IGNORE_KEYWORDS
             elif name == "pmid":
                 self.pmid = " ".join(value)
             elif name == "journal":
                 self.journal = " ".join(value)
             elif name == "title":
-                self.title = "".join(value)
+                self.title = " ".join(value)
                 self.title = self.title.replace("{", "").replace("}", "").replace("\"", "")
             elif name == "url":
                 self.url = " ".join(value)
             elif name == "author":
-                print("***", value)
+                self.authors = []
+                tokens = []
+                while True:
+                    try:
+                        token = value.pop(0)
+                    except IndexError:
+                        self.authors.append(tokens)
+                        break
+                    if token == "and":
+                        self.authors.append(tokens)
+                        tokens = []
+                    else:
+                        tokens.append(token)
             elif name == "doi":
                 self.doi = " ".join(value)
             elif name == "volume":
@@ -87,19 +168,29 @@ class Record:
                 self.booktitle = " ".join(value)
             elif name == "type":
                 self.type = " ".join(value)
-                print(self.type)
             elif name == "pdf":
                 self.pdf = "".join(value)
+            elif name == "abstract":
+                self.abstract = " ".join(value)
+            elif name in ["organization", "institution"]:
+                self.organization = " ".join(value)
             else:
                 errstr = "Unknown article field: %s" % name
                 raise ValueError(errstr)
-        print(self.__dict__)
 
 class Article(Record):
     """ BibTeX article """
     def __str__(self):
         return "%s" % self.__dict__
-
+    def get_short_citation(self):
+        with StringIO() as f:
+            f.write("%s. " % self.get_short_authors())
+            f.write("%s. " % self.get_string_attr("title"))
+            tokens = []
+            for attr in ["journal", "volume", "pages", "year"]:
+                tokens.append(self.get_string_attr(attr))
+            f.write("%s. " % ", ".join(tokens))
+            return f.getvalue()
 class InCollection(Record):
     """ BibTeX collection """
     def __str__(self):
@@ -132,7 +223,7 @@ def parse_record(record_string):
     test_record_types({record_type})
     nested_ex = nestedExpr("{", "}")
     token_list = nested_ex.parseString(record_string)[0]
-    label = token_list.pop(0)
+    label = token_list.pop(0).strip(",")
     print("Parsing %s..." % label)
     if record_type == "article":
         return Article(label, token_list)
@@ -148,7 +239,7 @@ def parse_record(record_string):
 
 def parse_bibtex(bibfile):
     """ Parse a BibTeX file into a list of dictionaries """
-    records = {}
+    records = []
     bibdata = bibfile.read()
     type_search_string = "@.*{"
     type_re = re.compile(type_search_string)
@@ -160,13 +251,18 @@ def parse_bibtex(bibfile):
         record_strings.append(bibdata[start:end])
     record_strings.append(bibdata[record_spans[-1][0]:])
     for record_string in record_strings:
-        parse_record(record_string)
+        records.append(parse_record(record_string))
     return records
 
 def main():
     """ Main routine """
     with open(BIBTEX_FILE_PATH, "rt") as bibfile:
         records = parse_bibtex(bibfile)
+    for record in records:
+        print("Writing %s..." % record.label)
+        record_path = "%s/%s.md" % (MARKDOWN_DIR_PATH, record.label)
+        with open(record_path, "wt") as recfile:
+            recfile.write(record.markdown())
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 Title: APBS and PDB2PQR
-Date: 2004-01-15 09:01
-Modified: 2017-02-28 14:01
+Date: 2004-01-15
+Modified: 2017-02-28
 Category: Research
 Tags: electrostatics, solvation, software, titration, mathematics, current_research
 Authors: Nathan Baker
