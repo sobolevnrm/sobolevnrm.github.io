@@ -2,8 +2,8 @@ Title: Polarization around an ion in a dielectric continuum with truncated elect
 Date: 1999-01-01
 Category: Publications
 Slug: baker1999polarization
-Tags: solvation, electrostatics
-Authors: Baker, NA, Hunenberger, PH, McCammon, JA
+Tags: electrostatics, solvation
+Authors: Baker,, Hunenberger,, McCammon,
 Summary: Baker, NA, Hunenberger, PH, McCammon, JA. Polarization around an ion in a dielectric continuum with truncated electrostatic interactions. The Journal of Chemical Physics, 110, 10679-10692, 1999. 
 
 Baker, NA, Hunenberger, PH, McCammon, JA. Polarization around an ion in a dielectric continuum with truncated electrostatic interactions. The Journal of Chemical Physics, 110, 10679-10692, 1999. 

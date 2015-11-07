@@ -2,8 +2,8 @@ Title: Structural phylogeny by profile extraction and multiple superimposition u
 Date: 2013-01-01
 Category: Publications
 Slug: chakraborty2013structural
-Tags: informatics, electrostatics, software
-Authors: Chakraborty, S, Rao, BJ, Baker, N, Asgeirsson, B
+Tags: software, electrostatics, informatics
+Authors: Chakraborty,, Rao,, Baker,, Asgeirsson,
 Summary: Chakraborty, S, Rao, BJ, Baker, N, Asgeirsson, B. Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator. Intrinsically Disordered Proteins, 1, e25463, 2013. 
 
 Chakraborty, S, Rao, BJ, Baker, N, Asgeirsson, B. Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator. Intrinsically Disordered Proteins, 1, e25463, 2013. 

@@ -2,8 +2,8 @@ Title: Electrostatics of nanosystems: application to microtubules and the riboso
 Date: 2001-08-28
 Category: Publications
 Slug: baker2001electrostatics
-Tags: electrostatics, apbs, microtubules, finite_differences, solvation, software, ribosome
-Authors: Baker, NA, Sept, D, Joseph, S, Holst, MJ, McCammon, JA
+Tags: microtubules, electrostatics, apbs, finite_differences, ribosome, software, solvation
+Authors: Baker,, Sept,, Joseph,, Holst,, McCammon,
 Summary: Baker, NA, Sept, D, Joseph, S, Holst, MJ, McCammon, JA. Electrostatics of nanosystems: application to microtubules and the ribosome. Proceedings of the National Academy of Sciences, 98, 10037-10041, 2001. 
 
 Baker, NA, Sept, D, Joseph, S, Holst, MJ, McCammon, JA. Electrostatics of nanosystems: application to microtubules and the ribosome. Proceedings of the National Academy of Sciences, 98, 10037-10041, 2001. 

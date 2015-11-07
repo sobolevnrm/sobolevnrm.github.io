@@ -2,8 +2,8 @@ Title: Domain-specific languages for composing signature discovery workflows
 Date: 2012-01-01
 Category: Publications
 Slug: jacob2012domain
-Tags: informatics, signatures
-Authors: Jacob, F, Gray, J, Wynne, A, Liu, Y, Baker, N
+Tags: signatures, informatics
+Authors: Jacob,, Gray,, Wynne,, Liu,, Baker,
 Summary: Jacob, F, Gray, J, Wynne, A, Liu, Y, Baker, N. Domain-specific languages for composing signature discovery workflows. In Proceedings of the 2012 workshop on Domain-specific modeling, 61-64, 2012.
 
 Jacob, F, Gray, J, Wynne, A, Liu, Y, Baker, N. Domain-specific languages for composing signature discovery workflows. In Proceedings of the 2012 workshop on Domain-specific modeling, 61-64, 2012.

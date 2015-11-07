@@ -2,8 +2,8 @@ Title: Polarizable atomic multipole solutes in a Poisson-Boltzmann continuum
 Date: 2007-01-01
 Category: Publications
 Slug: schnieders2007polarizable
-Tags: solvation, electrostatics, force_fields
-Authors: Schnieders, MJ, Baker, NA, Ren, P, Ponder, JW
+Tags: electrostatics, force_fields, solvation
+Authors: Schnieders,, Baker,, Ren,, Ponder,
 Summary: Schnieders, MJ, Baker, NA, Ren, P, Ponder, JW. Polarizable atomic multipole solutes in a Poisson-Boltzmann continuum. The Journal of Chemical Physics, 126, 124114, 2007. 
 
 Schnieders, MJ, Baker, NA, Ren, P, Ponder, JW. Polarizable atomic multipole solutes in a Poisson-Boltzmann continuum. The Journal of Chemical Physics, 126, 124114, 2007. 

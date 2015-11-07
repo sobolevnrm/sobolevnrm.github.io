@@ -2,8 +2,8 @@ Title: Probing 3 '-ssDNA Loop Formation in E. coli RecBCD/RecBC-DNA Complexes Us
 Date: 2006-01-01
 Category: Publications
 Slug: wong2006probing
-Tags: dna, helicases, geometry, molecular_dynamics, kinetics
-Authors: Wong, CJ, Rice, RL, Baker, NA, Ju, T, Lohman, TM
+Tags: helicases, molecular_dynamics, dna, geometry, kinetics
+Authors: Wong,, Rice,, Baker,, Ju,, Lohman,
 Summary: Wong, CJ, Rice, RL, Baker, NA, Ju, T, Lohman, TM. Probing 3 '-ssDNA Loop Formation in E. coli RecBCD/RecBC-DNA Complexes Using Non-natural DNA: A Model for ' Chi' Recognition Complexes. Journal of Molecular Biology, 362, 26-43, 2006. 
 
 Wong, CJ, Rice, RL, Baker, NA, Ju, T, Lohman, TM. Probing 3 '-ssDNA Loop Formation in E. coli RecBCD/RecBC-DNA Complexes Using Non-natural DNA: A Model for ' Chi' Recognition Complexes. Journal of Molecular Biology, 362, 26-43, 2006. 

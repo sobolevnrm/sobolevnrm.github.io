@@ -2,8 +2,8 @@ Title: Solvation forces on biomolecular structures: a comparison of explicit sol
 Date: 2004-01-01
 Category: Publications
 Slug: wagoner2004solvation
-Tags: solvation, molecular_dynamics, electrostatics
-Authors: Wagoner, J, Baker, NA
+Tags: electrostatics, molecular_dynamics, solvation
+Authors: Wagoner,, Baker,
 Summary: Wagoner, J, Baker, NA. Solvation forces on biomolecular structures: a comparison of explicit solvent and Poisson-Boltzmann models. Journal of Computational Chemistry, 25, 1623-1629, 2004. 
 
 Wagoner, J, Baker, NA. Solvation forces on biomolecular structures: a comparison of explicit solvent and Poisson-Boltzmann models. Journal of Computational Chemistry, 25, 1623-1629, 2004. 

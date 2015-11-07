@@ -2,8 +2,8 @@ Title: Application of new multi-resolution methods for the comparison of biomole
 Date: 2006-01-01
 Category: Publications
 Slug: zhang2006application
-Tags: informatics, electrostatics, multiscale, geometry, topology, software
-Authors: Zhang, X, Bajaj, CL, Kwon, B, Dolinsky, TJ, Nielsen, JE, Baker, NA
+Tags: multiscale, topology, electrostatics, informatics, geometry, software
+Authors: Zhang,, Bajaj,, Kwon,, Dolinsky,, Nielsen,, Baker,
 Summary: Zhang, X, Bajaj, CL, Kwon, B, Dolinsky, TJ, Nielsen, JE, Baker, NA. Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity. Multiscale Modeling \& Simulation, 5, 1196, 2006. 
 
 Zhang, X, Bajaj, CL, Kwon, B, Dolinsky, TJ, Nielsen, JE, Baker, NA. Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity. Multiscale Modeling \& Simulation, 5, 1196, 2006. 

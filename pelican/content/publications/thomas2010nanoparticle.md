@@ -2,8 +2,8 @@ Title: NanoParticle Ontology for cancer nanotechnology research
 Date: 2010-01-01
 Category: Publications
 Slug: thomas2010nanoparticle
-Tags: informatics, nanotechnology, ontology
-Authors: Thomas, DG, Pappu, RV, Baker, NA
+Tags: ontology, nanotechnology, informatics
+Authors: Thomas,, Pappu,, Baker,
 Summary: Thomas, DG, Pappu, RV, Baker, NA. NanoParticle Ontology for cancer nanotechnology research. Journal of Biomedical Informatics, 44, 59-74, 2010. 
 
 Thomas, DG, Pappu, RV, Baker, NA. NanoParticle Ontology for cancer nanotechnology research. Journal of Biomedical Informatics, 44, 59-74, 2010. 

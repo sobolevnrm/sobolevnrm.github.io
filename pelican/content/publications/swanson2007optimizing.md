@@ -3,7 +3,7 @@ Date: 2007-01-01
 Category: Publications
 Slug: swanson2007optimizing
 Tags: electrostatics, molecular_dynamics
-Authors: Swanson, JM, Wagoner, JA, Baker, NA, McCammon, JA
+Authors: Swanson,, Wagoner,, Baker,, McCammon,
 Summary: Swanson, JM, Wagoner, JA, Baker, NA, McCammon, JA. Optimizing the Poisson dielectric boundary with explicit solvent forces and energies: lessons learned with atom-centered dielectric functions. Journal of Chemical Theory and Computation, 3, 170-183, 2007. 
 
 Swanson, JM, Wagoner, JA, Baker, NA, McCammon, JA. Optimizing the Poisson dielectric boundary with explicit solvent forces and energies: lessons learned with atom-centered dielectric functions. Journal of Chemical Theory and Computation, 3, 170-183, 2007. 

@@ -2,8 +2,8 @@ Title: Poisson-Boltzmann methods for biomolecular electrostatics
 Date: 2003-01-01
 Category: Publications
 Slug: baker2003poisson
-Tags: solvation, review, electrostatics
-Authors: Baker, NA
+Tags: review, electrostatics, solvation
+Authors: Baker,
 Summary: Baker, NA. Poisson-Boltzmann methods for biomolecular electrostatics. Methods in Enzymology, 383, 94-118, 2003. 
 
 Baker, NA. Poisson-Boltzmann methods for biomolecular electrostatics. Methods in Enzymology, 383, 94-118, 2003. 

@@ -2,8 +2,8 @@ Title: The physical basis of microtubule structure and stability
 Date: 2003-01-01
 Category: Publications
 Slug: sept2003physical
-Tags: solvation, microtubules, electrostatics
-Authors: Sept, D, Baker, NA, McCammon, JA
+Tags: electrostatics, microtubules, solvation
+Authors: Sept,, Baker,, McCammon,
 Summary: Sept, D, Baker, NA, McCammon, JA. The physical basis of microtubule structure and stability. Protein Science, 12, 2257-2261, 2003. 
 
 Sept, D, Baker, NA, McCammon, JA. The physical basis of microtubule structure and stability. Protein Science, 12, 2257-2261, 2003. 

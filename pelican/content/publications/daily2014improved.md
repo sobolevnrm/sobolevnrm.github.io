@@ -2,8 +2,8 @@ Title: Improved coarse-grained modeling of cholesterol-containing lipid bilayers
 Date: 2014-01-01
 Category: Publications
 Slug: daily2014improved
-Tags: sterols, coarse-graining, molecular_dynamics, cholesterol, force_fields
-Authors: Daily, MD, Olsen, BN, Schlesinger, PH, Ory, DS, Baker, NA
+Tags: cholesterol, sterols, force_fields, molecular_dynamics, coarse-graining
+Authors: Daily,, Olsen,, Schlesinger,, Ory,, Baker,
 Summary: Daily, MD, Olsen, BN, Schlesinger, PH, Ory, DS, Baker, NA. Improved coarse-grained modeling of cholesterol-containing lipid bilayers. Journal of Chemical Theory and Computation, 10, 2137-2150, 2014. 
 
 Daily, MD, Olsen, BN, Schlesinger, PH, Ory, DS, Baker, NA. Improved coarse-grained modeling of cholesterol-containing lipid bilayers. Journal of Chemical Theory and Computation, 10, 2137-2150, 2014. 

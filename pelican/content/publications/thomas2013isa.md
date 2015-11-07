@@ -2,8 +2,8 @@ Title: ISA-TAB-Nano : a specification for sharing nanomaterial research data in 
 Date: 2013-01-01
 Category: Publications
 Slug: thomas2013isa
-Tags: informatics, nanotechnology
-Authors: Thomas, DG, Gaheen, S, Harper, SL, Fritts, M, Klaessig, F, Hahn-Dantona, E, Paik, D, Pan, S, Stafford, GA, Freund, ET, others 
+Tags: nanotechnology, informatics
+Authors: Thomas,, Gaheen,, Harper,, Fritts,, Klaessig,, Hahn-Dantona,, Paik,, Pan,, Stafford,, Freund,, others
 Summary: Thomas, DG, Gaheen, S, Harper, SL, Fritts, M, Klaessig, F, Hahn-Dantona, E, Paik, D, Pan, S, Stafford, GA, Freund, ET, others . ISA-TAB-Nano : a specification for sharing nanomaterial research data in spreadsheet-based format. BMC Biotechnology, 13, 2, 2013. 
 
 Thomas, DG, Gaheen, S, Harper, SL, Fritts, M, Klaessig, F, Hahn-Dantona, E, Paik, D, Pan, S, Stafford, GA, Freund, ET, others . ISA-TAB-Nano : a specification for sharing nanomaterial research data in spreadsheet-based format. BMC Biotechnology, 13, 2, 2013. 

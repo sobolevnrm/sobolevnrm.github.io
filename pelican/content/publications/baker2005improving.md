@@ -2,8 +2,8 @@ Title: Improving implicit solvent simulations: a Poisson-centric view
 Date: 2005-01-01
 Category: Publications
 Slug: baker2005improving
-Tags: solvation, review, electrostatics
-Authors: Baker, NA
+Tags: review, electrostatics, solvation
+Authors: Baker,
 Summary: Baker, NA. Improving implicit solvent simulations: a Poisson-centric view. Current Opinion in Structural Biology, 15, 137-143, 2005. 
 
 Baker, NA. Improving implicit solvent simulations: a Poisson-centric view. Current Opinion in Structural Biology, 15, 137-143, 2005. 

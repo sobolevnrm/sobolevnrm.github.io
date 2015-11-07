@@ -3,7 +3,7 @@ Date: 2011-01-01
 Category: Publications
 Slug: alexov2011progress
 Tags: review, electrostatics, titration
-Authors: Alexov, E, Mehler, EL, Baker, N, M BA, Huang, Y, Milletti, F, Erik NJ, Farrell, D, Carstensen, T, Olsson, MH, others 
+Authors: Alexov,, Mehler,, Baker,, M, Huang,, Milletti,, Erik, Farrell,, Carstensen,, Olsson,, others
 Summary: Alexov, E, Mehler, EL, Baker, N, M BA, Huang, Y, Milletti, F, Erik NJ, Farrell, D, Carstensen, T, Olsson, MH, others . Progress in the prediction of p$K_a$ values in proteins. Proteins: structure, function, and bioinformatics, 79, 3260-3275, 2011. 
 
 Alexov, E, Mehler, EL, Baker, N, M BA, Huang, Y, Milletti, F, Erik NJ, Farrell, D, Carstensen, T, Olsson, MH, others . Progress in the prediction of p$K_a$ values in proteins. Proteins: structure, function, and bioinformatics, 79, 3260-3275, 2011. 

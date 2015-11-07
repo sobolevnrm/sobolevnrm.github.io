@@ -2,8 +2,8 @@ Title: Differential geometry based solvation model II : Lagrangian formulation
 Date: 2011-01-01
 Category: Publications
 Slug: chen2011differential
-Tags: solvation, geometric_flow, geometry, nonpolar, electrostatics
-Authors: Chen, Z, Baker, NA, Wei, G
+Tags: electrostatics, nonpolar, geometry, geometric_flow, solvation
+Authors: Chen,, Baker,, Wei,
 Summary: Chen, Z, Baker, NA, Wei, G. Differential geometry based solvation model II : Lagrangian formulation. Journal of Mathematical Biology, 63, 1139-1200, 2011. 
 
 Chen, Z, Baker, NA, Wei, G. Differential geometry based solvation model II : Lagrangian formulation. Journal of Mathematical Biology, 63, 1139-1200, 2011. 

@@ -2,8 +2,8 @@ Title: Finite element analysis of the time-dependent Smoluchowski equation for a
 Date: 2007-01-01
 Category: Publications
 Slug: cheng2007finite
-Tags: acetylcholinesterase, finite_elements, diffusion
-Authors: Cheng, Y, Suen, JK, Zhang, D, Bond, SD, Zhang, Y, Song, Y, Baker, NA, Bajaj, CL, Holst, MJ, McCammon, JA
+Tags: diffusion, finite_elements, acetylcholinesterase
+Authors: Cheng,, Suen,, Zhang,, Bond,, Zhang,, Song,, Baker,, Bajaj,, Holst,, McCammon,
 Summary: Cheng, Y, Suen, JK, Zhang, D, Bond, SD, Zhang, Y, Song, Y, Baker, NA, Bajaj, CL, Holst, MJ, McCammon, JA. Finite element analysis of the time-dependent Smoluchowski equation for acetylcholinesterase reaction rate calculations. Biophysical Journal, 92, 3397-3406, 2007. 
 
 Cheng, Y, Suen, JK, Zhang, D, Bond, SD, Zhang, Y, Song, Y, Baker, NA, Bajaj, CL, Holst, MJ, McCammon, JA. Finite element analysis of the time-dependent Smoluchowski equation for acetylcholinesterase reaction rate calculations. Biophysical Journal, 92, 3397-3406, 2007. 

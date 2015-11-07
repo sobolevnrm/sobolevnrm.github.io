@@ -2,8 +2,8 @@ Title: Electrostatic interaction between RNA and protein capsid in cowpea chloro
 Date: 2004-01-01
 Category: Publications
 Slug: zhang2004electrostatic
-Tags: rna, electrostatics, nucleic_acids, coarse-graining, virus, dna, monte_carlo
-Authors: Zhang, D, Konecny, R, Baker, NA, McCammon, JA
+Tags: dna, nucleic_acids, electrostatics, rna, virus, monte_carlo, coarse-graining
+Authors: Zhang,, Konecny,, Baker,, McCammon,
 Summary: Zhang, D, Konecny, R, Baker, NA, McCammon, JA. Electrostatic interaction between RNA and protein capsid in cowpea chlorotic mottle virus simulated by a coarse-grain RNA model and a Monte Carlo approach. Biopolymers, 75, 325-337, 2004. 
 
 Zhang, D, Konecny, R, Baker, NA, McCammon, JA. Electrostatic interaction between RNA and protein capsid in cowpea chlorotic mottle virus simulated by a coarse-grain RNA model and a Monte Carlo approach. Biopolymers, 75, 325-337, 2004. 

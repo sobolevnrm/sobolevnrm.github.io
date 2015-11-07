@@ -2,8 +2,8 @@ Title: Assessing implicit models for nonpolar mean solvation forces: the importa
 Date: 2006-01-01
 Category: Publications
 Slug: wagoner2006assessing
-Tags: solvation, nonpolar
-Authors: Wagoner, JA, Baker, NA
+Tags: nonpolar, solvation
+Authors: Wagoner,, Baker,
 Summary: Wagoner, JA, Baker, NA. Assessing implicit models for nonpolar mean solvation forces: the importance of dispersion and volume terms. Proceedings of the National Academy of Sciences, 103, 8331-8336, 2006. 
 
 Wagoner, JA, Baker, NA. Assessing implicit models for nonpolar mean solvation forces: the importance of dispersion and volume terms. Proceedings of the National Academy of Sciences, 103, 8331-8336, 2006. 

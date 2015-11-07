@@ -3,7 +3,7 @@ Date: 1996-01-01
 Category: Publications
 Slug: feaster1996molecular
 Tags: cholesterol
-Authors: Feaster, SR, Lee, K, Baker, N, Hui, DY, Quinn, DM
+Authors: Feaster,, Lee,, Baker,, Hui,, Quinn,
 Summary: Feaster, SR, Lee, K, Baker, N, Hui, DY, Quinn, DM. Molecular recognition by cholesterol esterase of active site ligands: structure-reactivity effects for inhibition by aryl carbamates and subsequent carbamylenzyme turnover. Biochemistry, 35, 16723-16734, 1996. 
 
 Feaster, SR, Lee, K, Baker, N, Hui, DY, Quinn, DM. Molecular recognition by cholesterol esterase of active site ligands: structure-reactivity effects for inhibition by aryl carbamates and subsequent carbamylenzyme turnover. Biochemistry, 35, 16723-16734, 1996. 

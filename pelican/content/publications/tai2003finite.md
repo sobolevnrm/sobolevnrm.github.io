@@ -2,8 +2,8 @@ Title: Finite element simulations of acetylcholine diffusion in neuromuscular ju
 Date: 2003-01-01
 Category: Publications
 Slug: tai2003finite
-Tags: acetylcholinesterase, finite_elements, diffusion
-Authors: Tai, K, Bond, SD, MacMillan, HR, Baker, NA, Holst, MJ, McCammon, JA
+Tags: diffusion, finite_elements, acetylcholinesterase
+Authors: Tai,, Bond,, MacMillan,, Baker,, Holst,, McCammon,
 Summary: Tai, K, Bond, SD, MacMillan, HR, Baker, NA, Holst, MJ, McCammon, JA. Finite element simulations of acetylcholine diffusion in neuromuscular junctions. Biophysical Journal, 84, 2234-2241, 2003. 
 
 Tai, K, Bond, SD, MacMillan, HR, Baker, NA, Holst, MJ, McCammon, JA. Finite element simulations of acetylcholine diffusion in neuromuscular junctions. Biophysical Journal, 84, 2234-2241, 2003. 

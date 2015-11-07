@@ -96,6 +96,12 @@ class Record:
         if len(self.keywords) == 0:
             raise IndexError("No keywords!")
         return ", ".join(self.keywords)
+    def get_author_lastnames(self):
+        """ Return authors' last names as string """
+        authors = []
+        for author in self.authors:
+            authors.append(author[0])
+        return ", ".join(authors)
     def get_short_authors(self):
         """ Return authors in short form as string """
         authors = []
@@ -113,7 +119,7 @@ class Record:
             f.write("Category: Publications\n")
             f.write("Slug: %s\n" % self.label)
             f.write("Tags: %s\n" % self.get_keywords())
-            f.write("Authors: %s\n" % self.get_short_authors())
+            f.write("Authors: %s\n" % self.get_author_lastnames())
             f.write("Summary: %s\n" % self.get_short_citation())
             f.write("\n%s\n" % self.get_short_citation())
             f.write("\n%s\n" % self.get_links())

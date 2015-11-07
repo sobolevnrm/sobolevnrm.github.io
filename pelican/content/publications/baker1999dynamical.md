@@ -2,8 +2,8 @@ Title: Dynamical properties of fasciculin-2
 Date: 1999-01-01
 Category: Publications
 Slug: baker1999dynamical
-Tags: acetylcholinesterase, molecular_dynamics
-Authors: Baker, NA, Helms, V, McCammon, JA
+Tags: molecular_dynamics, acetylcholinesterase
+Authors: Baker,, Helms,, McCammon,
 Summary: Baker, NA, Helms, V, McCammon, JA. Dynamical properties of fasciculin-2. Proteins: Structure, Function, and Bioinformatics, 36, 447-453, 1999. 
 
 Baker, NA, Helms, V, McCammon, JA. Dynamical properties of fasciculin-2. Proteins: Structure, Function, and Bioinformatics, 36, 447-453, 1999. 

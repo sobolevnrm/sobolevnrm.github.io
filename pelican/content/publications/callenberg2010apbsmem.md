@@ -2,8 +2,8 @@ Title: APBSmem : a graphical interface for electrostatic calculations at the mem
 Date: 2010-01-01
 Category: Publications
 Slug: callenberg2010apbsmem
-Tags: solvation, electrostatics, software, biomembranes
-Authors: Callenberg, KM, Choudhary, OP, de FGL, Gohara, DW, Baker, NA, Grabe, M
+Tags: software, electrostatics, biomembranes, solvation
+Authors: Callenberg,, Choudhary,, de, Gohara,, Baker,, Grabe,
 Summary: Callenberg, KM, Choudhary, OP, de FGL, Gohara, DW, Baker, NA, Grabe, M. APBSmem : a graphical interface for electrostatic calculations at the membrane. PloS ONE, 5, e12722, 2010. 
 
 Callenberg, KM, Choudhary, OP, de FGL, Gohara, DW, Baker, NA, Grabe, M. APBSmem : a graphical interface for electrostatic calculations at the membrane. PloS ONE, 5, e12722, 2010. 

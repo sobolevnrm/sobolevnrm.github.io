@@ -2,8 +2,8 @@ Title: Implicit solvent electrostatics in biomolecular simulation
 Date: 2006-01-01
 Category: Publications
 Slug: baker2006implicit
-Tags: solvation, review, electrostatics, titration
-Authors: Baker, NA, Bashford, D, Case, DA
+Tags: review, electrostatics, solvation, titration
+Authors: Baker,, Bashford,, Case,
 Summary: Baker, NA, Bashford, D, Case, DA. Implicit solvent electrostatics in biomolecular simulation. In New Algorithms for Macromolecular Simulation, 263-295, 2006.
 
 Baker, NA, Bashford, D, Case, DA. Implicit solvent electrostatics in biomolecular simulation. In New Algorithms for Macromolecular Simulation, 263-295, 2006.
