@@ -1,9 +1,9 @@
 Title: Improving implicit solvent simulations: a Poisson-centric view
 Date: 2005-01-01
 Category: Publications
-Tags: solvation, review, electrostatics
+Tags: solvation, electrostatics, review
 Authors: Baker, NA
-Summary: Recent developments in implicit solvent models may be compared in terms of accuracy and computational efficiency. Based on improvements in the accuracy of generalized Born methods and the speed of Poisson-Boltzmann solvers, it appears that the two techniques are converging to a point at which both will be suitable for simulating certain types of biomolecular systems over sizable time and length scales.
+Summary: Baker, NA. Improving implicit solvent simulations: a Poisson-centric view. Current Opinion in Structural Biology, 15, 137-143, 2005. 
 
 Baker, NA. Improving implicit solvent simulations: a Poisson-centric view. Current Opinion in Structural Biology, 15, 137-143, 2005. 
 

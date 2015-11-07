@@ -1,0 +1,12 @@
+Title: Origin of parameter degeneracy and molecular shape relationships in geometric-flow calculations of solvation free energies
+Date: 2013-01-01
+Category: Publications
+Tags: solvation, force_fields, geometric_flow, electrostatics, nonpolar
+Authors: Daily, MD, Chun, J, Heredia-Langner, A, Wei, G, Baker, NA
+Summary: Daily, MD, Chun, J, Heredia-Langner, A, Wei, G, Baker, NA. Origin of parameter degeneracy and molecular shape relationships in geometric-flow calculations of solvation free energies. The Journal of Chemical Physics, 139, 204108, 2013. 
+
+Daily, MD, Chun, J, Heredia-Langner, A, Wei, G, Baker, NA. Origin of parameter degeneracy and molecular shape relationships in geometric-flow calculations of solvation free energies. The Journal of Chemical Physics, 139, 204108, 2013. 
+
+[http://scitation.aip.org/content/aip/journal/jcp/139/20/10.1063/1.4832900](http://scitation.aip.org/content/aip/journal/jcp/139/20/10.1063/1.4832900). PMID:[24289345](http://www.ncbi.nlm.nih.gov/pubmed/24289345). DOI:[10.1063/1.4832900](http://dx.doi.org/10.1063/1.4832900)
+
+Implicit solvent models are important tools for calculating solvation free energies for chemical and biophysical studies since they require fewer computational resources but can achieve accuracy comparable to that of explicit-solvent models. In past papers, geometric flow-based solvation models have been established for solvation analysis of small and large compounds. In the present work, the use of realistic experiment-based parameter choices for the geometric flow models is studied. We find that the experimental parameters of solvent internal pressure p = 172 MPa and surface tension γ = 72 mN/m produce solvation free energies within 1 RT of the global minimum root-mean-squared deviation from experimental data over the expanded set. Our results demonstrate that experimental values can be used for geometric flow solvent model parameters, thus eliminating the need for additional parameterization. We also examine the correlations between optimal values of p and γ which are strongly anti-correlated. Geometric analysis of the small molecule test set shows that these results are inter-connected with an approximately linear relationship between area and volume in the range of molecular sizes spanned by the data set. In spite of this considerable degeneracy between the surface tension and pressure terms in the model, both terms are important for the broader applicability of the model.

@@ -59,7 +59,10 @@ class Record:
     def get_links(self):
         """ Return links as string """
         link_strings = []
-        link_strings.append("[%s](%s)" % (self.url, self.url))
+        try:
+            link_strings.append("[%s](%s)" % (self.url, self.url))
+        except AttributeError:
+            pass
         try:
             link_strings.append("PMID:[%s](http://www.ncbi.nlm.nih.gov/pubmed/%s)" % (self.pmid, self.pmid))
         except AttributeError:
@@ -110,10 +113,13 @@ class Record:
             f.write("Category: Publications\n")
             f.write("Tags: %s\n" % self.get_keywords())
             f.write("Authors: %s\n" % self.get_short_authors())
-            f.write("Summary: %s\n" % self.get_string_attr("abstract"))
+            f.write("Summary: %s\n" % self.get_short_citation())
             f.write("\n%s\n" % self.get_short_citation())
             f.write("\n%s\n" % self.get_links())
-            f.write("\n%s\n" % self.get_string_attr("abstract"))
+            try:
+                f.write("\n%s\n" % self.get_string_attr("abstract"))
+            except AttributeError:
+                print("%s is missing abstract" % self.label)
             return f.getvalue()
     def parse_field_dict(self, field_dict):
         """ Parse a dictionary of fields associated with an entry """
@@ -189,24 +195,42 @@ class Article(Record):
             f.write("%s. " % self.get_string_attr("title"))
             tokens = []
             for attr in ["journal", "volume", "pages", "year"]:
-                tokens.append(self.get_string_attr(attr))
+                try:
+                    tokens.append(self.get_string_attr(attr))
+                except AttributeError:
+                    print("%s is missing %s" % (self.label, attr))
             f.write("%s. " % ", ".join(tokens))
             return f.getvalue()
 class InCollection(Record):
     """ BibTeX collection """
     def __str__(self):
         return "%s" % self.__dict__
-
+    def get_short_citation(self):
+        with StringIO() as f:
+            f.write("%s. " % self.get_short_authors())
+            f.write("%s. " % self.get_string_attr("title"))
+            f.write("In %s, %s, %s." % (self.get_string_attr("booktitle"), self.pages, self.year))
+            return f.getvalue()
 class Report(Record):
     """ BibTeX report """
     def __str__(self):
         return "%s" % self.__dict__
-
+    def get_short_citation(self):
+        with StringIO() as f:
+            f.write("%s. " % self.get_short_authors())
+            f.write("%s. " % self.get_string_attr("title"))
+            f.write("%s, %s, %s." % (self.get_string_attr("type"), self.get_string_attr("organization"), self.year))
+            return f.getvalue()
 class InProceedings(Record):
     """ BibTeX proceedings """
     def __str__(self):
         return "%s" % self.__dict__
-
+    def get_short_citation(self):
+        with StringIO() as f:
+            f.write("%s. " % self.get_short_authors())
+            f.write("%s. " % self.get_string_attr("title"))
+            f.write("In %s, %s, %s." % (self.get_string_attr("booktitle"), self.pages, self.year))
+            return f.getvalue()
 def test_record_types(record_types):
     """ Takes record type set as input and raises error if it is invalid """
     unknown_records = record_types - KNOWN_RECORD_TYPES
