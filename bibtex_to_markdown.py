@@ -9,8 +9,6 @@ BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
 KNOWN_RECORD_TYPES = {'inproceedings', 'article', 'report', 'incollection'}
 IGNORE_KEYWORDS = {"impact", "fullonly", "fullmath", "longmath"}
-print("CHECK FOR EMPTY DOI OR URL")
-print("ADD AUTHORS TO TAGS AS WELL AS KEYWORDS")
 
 def tokens_to_dict(token_list):
     """ Create a dictionary of fields """
