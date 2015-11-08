@@ -1,6 +1,6 @@
 .PHONY: default github brown cv
 
-all: cv github
+all: cv github brown
 cv:
 	cd cv && make all
 github:

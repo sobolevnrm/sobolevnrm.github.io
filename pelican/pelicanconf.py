@@ -37,6 +37,7 @@ TYPOGRIFY = True
 
 ARTICLE_URL = 'publications/{slug}.html'
 ARTICLE_SAVE_AS = 'publications/{slug}.html'
+STATIC_PATHS = ["images"]
 
 # Blogroll
 LINKS = (('Google Scholar', 'https://scholar.google.com/citations?user=L9dwKyUAAAAJ&hl=en'),
