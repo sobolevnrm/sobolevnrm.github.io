@@ -8,7 +8,7 @@ from pyparsing import nestedExpr
 BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
 KNOWN_RECORD_TYPES = {'inproceedings', 'article', 'report', 'incollection'}
-IGNORE_KEYWORDS = {"impact", "fullonly", "fullmath"}
+IGNORE_KEYWORDS = {"impact", "fullonly", "fullmath", "longmath"}
 print("CHECK FOR EMPTY DOI OR URL")
 print("ADD AUTHORS TO TAGS AS WELL AS KEYWORDS")
 
@@ -57,19 +57,17 @@ class Record:
     def get_links(self):
         """ Return links as string """
         link_strings = []
+        for attr in ["url", "pmid", "doi"]:
+            try:
+                value = getattr(self, attr)
+                link_strings.append("* %s: [%s](%s)" % (attr, value, value))
+            except AttributeError:
+                pass
         try:
-            link_strings.append("[%s](%s)" % (self.url, self.url))
+            link_strings.append("* [pdf](http://sobolevnrm.github.io/papers/%s)" % self.pdf)
         except AttributeError:
             pass
-        try:
-            link_strings.append("PMID:[%s](http://www.ncbi.nlm.nih.gov/pubmed/%s)" % (self.pmid, self.pmid))
-        except AttributeError:
-            pass
-        try:
-            link_strings.append("DOI:[%s](http://dx.doi.org/%s)" % (self.doi, self.doi))
-        except AttributeError:
-            pass
-        return ". ".join(link_strings)
+        return "\n".join(link_strings)
     def get_string_attr(self, attrname):
         lines = getattr(self, attrname).splitlines()
         return " ".join(lines)
@@ -160,6 +158,7 @@ class Record:
                 while True:
                     try:
                         token = value.pop(0)
+                        token = token.strip(",")
                     except IndexError:
                         self.authors.append(tokens)
                         break

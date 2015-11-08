@@ -26,7 +26,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 PLUGIN_PATHS = ["plugins"]
@@ -34,6 +33,10 @@ PLUGINS = ["tag_cloud"]
 TAG_CLOUD_SORTING = "size"
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 GOOGLE_ANALYTICS = "UA-11026338-13"
+TYPOGRIFY = True
+
+ARTICLE_URL = 'publications/{slug}.html'
+ARTICLE_SAVE_AS = 'publications/{slug}.html'
 
 # Blogroll
 LINKS = (('Google Scholar', 'https://scholar.google.com/citations?user=L9dwKyUAAAAJ&hl=en'),

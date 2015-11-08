@@ -2,12 +2,15 @@ Title: Structural phylogeny by profile extraction and multiple superimposition u
 Date: 2013-01-01
 Category: Publications
 Slug: chakraborty2013structural
-Tags: software, electrostatics, informatics
-Authors: Chakraborty,, Rao,, Baker,, Asgeirsson,
-Summary: Chakraborty, S, Rao, BJ, Baker, N, Asgeirsson, B. Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator. Intrinsically Disordered Proteins, 1, e25463, 2013. 
+Tags: informatics, electrostatics, software
+Authors: Chakraborty, Rao, Baker, Asgeirsson
+Summary: Chakraborty S, Rao BJ, Baker N, Asgeirsson B. Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator. Intrinsically Disordered Proteins, 1, e25463, 2013. 
 
-Chakraborty, S, Rao, BJ, Baker, N, Asgeirsson, B. Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator. Intrinsically Disordered Proteins, 1, e25463, 2013. 
+Chakraborty S, Rao BJ, Baker N, Asgeirsson B. Structural phylogeny by profile extraction and multiple superimposition using electrostatic congruence as a discriminator. Intrinsically Disordered Proteins, 1, e25463, 2013. 
 
-[http://dx.doi.org/10.4161/idp.25463](http://dx.doi.org/10.4161/idp.25463). PMID:[25364645](http://www.ncbi.nlm.nih.gov/pubmed/25364645). DOI:[10.4161/idp.25463](http://dx.doi.org/10.4161/idp.25463)
+* url: [http://dx.doi.org/10.4161/idp.25463](http://dx.doi.org/10.4161/idp.25463)
+* pmid: [25364645](25364645)
+* doi: [10.4161/idp.25463](10.4161/idp.25463)
+* [pdf](http://sobolevnrm.github.io/papers/chakraborty2013structural.pdf)
 
 Phylogenetic analysis of proteins using multiple sequence alignment (MSA) assumes an underlying evolutionary relationship in these proteins which occasionally remains undetected due to considerable sequence divergence. Structural alignment programs have been developed to unravel such fuzzy relationships. However, none of these structure based methods have used electrostatic properties to discriminate between spatially equivalent residues. We present a methodology for MSA of a set of related proteins with known structures using electrostatic properties as an additional discriminator (STEEP). STEEP first extracts a profile, then generates a multiple structural superimposition providing a consolidated spatial framework for comparing residues and finally emits the MSA. Residues that are aligned differently by including or excluding electrostatic properties can be targeted by directed evolution experiments to transform the enzymatic properties of one protein into another. We have compared STEEP results to those obtained from a MSA program (ClustalW) and a structural alignment method (MUSTANG) for chymotrypsin serine proteases. Subsequently, we used PhyML to generate phylogenetic trees for the serine and metallo-β-lactamase superfamilies from the STEEP generated MSA, and corroborated the accepted relationships in these superfamilies. We have observed that STEEP acts as a functional classifier when electrostatic congruence is used as a discriminator, and thus identifies potential targets for directed evolution experiments. In summary, STEEP is unique among phylogenetic methods for its ability to use electrostatic congruence to specify mutations that might be the source of the functional divergence in a protein family. Based on our results, we also hypothesize that the active site and its close vicinity contains enough information to infer the correct phylogeny for related proteins.

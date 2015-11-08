@@ -2,12 +2,15 @@ Title: Comparative hazard analysis and toxicological modeling of diverse nanomat
 Date: 2015-01-01
 Category: Publications
 Slug: harper2015comparative
-Tags: toxicity, nanotechnology, informatics
-Authors: Harper,, Thomas,, Chikkagoudar,, Baker,, Tang,, Heredia-Langner,, Lins,, Harper,
-Summary: Harper, B, Thomas, D, Chikkagoudar, S, Baker, N, Tang, K, Heredia-Langner, A, Lins, R, Harper, S. Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ( EZ ) metric of toxicity. Journal of Nanoparticle Research, 17, 1-12, 2015. 
+Tags: toxicity, informatics, nanotechnology
+Authors: Harper, Thomas, Chikkagoudar, Baker, Tang, Heredia-Langner, Lins, Harper
+Summary: Harper B, Thomas D, Chikkagoudar S, Baker N, Tang K, Heredia-Langner A, Lins R, Harper S. Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ( EZ ) metric of toxicity. Journal of Nanoparticle Research, 17, 1-12, 2015. 
 
-Harper, B, Thomas, D, Chikkagoudar, S, Baker, N, Tang, K, Heredia-Langner, A, Lins, R, Harper, S. Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ( EZ ) metric of toxicity. Journal of Nanoparticle Research, 17, 1-12, 2015. 
+Harper B, Thomas D, Chikkagoudar S, Baker N, Tang K, Heredia-Langner A, Lins R, Harper S. Comparative hazard analysis and toxicological modeling of diverse nanomaterials using the embryonic zebrafish ( EZ ) metric of toxicity. Journal of Nanoparticle Research, 17, 1-12, 2015. 
 
-[http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4454819&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4454819&tool=pmcentrez&rendertype=abstract). PMID:[26069453](http://www.ncbi.nlm.nih.gov/pubmed/26069453). DOI:[10.1007/s11051-015-3051-0](http://dx.doi.org/10.1007/s11051-015-3051-0)
+* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4454819&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4454819&tool=pmcentrez&rendertype=abstract)
+* pmid: [26069453](26069453)
+* doi: [10.1007/s11051-015-3051-0](10.1007/s11051-015-3051-0)
+* [pdf](http://sobolevnrm.github.io/papers/harper2015comparative.pdf)
 
 The integration of rapid assays, large datasets, informatics, and modeling can overcome current barriers in understanding nanomaterial structure-toxicity relationships by providing a weight-of-the-evidence mechanism to generate hazard rankings for nanomaterials. Here, we present the use of a rapid, low-cost assay to perform screening-level toxicity evaluations of nanomaterials in vivo. Calculated EZ Metric scores, a combined measure of morbidity and mortality in developing embryonic zebrafish, were established at realistic exposure levels and used to develop a hazard ranking of diverse nanomaterial toxicity. Hazard ranking and clustering analysis of 68 diverse nanomaterials revealed distinct patterns of toxicity related to both the core composition and outermost surface chemistry of nanomaterials. The resulting clusters guided the development of a surface chemistry-based model of gold nanoparticle toxicity. Our findings suggest that risk assessments based on the size and core composition of nanomaterials alone may be wholly inappropriate, especially when considering complex engineered nanomaterials. Research should continue to focus on methodologies for determining nanomaterial hazard based on multiple sub-lethal responses following realistic, low-dose exposures, thus increasing the availability of quantitative measures of nanomaterial hazard to support the development of nanoparticle structure-activity relationships.

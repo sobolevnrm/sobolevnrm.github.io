@@ -2,12 +2,15 @@ Title: Interaction of melittin peptides with perfluorocarbon nanoemulsion partic
 Date: 2011-01-01
 Category: Publications
 Slug: lee2011interaction
-Tags: nanotechnology, molecular_dynamics, biomembranes, emulsions, perfluorocarbons
-Authors: Lee,, Schlesinger,, Wickline,, Lanza,, Baker,
-Summary: Lee, S, Schlesinger, PH, Wickline, SA, Lanza, GM, Baker, NA. Interaction of melittin peptides with perfluorocarbon nanoemulsion particles. The Journal of Physical Chemistry B, 115, 15271-15279, 2011. 
+Tags: molecular_dynamics, emulsions, nanotechnology, biomembranes, perfluorocarbons
+Authors: Lee, Schlesinger, Wickline, Lanza, Baker
+Summary: Lee S, Schlesinger PH, Wickline SA, Lanza GM, Baker NA. Interaction of melittin peptides with perfluorocarbon nanoemulsion particles. The Journal of Physical Chemistry B, 115, 15271-15279, 2011. 
 
-Lee, S, Schlesinger, PH, Wickline, SA, Lanza, GM, Baker, NA. Interaction of melittin peptides with perfluorocarbon nanoemulsion particles. The Journal of Physical Chemistry B, 115, 15271-15279, 2011. 
+Lee S, Schlesinger PH, Wickline SA, Lanza GM, Baker NA. Interaction of melittin peptides with perfluorocarbon nanoemulsion particles. The Journal of Physical Chemistry B, 115, 15271-15279, 2011. 
 
-[http://dx.doi.org/10.1021/jp209543c](http://dx.doi.org/10.1021/jp209543c). PMID:[22050303](http://www.ncbi.nlm.nih.gov/pubmed/22050303). DOI:[10.1021/jp209543c](http://dx.doi.org/10.1021/jp209543c)
+* url: [http://dx.doi.org/10.1021/jp209543c](http://dx.doi.org/10.1021/jp209543c)
+* pmid: [22050303](22050303)
+* doi: [10.1021/jp209543c](10.1021/jp209543c)
+* [pdf](http://sobolevnrm.github.io/papers/lee2011interaction.pdf)
 
 Melittin, an antimicrobial peptide, forms pores in biological membranes and triggers cell death. Therefore, it has potential as an anticancer therapy. However, until recently, the therapeutic application of melittin has been impractical because a suitable platform for delivery was not available. Recently, we showed that phospholipid-stabilized perfluorooctyl bromide based nanoemulsion particles (PFOB-NEPs) were resistant to destruction by melittin and enabled specific delivery of melittin to tumor cells, killing them and reducing tumor growth. Earlier, prior work also showed that melittin adsorbed onto the stabilizing phospholipid monolayer of PFOB-NEP but did not disrupt the phospholipid monolayer or produce "cracking" of the PFOB-NEPs. The present work identifies the important structural motifs for melittin binding to PFOB-NEPs through a series of atomistic molecular dynamics simulations. The conformational ensemble of melittin bound to PFOB-NEP lipid monolayer was compared to structure from a control simulation of melittin bound to a lipid bilayer to identify several differences in melittin-lipid interactions between the two systems. First, melittin was deeply buried in the hydrophobic tail region of bilayer, while its depth was attenuated in the PFOB-NEP monolayer. Second, a helical conformation was the major secondary structure in the bilayer, but the fraction of helix was reduced in the PFOB-NEP. Finally, the overall pattern for the direct interaction of melittin with surrounding lipids was similar between liposome and PFOB-NEP, but the level of interaction was slightly decreased in the PFOB-NEP. These results suggest that melittin interacts with the monolayer of PFOB-NEP in a way that is similar way to its interaction with bilayers but that deeper penetration into the hydrophobic interior is inhibited.

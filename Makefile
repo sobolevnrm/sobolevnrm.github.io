@@ -1,5 +1,8 @@
-.PHONY: default github brown
+.PHONY: default github brown cv
 
+all: cv github
+cv:
+	cd cv && make all
 github:
 	cd pelican && pelican content -o .. -s pelicanconf.py
 	git status
