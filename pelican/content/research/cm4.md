@@ -2,7 +2,7 @@ Title: Collaboratory on Mathematics for Mesoscopic Modeling of Materials (CM4)
 Date: 2012-08-01 09:01
 Modified: 2017-07-30 09:01
 Category: Research
-Tags: materials, mathematics, multiscale, uq, current_research
+Tags: materials, mathematics, multiscale, uncertainty_quantification, current_research
 Authors: Nathan Baker
 Summary: CM4 focuses on developing rigorous mathematical foundations for understanding and controlling fundamental mechanisms in mesoscale processes to enable scalable synthesis of complex materials, through the design of efficient modeling methods and corresponding scalable algorithms.
 
