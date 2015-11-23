@@ -1,14 +1,14 @@
 Title: Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity
-Date: 2006-01-01
+Date: 2006-12-28
 Category: Publications
 Slug: zhang2006application
-Tags: multiscale, electrostatics, topology, geometry, informatics, software
+Tags: informatics, geometry, multiscale, software, electrostatics, topology
 Authors: Zhang, Bajaj, Kwon, Dolinsky, Nielsen, Baker
 Summary: Zhang X, Bajaj CL, Kwon B, Dolinsky TJ, Nielsen JE, Baker NA. Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity. Multiscale Modeling \& Simulation, 5, 1196, 2006. 
 
 Zhang X, Bajaj CL, Kwon B, Dolinsky TJ, Nielsen JE, Baker NA. Application of new multi-resolution methods for the comparison of biomolecular electrostatic properties in the absence of global structural similarity. Multiscale Modeling \& Simulation, 5, 1196, 2006. 
 
-* url: [http://dx.doi.org/10.1137/050647670](http://dx.doi.org/10.1137/050647670)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2561295/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2561295/)
 * doi: [10.1137/050647670](10.1137/050647670)
 * [pdf](http://sobolevnrm.github.io/papers/zhang2006application.pdf)
 

@@ -2,13 +2,13 @@ Title: Computational methods for biomolecular electrostatics
 Date: 2008-01-01
 Category: Publications
 Slug: dong2008computational
-Tags: review, solvation, electrostatics
+Tags: solvation, electrostatics, review
 Authors: Dong, Olsen, Baker
 Summary: Dong F, Olsen B, Baker NA. Computational methods for biomolecular electrostatics. Methods in Cell Biology, 84, 843-870, 2008. 
 
 Dong F, Olsen B, Baker NA. Computational methods for biomolecular electrostatics. Methods in Cell Biology, 84, 843-870, 2008. 
 
-* url: [http://www.sciencedirect.com/science/article/pii/S0091679X0784026X](http://www.sciencedirect.com/science/article/pii/S0091679X0784026X)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2423940/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2423940/)
 * pmid: [17964951](17964951)
 * doi: [10.1016/S0091-679X(07)84026-X](10.1016/S0091-679X(07)84026-X)
 * [pdf](http://sobolevnrm.github.io/papers/dong2008computational.pdf)

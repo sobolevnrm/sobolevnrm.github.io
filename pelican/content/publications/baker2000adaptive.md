@@ -1,14 +1,14 @@
 Title: Adaptive multilevel finite element solution of the Poisson-Boltzmann equation II. Refinement at solvent-accessible surfaces in biomolecular systems
-Date: 2000-01-01
+Date: 2000-10-03
 Category: Publications
 Slug: baker2000adaptive
-Tags: solvation, finite_elements, electrostatics, software
+Tags: solvation, electrostatics, finite_elements, software
 Authors: Baker, Holst, Wang
 Summary: Baker N, Holst M, Wang F. Adaptive multilevel finite element solution of the Poisson-Boltzmann equation II. Refinement at solvent-accessible surfaces in biomolecular systems. Journal of Computational Chemistry, 21, 1343-1352, 2000. 
 
 Baker N, Holst M, Wang F. Adaptive multilevel finite element solution of the Poisson-Boltzmann equation II. Refinement at solvent-accessible surfaces in biomolecular systems. Journal of Computational Chemistry, 21, 1343-1352, 2000. 
 
-* url: [http://doi.wiley.com/10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K](http://doi.wiley.com/10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K)
+* url: [http://dx.doi.org/10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K](http://dx.doi.org/10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K)
 * doi: [10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K](10.1002/1096-987X(20001130)21:15<1343::AID-JCC2>3.0.CO;2-K)
 * [pdf](http://sobolevnrm.github.io/papers/baker2000adaptive.pdf)
 

@@ -2,7 +2,7 @@ Title: Ontologies for cancer nanotechnology research
 Date: 2009-01-01
 Category: Publications
 Slug: thomas2009ontologies
-Tags: informatics, nanotechnology, ontology
+Tags: ontology, informatics, nanotechnology
 Authors: Thomas, Pappu, Baker, others
 Summary: Thomas DG, Pappu RV, Baker N, others . Ontologies for cancer nanotechnology research. In Engineering in Medicine and Biology Society, 2009. EMBC 2009. Annual International Conference of the IEEE, 4158-4161, 2009.
 

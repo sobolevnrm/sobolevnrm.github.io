@@ -1,14 +1,14 @@
 Title: A multiscale model linking ion-channel molecular dynamics and electrostatics to the cardiac action potential
-Date: 2009-01-01
+Date: 2009-07-07
 Category: Publications
 Slug: silva2009multiscale
-Tags: ion_channels, molecular_dynamics, multiscale, electrostatics
+Tags: ion_channels, molecular_dynamics, electrostatics, multiscale
 Authors: Silva, Pan, Wu, Nekouzadeh, Decker, Cui, Baker, Sept, Rudy
 Summary: Silva JR, Pan H, Wu D, Nekouzadeh A, Decker KF, Cui J, Baker NA, Sept D, Rudy Y. A multiscale model linking ion-channel molecular dynamics and electrostatics to the cardiac action potential. Proceedings of the National Academy of Sciences, 106, 11102-11106, 2009. 
 
 Silva JR, Pan H, Wu D, Nekouzadeh A, Decker KF, Cui J, Baker NA, Sept D, Rudy Y. A multiscale model linking ion-channel molecular dynamics and electrostatics to the cardiac action potential. Proceedings of the National Academy of Sciences, 106, 11102-11106, 2009. 
 
-* url: [http://www.pnas.org/content/106/27/11102.short](http://www.pnas.org/content/106/27/11102.short)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700153/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2700153/)
 * pmid: [19549851](19549851)
 * doi: [10.1073/pnas.0904505106](10.1073/pnas.0904505106)
 * [pdf](http://sobolevnrm.github.io/papers/silva2009multiscale.pdf)

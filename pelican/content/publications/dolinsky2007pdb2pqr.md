@@ -1,14 +1,14 @@
 Title: PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations
-Date: 2007-01-01
+Date: 2007-07-01
 Category: Publications
 Slug: dolinsky2007pdb2pqr
-Tags: solvation, titration, electrostatics, software
+Tags: solvation, electrostatics, titration, software
 Authors: Dolinsky, Czodrowski, Li, Nielsen, Jensen, Klebe, Baker
 Summary: Dolinsky TJ, Czodrowski P, Li H, Nielsen JE, Jensen JH, Klebe G, Baker NA. PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Research, 35, W522-W525, 2007. 
 
 Dolinsky TJ, Czodrowski P, Li H, Nielsen JE, Jensen JH, Klebe G, Baker NA. PDB2PQR: expanding and upgrading automated preparation of biomolecular structures for molecular simulations. Nucleic Acids Research, 35, W522-W525, 2007. 
 
-* url: [http://www.ncbi.nlm.nih.gov/pubmed/17488841](http://www.ncbi.nlm.nih.gov/pubmed/17488841)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1933214/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1933214/)
 * pmid: [17488841](17488841)
 * doi: [10.1093/nar/gkm276](10.1093/nar/gkm276)
 * [pdf](http://sobolevnrm.github.io/papers/dolinsky2007pdb2pqr.pdf)

@@ -1,14 +1,14 @@
 Title: Differential geometry based solvation model I : Eulerian formulation
-Date: 2010-01-01
+Date: 2010-11-01
 Category: Publications
 Slug: chen2010differential
-Tags: geometric_flow, solvation, nonpolar, electrostatics, software
+Tags: geometric_flow, solvation, electrostatics, nonpolar, software
 Authors: Chen, Baker, Wei
 Summary: Chen Z, Baker NA, Wei G. Differential geometry based solvation model I : Eulerian formulation. Journal of Computational Physics, 229, 8231-8258, 2010. 
 
 Chen Z, Baker NA, Wei G. Differential geometry based solvation model I : Eulerian formulation. Journal of Computational Physics, 229, 8231-8258, 2010. 
 
-* url: [http://www.sciencedirect.com/science/article/pii/S0021999110003517](http://www.sciencedirect.com/science/article/pii/S0021999110003517)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2951687/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2951687/)
 * pmid: [20938489](20938489)
 * doi: [10.1016/j.jcp.2010.06.036](10.1016/j.jcp.2010.06.036)
 * [pdf](http://sobolevnrm.github.io/papers/chen2010differential.pdf)

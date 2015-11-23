@@ -1,14 +1,14 @@
 Title: Side-Chain Oxysterols Modulate Cholesterol Accessibility through Membrane Remodeling
-Date: 2014-01-01
+Date: 2014-05-13
 Category: Publications
 Slug: bielska2014side
-Tags: cholesterol, molecular_dynamics, sterols, oxysterols, biomembranes
+Tags: molecular_dynamics, oxysterols, biomembranes, cholesterol, sterols
 Authors: Bielska, Olsen, Gale, Mydock-McGrane, Krishnan, Baker, Schlesinger, Covey, Ory
 Summary: Bielska AA, Olsen BN, Gale SE, Mydock-McGrane L, Krishnan K, Baker NA, Schlesinger PH, Covey DF, Ory DS. Side-Chain Oxysterols Modulate Cholesterol Accessibility through Membrane Remodeling. Biochemistry, 53, 3042-3051, 2014. 
 
 Bielska AA, Olsen BN, Gale SE, Mydock-McGrane L, Krishnan K, Baker NA, Schlesinger PH, Covey DF, Ory DS. Side-Chain Oxysterols Modulate Cholesterol Accessibility through Membrane Remodeling. Biochemistry, 53, 3042-3051, 2014. 
 
-* url: [http://dx.doi.org/10.1021/bi5000096](http://dx.doi.org/10.1021/bi5000096)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4020583/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4020583/)
 * pmid: [24758724](24758724)
 * doi: [10.1021/bi5000096](10.1021/bi5000096)
 * [pdf](http://sobolevnrm.github.io/papers/bielska2014side.pdf)

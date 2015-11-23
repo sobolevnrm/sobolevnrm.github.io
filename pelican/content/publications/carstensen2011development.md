@@ -1,14 +1,14 @@
-Title: On the development of protein p$K_a$ calculation algorithms
-Date: 2011-01-01
+Title: On the development of protein pKa calculation algorithms
+Date: 2011-12-01
 Category: Publications
 Slug: carstensen2011development
-Tags: review, titration, electrostatics
+Tags: electrostatics, titration, review
 Authors: Carstensen, Farrell, Huang, Baker, Nielsen
-Summary: Carstensen T, Farrell D, Huang Y, Baker NA, Nielsen JE. On the development of protein p$K_a$ calculation algorithms. Proteins: Structure, Function, and Bioinformatics, 79, 3287-3298, 2011. 
+Summary: Carstensen T, Farrell D, Huang Y, Baker NA, Nielsen JE. On the development of protein pKa calculation algorithms. Proteins: Structure, Function, and Bioinformatics, 79, 3287-3298, 2011. 
 
-Carstensen T, Farrell D, Huang Y, Baker NA, Nielsen JE. On the development of protein p$K_a$ calculation algorithms. Proteins: Structure, Function, and Bioinformatics, 79, 3287-3298, 2011. 
+Carstensen T, Farrell D, Huang Y, Baker NA, Nielsen JE. On the development of protein pKa calculation algorithms. Proteins: Structure, Function, and Bioinformatics, 79, 3287-3298, 2011. 
 
-* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3193850&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3193850&tool=pmcentrez&rendertype=abstract)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3193850/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3193850/)
 * pmid: [21744393](21744393)
 * doi: [10.1002/prot.23091](10.1002/prot.23091)
 * [pdf](http://sobolevnrm.github.io/papers/carstensen2011development.pdf)

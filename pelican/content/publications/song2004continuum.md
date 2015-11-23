@@ -1,14 +1,14 @@
 Title: Continuum diffusion reaction rate calculations of wild-type and mutant mouse acetylcholinesterase: adaptive finite element analysis
-Date: 2004-01-01
+Date: 2004-09-01
 Category: Publications
 Slug: song2004continuum
-Tags: finite_elements, diffusion, acetylcholinesterase
+Tags: finite_elements, acetylcholinesterase, diffusion
 Authors: Song, Zhang, Bajaj, Baker
 Summary: Song Y, Zhang Y, Bajaj CL, Baker NA. Continuum diffusion reaction rate calculations of wild-type and mutant mouse acetylcholinesterase: adaptive finite element analysis. Biophysical Journal, 87, 1558-1566, 2004. 
 
 Song Y, Zhang Y, Bajaj CL, Baker NA. Continuum diffusion reaction rate calculations of wild-type and mutant mouse acetylcholinesterase: adaptive finite element analysis. Biophysical Journal, 87, 1558-1566, 2004. 
 
-* url: [http://www.sciencedirect.com/science/article/pii/S0006349504736383](http://www.sciencedirect.com/science/article/pii/S0006349504736383)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1304562/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1304562/)
 * pmid: [15345536](15345536)
 * doi: [10.1529/biophysj.104.041517](10.1529/biophysj.104.041517)
 * [pdf](http://sobolevnrm.github.io/papers/song2004continuum.pdf)

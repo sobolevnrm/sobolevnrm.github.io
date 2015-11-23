@@ -1,5 +1,5 @@
 Title: Molecular recognition by cholesterol esterase of active site ligands: structure-reactivity effects for inhibition by aryl carbamates and subsequent carbamylenzyme turnover
-Date: 1996-01-01
+Date: 1996-12-24
 Category: Publications
 Slug: feaster1996molecular
 Tags: cholesterol

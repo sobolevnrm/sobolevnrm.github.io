@@ -1,14 +1,20 @@
 """ This generates a series of Markdown files (for use with Pelican) from a single specialized
 BibTeX file with custom fields. """
 
+# TODO - increase robustness of this script; e.g., to spaces around equals signs
+
 import re
 from io import StringIO
 from pyparsing import nestedExpr
+import logging
 
 BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
 KNOWN_RECORD_TYPES = {'inproceedings', 'article', 'report', 'incollection'}
 IGNORE_KEYWORDS = {"impact", "fullonly", "fullmath", "longmath"}
+
+_LOGGER = logging.getLogger("b2m")
+logging.basicConfig(level=logging.INFO)
 
 def tokens_to_dict(token_list):
     """ Create a dictionary of fields """
@@ -16,8 +22,10 @@ def tokens_to_dict(token_list):
     field_name = None
     field_values = []
     for token in token_list:
+        _LOGGER.debug("Parsing token: %s", token)
         try:
             token = token.strip()
+            # TODO - the next line appears to be the source of the equals signs parsing problems
             if token[-1] == "=":
                 if field_name:
                     entries[field_name] = field_values
@@ -71,7 +79,7 @@ class Record:
         return " ".join(lines)
     def get_short_citation(self):
         """ Return a short citation string """
-        print(self.__dict__)
+        _LOGGER.info(self.__dict__)
         raise NotImplementedError()
     def get_date(self, default_month="01", default_day="01"):
         """ Return date as string, filling in with default values as needed """
@@ -79,12 +87,12 @@ class Record:
         try:
             date_values.append(self.month)
         except AttributeError:
-            print("%s is missing month" % self.label)
+            _LOGGER.error("%s is missing month" % self.label)
             date_values.append(default_month)
         try:
             date_values.append(self.day)
         except AttributeError:
-            print("%s is missing day" % self.label)
+            _LOGGER.error("%s is missing day" % self.label)
             date_values.append(default_day)
         return "-".join(date_values)
     def get_keywords(self, ignore_keywords=IGNORE_KEYWORDS):
@@ -122,7 +130,7 @@ class Record:
             try:
                 f.write("\n%s\n" % self.get_string_attr("abstract"))
             except AttributeError:
-                print("%s is missing abstract" % self.label)
+                _LOGGER.error("%s is missing abstract" % self.label)
             return f.getvalue()
     def parse_field_dict(self, field_dict):
         """ Parse a dictionary of fields associated with an entry """
@@ -202,7 +210,7 @@ class Article(Record):
                 try:
                     tokens.append(self.get_string_attr(attr))
                 except AttributeError:
-                    print("%s is missing %s" % (self.label, attr))
+                    _LOGGER.error("%s is missing %s" % (self.label, attr))
             f.write("%s. " % ", ".join(tokens))
             return f.getvalue()
 class InCollection(Record):
@@ -253,7 +261,7 @@ def parse_record(record_string):
     nested_ex = nestedExpr("{", "}")
     token_list = nested_ex.parseString(record_string)[0]
     label = token_list.pop(0).strip(",")
-    print("Parsing %s..." % label)
+    _LOGGER.info("Parsing %s..." % label)
     if record_type == "article":
         return Article(label, token_list)
     elif record_type == "report":
@@ -288,7 +296,7 @@ def main():
     with open(BIBTEX_FILE_PATH, "rt") as bibfile:
         records = parse_bibtex(bibfile)
     for record in records:
-        print("Writing %s..." % record.label)
+        _LOGGER.info("Writing %s..." % record.label)
         record_path = "%s/%s.md" % (MARKDOWN_DIR_PATH, record.label)
         with open(record_path, "wt") as recfile:
             recfile.write(record.markdown())

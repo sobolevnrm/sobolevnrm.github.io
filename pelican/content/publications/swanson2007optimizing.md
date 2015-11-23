@@ -1,5 +1,5 @@
 Title: Optimizing the Poisson dielectric boundary with explicit solvent forces and energies: lessons learned with atom-centered dielectric functions
-Date: 2007-01-01
+Date: 2007-01-09
 Category: Publications
 Slug: swanson2007optimizing
 Tags: molecular_dynamics, electrostatics

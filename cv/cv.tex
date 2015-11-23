@@ -40,7 +40,7 @@
 \newif\ifmanuscriptreviews
 \newif\ifgrantreviews
 
-\longtrue
+\longfalse
 \iflong
 	\mentoringtrue
 	\communitytrue
@@ -141,6 +141,7 @@ Current projects include new computational methods for modeling solvation in bio
 
 \subsection{Selected intramural service}
 
+\iflong \cventry{2015}{Panelist}{Council of Fellows ``Increasing Scientific Impact'' session}{Pacific Northwest National Laboratory}{}{} \fi
 \iflong \cventry{2015--present}{Member}{Interdisciplinary Applied Sciences Planning Committee}{Washington State University Tri-Cities and Pacific Northwest National Laboratory}{}{} \fi
 \iflong \cventry{2015--present}{Advisory committee member}{Microbes in Transition Initiative Advisory Committee}{Pacific Northwest National Laboratory}{}{} \fi
 \cventry{2014--present}{Chair}{PNNL Institutional Computing Steering Committee}{Pacific Northwest National Laboratory}{}{}
@@ -348,11 +349,9 @@ DOE ASCR INCITE
 	\nocite{*}
 \end{refsection}
 
+\printbibliography[title={Selected publications},section=1]
 \iflong
-	\printbibliography[title={Selected publications},section=1]
 	\printbibliography[title={Selected presentations},section=2]
-\else
-	\printbibliography[title={Selected publications},keyword={brown},section=1]
 \fi
 
 \end{document}

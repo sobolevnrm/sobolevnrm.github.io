@@ -1,5 +1,5 @@
 Title: Solvation forces on biomolecular structures: a comparison of explicit solvent and Poisson-Boltzmann models
-Date: 2004-01-01
+Date: 2004-10-01
 Category: Publications
 Slug: wagoner2004solvation
 Tags: solvation, molecular_dynamics, electrostatics

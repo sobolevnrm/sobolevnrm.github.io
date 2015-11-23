@@ -1,5 +1,5 @@
 Title: Dynamical properties of fasciculin-2
-Date: 1999-01-01
+Date: 1999-09-01
 Category: Publications
 Slug: baker1999dynamical
 Tags: molecular_dynamics, acetylcholinesterase

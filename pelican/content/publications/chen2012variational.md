@@ -1,5 +1,5 @@
 Title: Variational approach for nonpolar solvation analysis
-Date: 2012-01-01
+Date: 2012-03-30
 Category: Publications
 Slug: chen2012variational
 Tags: geometric_flow, solvation, nonpolar
@@ -8,7 +8,7 @@ Summary: Chen Z, Zhao S, Chun J, Thomas DG, Baker NA, Bates PW, Wei G. Variation
 
 Chen Z, Zhao S, Chun J, Thomas DG, Baker NA, Bates PW, Wei G. Variational approach for nonpolar solvation analysis. The Journal of Chemical Physics, 137, 084101, 2012. 
 
-* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3578971&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3578971&tool=pmcentrez&rendertype=abstract)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3578971/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3578971/)
 * pmid: [23212974](23212974)
 * doi: [10.1002/jcc.23181](10.1002/jcc.23181)
 * [pdf](http://sobolevnrm.github.io/papers/chen2012variational.pdf)

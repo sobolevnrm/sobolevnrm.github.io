@@ -1,5 +1,5 @@
 Title: iAPBS : a programming interface to the adaptive Poisson--Boltzmann solver
-Date: 2012-01-01
+Date: 2012-07-26
 Category: Publications
 Slug: konecny2012iapbs
 Tags: molecular_dynamics, electrostatics, software
@@ -8,7 +8,7 @@ Summary: Konecny R, Baker NA, McCammon JA. iAPBS : a programming interface to th
 
 Konecny R, Baker NA, McCammon JA. iAPBS : a programming interface to the adaptive Poisson--Boltzmann solver. Computational Science \& Discovery, 5, 015005, 2012. 
 
-* url: [http://stacks.iop.org/1749-4699/5/i=1/a=015005](http://stacks.iop.org/1749-4699/5/i=1/a=015005)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419494/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419494/)
 * pmid: [22905037](22905037)
 * doi: [10.1088/1749-4699/5/1/015005](10.1088/1749-4699/5/1/015005)
 * [pdf](http://sobolevnrm.github.io/papers/konecny2012iapbs.pdf)

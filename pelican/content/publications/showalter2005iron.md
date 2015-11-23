@@ -1,8 +1,8 @@
 Title: Iron responsive element RNA flexibility described by NMR and isotropic reorientational eigenmode dynamics
-Date: 2005-01-01
+Date: 2005-07-01
 Category: Publications
 Slug: showalter2005iron
-Tags: nucleic_acids, molecular_dynamics, rna
+Tags: molecular_dynamics, nucleic_acids, rna
 Authors: Showalter, Baker, Tang, Hall
 Summary: Showalter SA, Baker NA, Tang C, Hall KB. Iron responsive element RNA flexibility described by NMR and isotropic reorientational eigenmode dynamics. Journal of Biomolecular NMR, 32, 179-193, 2005. 
 

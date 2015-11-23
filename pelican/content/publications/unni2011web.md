@@ -1,5 +1,5 @@
 Title: Web servers and services for electrostatics calculations with APBS and PDB2PQR
-Date: 2011-01-01
+Date: 2011-05-01
 Category: Publications
 Slug: unni2011web
 Tags: solvation, electrostatics, software
@@ -8,7 +8,7 @@ Summary: Unni S, Huang Y, Hanson RM, Tobias M, Krishnan S, Li WW, Nielsen JE, Ba
 
 Unni S, Huang Y, Hanson RM, Tobias M, Krishnan S, Li WW, Nielsen JE, Baker NA. Web servers and services for electrostatics calculations with APBS and PDB2PQR. Journal of Computational Chemistry, 32, 1488-1491, 2011. 
 
-* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3062090&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3062090&tool=pmcentrez&rendertype=abstract)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3062090/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3062090/)
 * pmid: [21425296](21425296)
 * doi: [10.1002/jcc.21720](10.1002/jcc.21720)
 * [pdf](http://sobolevnrm.github.io/papers/unni2011web.pdf)

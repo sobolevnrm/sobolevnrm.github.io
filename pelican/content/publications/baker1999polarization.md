@@ -1,5 +1,5 @@
 Title: Polarization around an ion in a dielectric continuum with truncated electrostatic interactions
-Date: 1999-01-01
+Date: 1999-06-08
 Category: Publications
 Slug: baker1999polarization
 Tags: solvation, electrostatics

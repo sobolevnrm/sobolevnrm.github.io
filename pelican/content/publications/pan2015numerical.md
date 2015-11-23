@@ -1,8 +1,8 @@
 Title: Numerical calculation of protein-ligand binding rates through solution of the Smoluchowski equation using smoothed particle hydrodynamics
-Date: 2015-01-01
+Date: 2015-05-07
 Category: Publications
 Slug: pan2015numerical
-Tags: diffusion, acetylcholinesterase
+Tags: acetylcholinesterase, diffusion
 Authors: Pan, Daily, Baker
 Summary: Pan W, Daily M, Baker NA. Numerical calculation of protein-ligand binding rates through solution of the Smoluchowski equation using smoothed particle hydrodynamics. BMC Biophysics, 8, 7, 2015. 
 

@@ -2,7 +2,7 @@ Title: Mathematics and molecular neurobiology
 Date: 2002-01-01
 Category: Publications
 Slug: baker2002mathematics
-Tags: review, finite_elements, diffusion, electrostatics, acetylcholinesterase
+Tags: electrostatics, acetylcholinesterase, finite_elements, review, diffusion
 Authors: Baker, Tai, Henchman, Sept, Elcock, Holst, McCammon
 Summary: Baker NA, Tai K, Henchman R, Sept D, Elcock A, Holst M, McCammon JA. Mathematics and molecular neurobiology. In Computational Methods for Macromolecules: Challenges and Applications, 31-60, 2002.
 

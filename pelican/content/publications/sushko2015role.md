@@ -2,7 +2,7 @@ Title: The role of correlation and solvation in ion interactions with B-DNA
 Date: 2015-01-01
 Category: Publications
 Slug: sushko2015role
-Tags: nucleic_acids, dna, electrostatics, density_functional
+Tags: dna, density_functional, electrostatics, nucleic_acids
 Authors: Sushko, Thomas, Pabit, Pollack, Onufriev, Baker
 Summary: Sushko ML, Thomas DG, Pabit SA, Pollack L, Onufriev AV, Baker NA. The role of correlation and solvation in ion interactions with B-DNA. arXiv preprint arXiv:1506.07951, 2015. 
 

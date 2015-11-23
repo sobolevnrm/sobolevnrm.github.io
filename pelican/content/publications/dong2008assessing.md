@@ -1,14 +1,14 @@
 Title: Assessing the performance of implicit solvation models at a nucleic acid surface
-Date: 2008-01-01
+Date: 2008-08-28
 Category: Publications
 Slug: dong2008assessing
-Tags: molecular_dynamics, nucleic_acids, electrostatics, rna
+Tags: molecular_dynamics, electrostatics, nucleic_acids, rna
 Authors: Dong, Wagoner, Baker
 Summary: Dong F, Wagoner JA, Baker NA. Assessing the performance of implicit solvation models at a nucleic acid surface. Physical Chemistry Chemical Physics, 10, 4889-4902, 2008. 
 
 Dong F, Wagoner JA, Baker NA. Assessing the performance of implicit solvation models at a nucleic acid surface. Physical Chemistry Chemical Physics, 10, 4889-4902, 2008. 
 
-* url: [http://pubs.rsc.org/en/content/articlehtml/2008/cp/b807384h](http://pubs.rsc.org/en/content/articlehtml/2008/cp/b807384h)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2538626/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2538626/)
 * pmid: [18688533](18688533)
 * doi: [10.1039/b807384h](10.1039/b807384h)
 * [pdf](http://sobolevnrm.github.io/papers/dong2008assessing.pdf)

@@ -2,7 +2,7 @@ Title: Research towards a systematic signature discovery process
 Date: 2013-01-01
 Category: Publications
 Slug: baker2013research
-Tags: review, signatures
+Tags: signatures, review
 Authors: Baker, Barr, Bonheyo, Joslyn, Krishnaswami, Oxley, Quadrel, Sego, Tardiff, Wynne, others
 Summary: Baker N, Barr JL, Bonheyo GT, Joslyn C, Krishnaswami K, Oxley ME, Quadrel R, Sego LH, Tardiff MF, Wynne AS, others . Research towards a systematic signature discovery process. In Intelligence and Security Informatics (ISI), 2013 IEEE International Conference on, 301-308, 2013.
 

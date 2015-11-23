@@ -1,14 +1,14 @@
 Title: Informatics and standards for nanomedicine technology
-Date: 2011-01-01
+Date: 2011-09-01
 Category: Publications
 Slug: thomas2011informatics
-Tags: review, informatics, nanotechnology
+Tags: informatics, review, nanotechnology
 Authors: Thomas, Klaessig, Harper, Fritts, Hoover, Gaheen, Stokes, Reznik-Zellen, Freund, Klemm, others
 Summary: Thomas DG, Klaessig F, Harper SL, Fritts M, Hoover MD, Gaheen S, Stokes TH, Reznik-Zellen R, Freund ET, Klemm JD, others . Informatics and standards for nanomedicine technology. Wiley Interdisciplinary Reviews: Nanomedicine and Nanobiotechnology, 3, 511-532, 2011. 
 
 Thomas DG, Klaessig F, Harper SL, Fritts M, Hoover MD, Gaheen S, Stokes TH, Reznik-Zellen R, Freund ET, Klemm JD, others . Informatics and standards for nanomedicine technology. Wiley Interdisciplinary Reviews: Nanomedicine and Nanobiotechnology, 3, 511-532, 2011. 
 
-* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3189420&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3189420&tool=pmcentrez&rendertype=abstract)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3189420/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3189420/)
 * pmid: [21721140](21721140)
 * doi: [10.1002/wnan.152](10.1002/wnan.152)
 * [pdf](http://sobolevnrm.github.io/papers/thomas2011informatics.pdf)

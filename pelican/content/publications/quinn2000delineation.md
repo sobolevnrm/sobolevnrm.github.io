@@ -1,5 +1,5 @@
 Title: Delineation and decomposition of energies involved in quaternary ammonium binding in the active site of acetylcholinesterase
-Date: 2000-01-01
+Date: 2000-03-16
 Category: Publications
 Slug: quinn2000delineation
 Tags: acetylcholinesterase

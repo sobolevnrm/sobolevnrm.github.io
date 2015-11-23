@@ -1,14 +1,14 @@
 Title: Characterization of perfluorooctylbromide-based nanoemulsion particles using atomistic molecular dynamics simulations
-Date: 2010-01-01
+Date: 2010-08-11
 Category: Publications
 Slug: lee2010characterization
-Tags: molecular_dynamics, nanotechnology, biomembranes, force_fields
+Tags: molecular_dynamics, biomembranes, force_fields, nanotechnology
 Authors: Lee, Olsen, Schlesinger, Baker
 Summary: Lee S, Olsen B, Schlesinger PH, Baker NA. Characterization of perfluorooctylbromide-based nanoemulsion particles using atomistic molecular dynamics simulations. The Journal of Physical Chemistry B, 114, 10086-10096, 2010. 
 
 Lee S, Olsen B, Schlesinger PH, Baker NA. Characterization of perfluorooctylbromide-based nanoemulsion particles using atomistic molecular dynamics simulations. The Journal of Physical Chemistry B, 114, 10086-10096, 2010. 
 
-* url: [http://dx.doi.org/10.1021/jp103228c](http://dx.doi.org/10.1021/jp103228c)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917838/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917838/)
 * pmid: [20684632](20684632)
 * doi: [10.1021/jp103228c](10.1021/jp103228c)
 * [pdf](http://sobolevnrm.github.io/papers/lee2010characterization.pdf)

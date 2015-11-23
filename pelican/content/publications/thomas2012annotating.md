@@ -1,5 +1,5 @@
 Title: Annotating the structure and components of a nanoparticle formulation using computable string expressions
-Date: 2012-01-01
+Date: 2012-12-31
 Category: Publications
 Slug: thomas2012annotating
 Tags: informatics, nanotechology
@@ -8,7 +8,7 @@ Summary: Thomas DG, Chikkagoudar S, Chappell AR, Baker N, others . Annotating th
 
 Thomas DG, Chikkagoudar S, Chappell AR, Baker N, others . Annotating the structure and components of a nanoparticle formulation using computable string expressions. In Bioinformatics and Biomedicine Workshops (BIBMW), 2012 IEEE International Conference on, 889-894, 2012.
 
-* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3922075&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3922075&tool=pmcentrez&rendertype=abstract)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3922075/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3922075/)
 * pmid: [24533226](24533226)
 * doi: [10.1109/BIBMW.2012.6470259](10.1109/BIBMW.2012.6470259)
 * [pdf](http://sobolevnrm.github.io/papers/thomas2012annotating.pdf)

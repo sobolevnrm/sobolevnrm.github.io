@@ -1,5 +1,5 @@
 Title: Assessing implicit models for nonpolar mean solvation forces: the importance of dispersion and volume terms
-Date: 2006-01-01
+Date: 2006-05-30
 Category: Publications
 Slug: wagoner2006assessing
 Tags: solvation, nonpolar

@@ -1,14 +1,14 @@
 Title: Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer
-Date: 2005-01-01
+Date: 2005-10-01
 Category: Publications
 Slug: song2005molecular
-Tags: salicylate, molecular_dynamics, biomembranes
+Tags: molecular_dynamics, biomembranes, salicylate
 Authors: Song, Guallar, Baker
 Summary: Song Y, Guallar V, Baker NA. Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer. Biochemistry, 44, 13425-13438, 2005. 
 
 Song Y, Guallar V, Baker NA. Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer. Biochemistry, 44, 13425-13438, 2005. 
 
-* url: [http://dx.doi.org/10.1021/bi0506829](http://dx.doi.org/10.1021/bi0506829)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2435121/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2435121/)
 * pmid: [16216066](16216066)
 * doi: [10.1021/bi0506829](10.1021/bi0506829)
 * [pdf](http://sobolevnrm.github.io/papers/song2005molecular.pdf)

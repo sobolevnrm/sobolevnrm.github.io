@@ -1,5 +1,5 @@
 Title: SPrCY : comparison of structural predictions in the Saccharomyces cerevisiae genome
-Date: 2004-01-01
+Date: 2004-09-22
 Category: Publications
 Slug: dolinsky2004sprcy
 Tags: informatics, software

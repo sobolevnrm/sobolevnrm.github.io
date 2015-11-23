@@ -1,14 +1,14 @@
 Title: Solvent reaction field potential inside an uncharged globular protein: A bridge between implicit and explicit solvent models?
-Date: 2007-01-01
+Date: 2007-10-21
 Category: Publications
 Slug: cerutti2007solvent
-Tags: solvation, molecular_dynamics, nonpolar, electrostatics
+Tags: solvation, electrostatics, nonpolar, molecular_dynamics
 Authors: Cerutti, Baker, McCammon
 Summary: Cerutti DS, Baker NA, McCammon JA. Solvent reaction field potential inside an uncharged globular protein: A bridge between implicit and explicit solvent models?. The Journal of Chemical Physics, 127, 155101, 2007. 
 
 Cerutti DS, Baker NA, McCammon JA. Solvent reaction field potential inside an uncharged globular protein: A bridge between implicit and explicit solvent models?. The Journal of Chemical Physics, 127, 155101, 2007. 
 
-* url: [http://scitation.aip.org/content/aip/journal/jcp/127/15/10.1063/1.2771171](http://scitation.aip.org/content/aip/journal/jcp/127/15/10.1063/1.2771171)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2556216/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2556216/)
 * pmid: [17949217](17949217)
 * doi: [10.1063/1.2771171](10.1063/1.2771171)
 * [pdf](http://sobolevnrm.github.io/papers/cerutti2007solvent.pdf)

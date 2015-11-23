@@ -1,5 +1,5 @@
 Title: Bridging implicit and explicit solvent approaches for membrane electrostatics
-Date: 2002-01-01
+Date: 2002-09-01
 Category: Publications
 Slug: lin2002bridging
 Tags: solvation, electrostatics, biomembranes
@@ -8,7 +8,7 @@ Summary: Lin J, Baker NA, McCammon JA. Bridging implicit and explicit solvent ap
 
 Lin J, Baker NA, McCammon JA. Bridging implicit and explicit solvent approaches for membrane electrostatics. Biophysical Journal, 83, 1374-1379, 2002. 
 
-* url: [http://www.sciencedirect.com/science/article/pii/S0006349502739088](http://www.sciencedirect.com/science/article/pii/S0006349502739088)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1302236/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1302236/)
 * pmid: [12202363](12202363)
 * doi: [10.1016/S0006-3495(02)73908-8](10.1016/S0006-3495(02)73908-8)
 * [pdf](http://sobolevnrm.github.io/papers/lin2002bridging.pdf)

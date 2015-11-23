@@ -1,5 +1,5 @@
 Title: Molecular dynamics simulations of asymmetric NaCl and KCl solutions separated by phosphatidylcholine bilayers: potential drops and structural changes induced by strong Na+-lipid interactions and finite size effects
-Date: 2008-01-01
+Date: 2008-05-01
 Category: Publications
 Slug: lee2008molecular
 Tags: molecular_dynamics, electrostatics, biomembranes
@@ -8,7 +8,7 @@ Summary: Lee S, Song Y, Baker NA. Molecular dynamics simulations of asymmetric N
 
 Lee S, Song Y, Baker NA. Molecular dynamics simulations of asymmetric NaCl and KCl solutions separated by phosphatidylcholine bilayers: potential drops and structural changes induced by strong Na+-lipid interactions and finite size effects. Biophysical Journal, 94, 3565-3576, 2008. 
 
-* url: [http://www.sciencedirect.com/science/article/pii/S0006349508704338](http://www.sciencedirect.com/science/article/pii/S0006349508704338)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2292386/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2292386/)
 * pmid: [18222999](18222999)
 * doi: [10.1529/biophysj.107.116335](10.1529/biophysj.107.116335)
 * [pdf](http://sobolevnrm.github.io/papers/lee2008molecular.pdf)

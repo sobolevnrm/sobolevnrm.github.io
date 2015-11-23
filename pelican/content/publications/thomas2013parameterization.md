@@ -1,14 +1,14 @@
 Title: Parameterization of a geometric flow implicit solvation model
-Date: 2013-01-01
+Date: 2013-03-30
 Category: Publications
 Slug: thomas2013parameterization
-Tags: geometric_flow, nonpolar, electrostatics, force_fields
+Tags: geometric_flow, electrostatics, nonpolar, force_fields
 Authors: Thomas, Chun, Chen, Wei, Baker
 Summary: Thomas DG, Chun J, Chen Z, Wei G, Baker NA. Parameterization of a geometric flow implicit solvation model. Journal of Computational Chemistry, 34, 687-695, 2013. 
 
 Thomas DG, Chun J, Chen Z, Wei G, Baker NA. Parameterization of a geometric flow implicit solvation model. Journal of Computational Chemistry, 34, 687-695, 2013. 
 
-* url: [http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3578971&tool=pmcentrez&rendertype=abstract](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3578971&tool=pmcentrez&rendertype=abstract)
+* url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3578971/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3578971/)
 * pmid: [23212974](23212974)
 * doi: [10.1002/jcc.23181](10.1002/jcc.23181)
 * [pdf](http://sobolevnrm.github.io/papers/thomas2013parameterization.pdf)

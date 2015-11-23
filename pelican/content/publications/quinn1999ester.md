@@ -2,7 +2,7 @@ Title: Ester hydrolysis
 Date: 1999-01-01
 Category: Publications
 Slug: quinn1999ester
-Tags: review, acetylcholinesterase
+Tags: acetylcholinesterase, review
 Authors: Quinn, Medhekar, Baker
 Summary: Quinn DM, Medhekar R, Baker N. Ester hydrolysis. In Enzymes, Enzyme Mechanisms, Proteins, and Aspects of NO Chemistry, 101-137, 1999.
 

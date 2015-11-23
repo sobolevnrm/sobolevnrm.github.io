@@ -1,5 +1,5 @@
 Title: The physical basis of microtubule structure and stability
-Date: 2003-01-01
+Date: 2003-10-01
 Category: Publications
 Slug: sept2003physical
 Tags: solvation, electrostatics, microtubules
