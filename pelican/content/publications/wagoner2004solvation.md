@@ -2,15 +2,15 @@ Title: Solvation forces on biomolecular structures: a comparison of explicit sol
 Date: 2004-10-01
 Category: Publications
 Slug: wagoner2004solvation
-Tags: solvation, molecular_dynamics, electrostatics
+Tags: electrostatics, solvation, molecular_dynamics
 Authors: Wagoner, Baker
 Summary: Wagoner J, Baker NA. Solvation forces on biomolecular structures: a comparison of explicit solvent and Poisson-Boltzmann models. Journal of Computational Chemistry, 25, 1623-1629, 2004. 
 
 Wagoner J, Baker NA. Solvation forces on biomolecular structures: a comparison of explicit solvent and Poisson-Boltzmann models. Journal of Computational Chemistry, 25, 1623-1629, 2004. 
 
 * url: [http://www.ncbi.nlm.nih.gov/pubmed/15264256](http://www.ncbi.nlm.nih.gov/pubmed/15264256)
-* pmid: [15264256](15264256)
-* doi: [10.1002/jcc.20089](10.1002/jcc.20089)
+* doi: [10.1002/jcc.20089](http://dx.doi.org/10.1002/jcc.20089)
+* pmid: [15264256](http://www.ncbi.nlm.nih.gov/pubmed/15264256)
 * [pdf](http://sobolevnrm.github.io/papers/wagoner2004solvation.pdf)
 
 Continuum electrostatics methods have become increasingly popular due to their ability to provide approximate descriptions of solvation energies and forces without expensive sampling required by explicit solvent models. In particular, the Poisson-Boltzmann equation (PBE) provides electrostatic potentials, solvation energies, and forces by modeling the solvent as a featureless, dielectric material, and the mobile ions as a continuous distribution of charge. Polar solvation forces and energies obtained from the PBE are often supplemented with simple solvent-accessible surface area (SASA) models of nonpolar solvation. Given the recent development of methods that enable the use of PBE and SASA forces in molecular dynamics simulations, it is important to determine the ability of these implicit solvent models to accurately reproduce the solvation forces of more detailed explicit solvent simulations. In this article, we compare PBE and SASA solvation forces with explicit solvent forces for several snapshots from eight trajectories of static conformations of intestinal fatty acid binding protein. The results from this comparison show that current implementations of the PBE are capable of generating polar solvation forces that correlate well with explicit solvent forces but systematically overestimate the magnitude of the interaction. However, SASA-based nonpolar forces are found to have no significant correlation with nonpolar explicit solvent forces. Nevertheless, due to the small magnitude of the nonpolar forces in the current system, a good correlation is still obtained for total solvation forces. The good correlation of implicit solvent forces with more detailed explicit solvent models is encouraging and implies that the systematic errors identified in these models could be corrected by appropriate parameterization of the force fields.

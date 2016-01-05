@@ -7,6 +7,7 @@ import re
 from io import StringIO
 from pyparsing import nestedExpr
 import logging
+import urllib.parse
 
 BIBTEX_FILE_PATH = "cv/publications.bib"
 MARKDOWN_DIR_PATH = "pelican/content/publications"
@@ -63,12 +64,22 @@ class Record:
     def get_links(self):
         """ Return links as string """
         link_strings = []
-        for attr in ["url", "pmid", "doi"]:
-            try:
-                value = getattr(self, attr)
-                link_strings.append("* %s: [%s](%s)" % (attr, value, value))
-            except AttributeError:
-                pass
+        try:
+            value = getattr(self, "url")
+            link_strings.append("* %s: [%s](%s)" % ("url", value, value))
+        except AttributeError:
+            pass
+        try:
+            value = getattr(self, "doi")
+            link_strings.append("* %s: [%s](http://dx.doi.org/%s)" % \
+            ("doi", urllib.parse.quote(value), urllib.parse.quote(value)))
+        except AttributeError:
+            pass
+        try:
+            value = getattr(self, "pmid")
+            link_strings.append("* %s: [%s](http://www.ncbi.nlm.nih.gov/pubmed/%s)" % ("pmid", value, value))
+        except AttributeError:
+            pass
         try:
             link_strings.append("* [pdf](http://sobolevnrm.github.io/papers/%s)" % self.pdf)
         except AttributeError:

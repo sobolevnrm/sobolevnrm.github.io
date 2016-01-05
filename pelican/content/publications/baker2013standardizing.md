@@ -9,8 +9,8 @@ Summary: Baker NA, Klemm JD, Harper SL, Gaheen S, Heiskanen M, Rocca-Serra P, Sa
 Baker NA, Klemm JD, Harper SL, Gaheen S, Heiskanen M, Rocca-Serra P, Sansone S. Standardizing data. Nature Nanotechnology, 8, 73-74, 2013. 
 
 * url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054689/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4054689/)
-* pmid: [23380926](23380926)
-* doi: [10.1038/nnano.2013.12](10.1038/nnano.2013.12)
+* doi: [10.1038/nnano.2013.12](http://dx.doi.org/10.1038/nnano.2013.12)
+* pmid: [23380926](http://www.ncbi.nlm.nih.gov/pubmed/23380926)
 * [pdf](http://sobolevnrm.github.io/papers/baker2013standardizing.pdf)
 
 To rationally design nanomaterials with improved efficacy and safety it is critical to understand and exploit the physicochemical properties that cause a biological response1. Data mining and computer simulation are important for deriving information about the behaviour of nanomaterials, but the datasets needed to support such studies are sparse and stored across a variety of repositories and resources. The need for more coherence and structure in the conduct of nanotechnology research has been suggested before2 and was highlighted in your recent Editorial3. However, the lack of common reporting standards and non-uniformity of information reported are also significant barriers to data sharing and re-use. The Nanotechnology Working Group (Nano WG) of the US National Institutes of Health National Cancer Informatics Program has been focused on addressing these issues.

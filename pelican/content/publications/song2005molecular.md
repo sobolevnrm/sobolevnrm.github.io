@@ -2,15 +2,15 @@ Title: Molecular dynamics simulations of salicylate effects on the micro-and mes
 Date: 2005-10-01
 Category: Publications
 Slug: song2005molecular
-Tags: molecular_dynamics, biomembranes, salicylate
+Tags: salicylate, biomembranes, molecular_dynamics
 Authors: Song, Guallar, Baker
 Summary: Song Y, Guallar V, Baker NA. Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer. Biochemistry, 44, 13425-13438, 2005. 
 
 Song Y, Guallar V, Baker NA. Molecular dynamics simulations of salicylate effects on the micro-and mesoscopic properties of a dipalmitoylphosphatidylcholine bilayer. Biochemistry, 44, 13425-13438, 2005. 
 
 * url: [http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2435121/](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2435121/)
-* pmid: [16216066](16216066)
-* doi: [10.1021/bi0506829](10.1021/bi0506829)
+* doi: [10.1021/bi0506829](http://dx.doi.org/10.1021/bi0506829)
+* pmid: [16216066](http://www.ncbi.nlm.nih.gov/pubmed/16216066)
 * [pdf](http://sobolevnrm.github.io/papers/song2005molecular.pdf)
 
 Salicylate, an amphiphilic molecule and a popular member of the nonsteroidal anti-inflammatory drug family, is known to affect hearing through reduction of the electromechanical coupling in the outer hair cells of the ear. This reduction of electromotility by salicylate has been widely studied, but the molecular mechanism of the phenomenon is still unknown. In this study, we investigated one aspect of salicylate's action, namely the perturbation of electrical and mechanical membrane properties by salicylate in the absence of cytoskeletal or membrane-bound motor proteins such as prestin. In particular, we simulated the interaction of salicylate with a dipalmitoylphosphatidylcholine (DPPC) bilayer via atomically detailed molecular dynamics simulations to observe the effect of salicylate on the microscopic and mesoscopic properties of the bilayer. The results demonstrate that salicylate interacts with the bilayer by associating at the water-DPPC interface in a nearly perpendicular orientation and penetrating more deeply into the bilayer than either sodium or chloride. This association has several affects on the membrane properties. First, binding of salicylate to the membrane displaces chloride from the bilayer-water interface. Second, salicylate influences the electrostatic potential and dielectric properties of the bilayer, with significant changes at the water-lipid bilayer interface. Third, salicylate association results in structural changes, including decreased headgroup area per lipid and increased lipid tail order. However, salicylate does not significantly alter the mechanical properties of the DPPC bilayer; bulk compressibility, area compressibility, and bending modulus were only perturbed by small, statistically insignificant amounts by the presence of salicylate. The observations from these simulations are in qualitative agreement with experimental data and support the conclusion that salicylate influences the electrical but not the mechanical properties of DPPC membranes.

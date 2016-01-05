@@ -2,15 +2,15 @@ Title: Poisson-Boltzmann methods for biomolecular electrostatics
 Date: 2003-01-01
 Category: Publications
 Slug: baker2003poisson
-Tags: solvation, electrostatics, review
+Tags: review, electrostatics, solvation
 Authors: Baker
 Summary: Baker NA. Poisson-Boltzmann methods for biomolecular electrostatics. Methods in Enzymology, 383, 94-118, 2003. 
 
 Baker NA. Poisson-Boltzmann methods for biomolecular electrostatics. Methods in Enzymology, 383, 94-118, 2003. 
 
 * url: [http://www.sciencedirect.com/science/article/pii/S0076687904830052](http://www.sciencedirect.com/science/article/pii/S0076687904830052)
-* pmid: [15063648](15063648)
-* doi: [10.1016/S0076-6879(04)83005-2](10.1016/S0076-6879(04)83005-2)
+* doi: [10.1016/S0076-6879%2804%2983005-2](http://dx.doi.org/10.1016/S0076-6879%2804%2983005-2)
+* pmid: [15063648](http://www.ncbi.nlm.nih.gov/pubmed/15063648)
 * [pdf](http://sobolevnrm.github.io/papers/baker2003poisson.pdf)
 
 This chapter presents Poisson-Boltzmann (PB) methods for biomolecular electrostatics. The understanding of electrostatic properties is a basic aspect of the investigation of biomolecular processes. Structures of proteins and other biopolymers are being determined at an increasing rate through structural genomics and other effort. The nonlinear equations obtained from the full PB equation require more specialized techniques, such as Newton methods, to determine the solution to the discretized algebraic equation. The increasing size and number of biomolecular structures have necessitated the development of new parallel finite difference and finite element methods for solving the PB equation. These parallel techniques allow users to leverage supercomputing resources to determine the electrostatic properties of single-structure calculations on large biological systems consisting of millions of atoms. In addition, advances in improving the efficiency of PB force calculations have paved the way for a new era of biomolecular dynamics simulation methods using detailed implicit solvent models. It is anticipated that PB methods will continue to play an important role in computational biology as the study of biological systems grow from macromolecular to cellular scales.
