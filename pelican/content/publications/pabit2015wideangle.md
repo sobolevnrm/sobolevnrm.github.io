@@ -2,7 +2,7 @@ Title: Understanding Nucleic Acid Structural Changes by Comparing Wide-Angle X-r
 Date: 2015-12-26
 Category: Publications
 Slug: pabit2015wideangle
-Tags: molecular_dynamics, scattering, dna, electrostatics, x-ray
+Tags: electrostatics, molecular_dynamics, x-ray, scattering, dna
 Authors: Pabit, Katz, Tolokh, Drozdetski, Baker, Onufriev, Pollack
 Summary: Pabit SA, Katz AM, Tolokh IS, Drozdetski A, Baker N, Onufriev AV, Pollack L. Understanding Nucleic Acid Structural Changes by Comparing Wide-Angle X-ray Scattering (WAXS) Experiments to Molecular Dynamics Simulations. arXiv preprint arXiv:1512.08074, 2015. 
 

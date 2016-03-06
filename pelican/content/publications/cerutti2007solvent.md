@@ -2,7 +2,7 @@ Title: Solvent reaction field potential inside an uncharged globular protein: A 
 Date: 2007-10-21
 Category: Publications
 Slug: cerutti2007solvent
-Tags: nonpolar, electrostatics, molecular_dynamics, solvation
+Tags: electrostatics, molecular_dynamics, solvation, nonpolar
 Authors: Cerutti, Baker, McCammon
 Summary: Cerutti DS, Baker NA, McCammon JA. Solvent reaction field potential inside an uncharged globular protein: A bridge between implicit and explicit solvent models?. The Journal of Chemical Physics, 127, 155101, 2007. 
 

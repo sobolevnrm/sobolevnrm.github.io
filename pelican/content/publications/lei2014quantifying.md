@@ -2,7 +2,7 @@ Title: Constructing Surrogate Models of Complex Systems with Enhanced Sparsity: 
 Date: 2015-11-5
 Category: Publications
 Slug: lei2014quantifying
-Tags: monte_carlo, solvation, uncertainty_quantification
+Tags: uncertainty_quantification, solvation, monte_carlo
 Authors: Lei, Yang, Zheng, Lin, Baker
 Summary: Lei H, Yang X, Zheng B, Lin G, Baker NA. Constructing Surrogate Models of Complex Systems with Enhanced Sparsity: Quantifying the Influence of Conformational Uncertainty in Biomolecular Solvation. Multiscale Modeling \& Simulation, 13, 1327-1353, 2015. 
 

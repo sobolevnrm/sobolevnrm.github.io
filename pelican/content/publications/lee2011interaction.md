@@ -2,7 +2,7 @@ Title: Interaction of melittin peptides with perfluorocarbon nanoemulsion partic
 Date: 2011-12-29
 Category: Publications
 Slug: lee2011interaction
-Tags: biomembranes, perfluorocarbons, emulsions, molecular_dynamics, nanotechnology
+Tags: molecular_dynamics, perfluorocarbons, emulsions, nanotechnology, biomembranes
 Authors: Lee, Schlesinger, Wickline, Lanza, Baker
 Summary: Lee S, Schlesinger PH, Wickline SA, Lanza GM, Baker NA. Interaction of melittin peptides with perfluorocarbon nanoemulsion particles. The Journal of Physical Chemistry B, 115, 15271-15279, 2011. 
 

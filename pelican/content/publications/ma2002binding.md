@@ -2,7 +2,7 @@ Title: Binding of aminoglycoside antibiotics to the small ribosomal subunit: a c
 Date: 2002-02-20
 Category: Publications
 Slug: ma2002binding
-Tags: ribosome, electrostatics, solvation
+Tags: electrostatics, solvation, ribosome
 Authors: Ma, Baker, Joseph, McCammon
 Summary: Ma C, Baker NA, Joseph S, McCammon JA. Binding of aminoglycoside antibiotics to the small ribosomal subunit: a continuum electrostatics investigation. Journal of the American Chemical Society, 124, 1438-1442, 2002. 
 

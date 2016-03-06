@@ -2,7 +2,7 @@ Title: Origin of parameter degeneracy and molecular shape relationships in geome
 Date: 2013-11-28
 Category: Publications
 Slug: daily2013origin
-Tags: geometric_flow, force_fields, electrostatics, solvation, nonpolar
+Tags: geometric_flow, electrostatics, solvation, nonpolar, force_fields
 Authors: Daily, Chun, Heredia-Langner, Wei, Baker
 Summary: Daily MD, Chun J, Heredia-Langner A, Wei G, Baker NA. Origin of parameter degeneracy and molecular shape relationships in geometric-flow calculations of solvation free energies. The Journal of Chemical Physics, 139, 204108, 2013. 
 

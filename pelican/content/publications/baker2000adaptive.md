@@ -2,7 +2,7 @@ Title: Adaptive multilevel finite element solution of the Poisson-Boltzmann equa
 Date: 2000-10-03
 Category: Publications
 Slug: baker2000adaptive
-Tags: finite_elements, software, electrostatics, solvation
+Tags: electrostatics, solvation, software, finite_elements
 Authors: Baker, Holst, Wang
 Summary: Baker N, Holst M, Wang F. Adaptive multilevel finite element solution of the Poisson-Boltzmann equation II. Refinement at solvent-accessible surfaces in biomolecular systems. Journal of Computational Chemistry, 21, 1343-1352, 2000. 
 

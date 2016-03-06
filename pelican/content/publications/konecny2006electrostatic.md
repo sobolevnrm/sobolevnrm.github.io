@@ -2,7 +2,7 @@ Title: Electrostatic properties of cowpea chlorotic mottle virus and cucumber mo
 Date: 2006-06-05
 Category: Publications
 Slug: konecny2006electrostatic
-Tags: finite_elements, finite_differences, electrostatics, virus
+Tags: electrostatics, finite_differences, finite_elements, virus
 Authors: Konecny, Trylska, Tama, Zhang, Baker, Brooks, McCammon
 Summary: Konecny R, Trylska J, Tama F, Zhang D, Baker NA, Brooks CL, McCammon JA. Electrostatic properties of cowpea chlorotic mottle virus and cucumber mosaic virus capsids. Biopolymers, 82, 106-120, 2006. 
 

@@ -2,7 +2,7 @@ Title: The structural basis of cholesterol accessibility in membranes
 Date: 2013-10-15
 Category: Publications
 Slug: olsen2013structural
-Tags: biomembranes, cholesterol, sterols, molecular_dynamics
+Tags: molecular_dynamics, sterols, biomembranes, cholesterol
 Authors: Olsen, Bielska, Lee, Daily, Covey, Schlesinger, Baker, Ory
 Summary: Olsen BN, Bielska AA, Lee T, Daily MD, Covey DF, Schlesinger PH, Baker NA, Ory DS. The structural basis of cholesterol accessibility in membranes. Biophysical Journal, 105, 1838-1847, 2013. 
 

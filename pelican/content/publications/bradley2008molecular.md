@@ -2,7 +2,7 @@ Title: Molecular dynamics simulation of the Escherichia coli NikR protein: equil
 Date: 2008-05-16
 Category: Publications
 Slug: bradley2008molecular
-Tags: nikr, allostery, metalloregulation, molecular_dynamics
+Tags: nikr, molecular_dynamics, metalloregulation, allostery
 Authors: Bradley, Chivers, Baker
 Summary: Bradley MJ, Chivers PT, Baker NA. Molecular dynamics simulation of the Escherichia coli NikR protein: equilibrium conformational fluctuations reveal interdomain allosteric communication pathways. Journal of Molecular Biology, 378, 1155-1173, 2008. 
 

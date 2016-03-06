@@ -2,7 +2,7 @@ Title: Finite element solution of the steady-state Smoluchowski equation for rat
 Date: 2004-04-01
 Category: Publications
 Slug: song2004finite
-Tags: finite_elements, diffusion
+Tags: diffusion, finite_elements
 Authors: Song, Zhang, Shen, Bajaj, McCammon, Baker
 Summary: Song Y, Zhang Y, Shen T, Bajaj CL, McCammon JA, Baker NA. Finite element solution of the steady-state Smoluchowski equation for rate constant calculations. Biophysical Journal, 86, 2017-2029, 2004. 
 

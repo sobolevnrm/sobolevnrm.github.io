@@ -2,7 +2,7 @@ Title: The adaptive multilevel finite element solution of the Poisson-Boltzmann 
 Date: 2001-05-01
 Category: Publications
 Slug: baker2001adaptive
-Tags: microtubules, software, finite_elements, electrostatics, solvation
+Tags: electrostatics, software, solvation, finite_elements, microtubules
 Authors: Baker, Sept, Holst, McCammon
 Summary: Baker NA, Sept D, Holst MJ, McCammon JA. The adaptive multilevel finite element solution of the Poisson-Boltzmann equation on massively parallel computers. IBM Journal of Research and Development, 45, 427-438, 2001. 
 

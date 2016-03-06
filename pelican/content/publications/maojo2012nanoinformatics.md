@@ -2,7 +2,7 @@ Title: Nanoinformatics: developing new computing applications for nanomedicine
 Date: 2012-06-01
 Category: Publications
 Slug: maojo2012nanoinformatics
-Tags: informatics, review, nanotechnology
+Tags: informatics, nanotechnology, review
 Authors: Maojo, Fritts, Martin-Sanchez, De, Cachau, Garcia-Remesal, Crespo, Mitchell, Anguita, Baker, others
 Summary: Maojo V, Fritts M, Martin-Sanchez F, De lID, Cachau RE, Garcia-Remesal M, Crespo J, Mitchell JA, Anguita A, Baker N, others . Nanoinformatics: developing new computing applications for nanomedicine. Computing, 94, 521-539, 2012. 
 

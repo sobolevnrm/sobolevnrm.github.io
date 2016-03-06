@@ -6,7 +6,7 @@ Status: hidden
 Authors: Nathan Baker
 Summary: About
 
-<img src="http://sobolevnrm.github.io/images/baker.png" width="108" height="162" hspace="20" vspace="20" align="left"/> Nathan Baker, Ph.D. is a Visiting Faculty member at Brown University in the [Division of Applied Mathematics](http://www.dam.brown.edu/) and a Laboratory Fellow in the [Computational and Statistical Analytics Division](http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/) at [Pacific Northwest National Laboratory](http://www.pnnl.gov) (PNNL).
+<img src="http://sobolevnrm.github.io/images/baker.png" width="108" height="162" hspace="20" vspace="20" align="left"/> Nathan Baker, Ph.D. is the Director of the [Advanced Computing, Mathematics, and Data Division](http://www.pnnl.gov/computing/) at [Pacific Northwest National Laboratory](http://www.pnnl.gov) (PNNL) and a Visiting Faculty member at Brown University.
 
 His [research interests]({category}Research) include the development of new algorithms and mathematical methods in biophysics, nanotechnology, and informatics. Current research projects include new computational methods for modeling solvation in biomolecular systems (<http://www.poissonboltzmann.org/>), mathematical methods for mesoscale materials modeling (<http://www.pnnl.gov/computing/cm4/>), and development of new methods for signature discovery (<http://signatures.pnnl.gov>). His research is primarily funded by the National Institutes of Health and the Department of Energy.
 

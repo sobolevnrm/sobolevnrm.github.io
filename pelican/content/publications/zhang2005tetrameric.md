@@ -2,7 +2,7 @@ Title: Tetrameric mouse acetylcholinesterase: continuum diffusion rate calculati
 Date: 2005-03-01
 Category: Publications
 Slug: zhang2005tetrameric
-Tags: diffusion, finite_elements, electrostatics, acetylcholinesterase
+Tags: electrostatics, diffusion, finite_elements, acetylcholinesterase
 Authors: Zhang, Suen, Zhang, Song, Radic, Taylor, Holst, Bajaj, Baker, McCammon
 Summary: Zhang D, Suen J, Zhang Y, Song Y, Radic Z, Taylor P, Holst MJ, Bajaj C, Baker NA, McCammon JA. Tetrameric mouse acetylcholinesterase: continuum diffusion rate calculations by solving the steady-state Smoluchowski equation using finite element methods. Biophysical Journal, 88, 1659-1665, 2005. 
 

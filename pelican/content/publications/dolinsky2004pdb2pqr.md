@@ -2,7 +2,7 @@ Title: PDB2PQR: an automated pipeline for the setup of Poisson-Boltzmann electro
 Date: 2004-07-01
 Category: Publications
 Slug: dolinsky2004pdb2pqr
-Tags: software, titration, electrostatics, solvation
+Tags: electrostatics, solvation, titration, software
 Authors: Dolinsky, Nielsen, McCammon, Baker
 Summary: Dolinsky TJ, Nielsen JE, McCammon JA, Baker NA. PDB2PQR: an automated pipeline for the setup of Poisson-Boltzmann electrostatics calculations. Nucleic Acids Research, 32, W665-W667, 2004. 
 

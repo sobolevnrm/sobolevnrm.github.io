@@ -2,7 +2,7 @@ Title: Simulations of RNA interactions with monovalent ions
 Date: 2009-01-01
 Category: Publications
 Slug: chen2009simulations
-Tags: rna, nucleic_acids, review, electrostatics
+Tags: electrostatics, rna, nucleic_acids, review
 Authors: Chen, Marucho, Baker, Pappu
 Summary: Chen AA, Marucho M, Baker NA, Pappu RV. Simulations of RNA interactions with monovalent ions. Methods in Enzymology, 469, 411-432, 2009. 
 

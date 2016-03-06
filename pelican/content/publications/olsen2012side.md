@@ -2,7 +2,7 @@ Title: Side-chain oxysterols: from cells to membranes to molecules
 Date: 2012-02-01
 Category: Publications
 Slug: olsen2012side
-Tags: cholesterol, oxysterols, biomembranes
+Tags: oxysterols, biomembranes, cholesterol
 Authors: Olsen, Schlesinger, Ory, Baker
 Summary: Olsen BN, Schlesinger PH, Ory DS, Baker NA. Side-chain oxysterols: from cells to membranes to molecules. Biochimica et Biophysica Acta (BBA)-Biomembranes, 1818, 330-336, 2012. 
 

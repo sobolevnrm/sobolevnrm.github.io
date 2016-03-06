@@ -2,11 +2,11 @@ Title: An ISA-Tab specification for protein titration data exchange
 Date: 2015-11-20
 Category: Publications
 Slug: Dowling2015a
-Tags: informatics, software, titration, electrostatics, solvation
+Tags: electrostatics, solvation, titration, software, informatics
 Authors: Dowling, Johnson, Jurrus, Baker
-Summary: Dowling CP, Johnson S, Jurrus E, Baker NA. An ISA-Tab specification for protein titration data exchange. arXiv, 1511.06431, 2015. 
+Summary: Dowling CP, Johnson S, Jurrus E, Baker NA. An ISA-Tab specification for protein titration data exchange. arXiv, 2015. 
 
-Dowling CP, Johnson S, Jurrus E, Baker NA. An ISA-Tab specification for protein titration data exchange. arXiv, 1511.06431, 2015. 
+Dowling CP, Johnson S, Jurrus E, Baker NA. An ISA-Tab specification for protein titration data exchange. arXiv, 2015. 
 
 * url: [http://arxiv.org/abs/1511.06431](http://arxiv.org/abs/1511.06431)
 

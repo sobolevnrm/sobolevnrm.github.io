@@ -2,7 +2,7 @@ Title: SPrCY : comparison of structural predictions in the Saccharomyces cerevis
 Date: 2004-09-22
 Category: Publications
 Slug: dolinsky2004sprcy
-Tags: informatics, software
+Tags: software, informatics
 Authors: Dolinsky, Burgers, Karplus, Baker
 Summary: Dolinsky TJ, Burgers P, Karplus K, Baker NA. SPrCY : comparison of structural predictions in the Saccharomyces cerevisiae genome. Bioinformatics, 20, 2312-2314, 2004. 
 

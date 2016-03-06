@@ -2,7 +2,7 @@ Title: On the development of protein pKa calculation algorithms
 Date: 2011-12-01
 Category: Publications
 Slug: carstensen2011development
-Tags: review, titration, electrostatics
+Tags: electrostatics, titration, review
 Authors: Carstensen, Farrell, Huang, Baker, Nielsen
 Summary: Carstensen T, Farrell D, Huang Y, Baker NA, Nielsen JE. On the development of protein pKa calculation algorithms. Proteins: Structure, Function, and Bioinformatics, 79, 3287-3298, 2011. 
 

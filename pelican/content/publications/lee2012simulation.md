@@ -2,7 +2,7 @@ Title: Simulation of fusion-mediated nanoemulsion interactions with model lipid 
 Date: 2012-01-01
 Category: Publications
 Slug: lee2012simulation
-Tags: coarse-graining, perfluorocarbons, emulsions, nanotechnology, biomembranes
+Tags: coarse-graining, emulsions, nanotechnology, biomembranes, perfluorocarbons
 Authors: Lee, Schlesinger, Wickline, Lanza, Baker
 Summary: Lee S, Schlesinger PH, Wickline SA, Lanza GM, Baker NA. Simulation of fusion-mediated nanoemulsion interactions with model lipid bilayers. Soft Matter, 8, 7024-7035, 2012. 
 
