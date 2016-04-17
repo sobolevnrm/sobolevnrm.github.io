@@ -1,69 +1,23 @@
-\documentclass[11pt,letterpaper,sans]{moderncv}
-
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-
-\usepackage[scale=0.75]{geometry}
-\usepackage[sorting=ydnt,style=authoryear,maxbibnames=9]{biblatex}
-\addbibresource[label=publications]{publications.bib}
-\addbibresource[label=presentations]{presentations.bib}
-
-\usepackage{etoolbox}
-\newtoggle{homeaddress}
-\settoggle{homeaddress}{false}
-
-\title{Curriculum Vitae}
-
-% Names
-\firstname{Nathan Andrew}
-\familyname{Baker}
-
-% All information in this block is optional, comment out any lines you don't need
-\iftoggle{homeaddress}{
-	\address{512 S Hawaii St}{Kennewick, WA 99336}
-	\mobile{+1 509 222 4751}
-	\email{nathanandrewbaker@gmail.com}
-	\homepage{https://goo.gl/UeODNL}{https://goo.gl/UeODNL}
-	%\extrainfo{additional information}
-}{
-	\address{PO Box 999, MSID K7-20}{Richland, WA 99354}
-	\phone{+1 509 375 3997}
-	\email{nathan.baker@pnnl.gov}
-	\homepage{https://goo.gl/UeODNL}{https://goo.gl/UeODNL}
-	%\extrainfo{additional information}
+{
+	"first name" : "Nathan Andrew",
+	"family name" : "Baker",
+	"addresses" : [
+		{
+			"type" : "home",
+			"mailing address" : "512 S Hawaii St, Kennewick, WA 99336, USA",
+			"phone" : "+1 509 222 4751",
+			"email" : "nathanandrewbaker@gmail.com"
+		},
+		{
+			"type" : "work",
+			"mailing address" : "PO Box 999, MSID K7-20, Richland, WA 99354, USA",
+			"phone" : "+1 509 375 3997",
+			"email" : "nathan.baker@pnnl.gov",
+			"web" : "http://go.usa.gov/czB5G"
+		}
+	],
+	"introduction" : "Nathan A. Baker PhD is Director of the Advanced Computing, Mathematics, and Data Division at Pacific Northwest National Laboratory (PNNL) and a Visiting Faculty member in the Division of Applied Mathematics at Brown University. His research focuses on the development of new algorithms and mathematical methods in biophysics, nanotechnology, and informatics. Current projects include new computational methods for modeling solvation in biomolecular systems (http://www.poissonboltzmann.org/), mathematical methods for mesoscale materials modeling (http://www.pnnl.gov/computing/cm4/), and development of new methods for signature discovery (http://signatures.pnnl.gov)."
 }
-
-\newif\iflong
-\newif\ifmentoring
-\newif\ifcommunity
-\newif\ifmemberships
-\newif\ifmanuscriptreviews
-\newif\ifgrantreviews
-
-\longfalse
-\iflong
-	\mentoringtrue
-	\communitytrue
-	\manuscriptreviewstrue
-	\grantreviewstrue
-\else
-	\mentoringfalse
-	\communityfalse
-	\grantreviewsfalse
-\fi
-
-
-\begin{document}
-
-\makecvtitle % Print the CV title
-
-\begingroup
-\footnotesize
-Nathan A. Baker, Ph.D.\ is Director of the Advanced Computing, Mathematics, and Data Division at Pacific Northwest National Laboratory (PNNL) and a Visiting Faculty member in the Division of Applied Mathematics at Brown University.
-His research focuses on the development of new algorithms and mathematical methods in biophysics, nanotechnology, and informatics.
-Current projects include new computational methods for modeling solvation in biomolecular systems (\url{http://www.poissonboltzmann.org/}), mathematical methods for mesoscale materials modeling (\url{http://www.pnnl.gov/computing/cm4/}), and development of new methods for signature discovery (\url{http://signatures.pnnl.gov}).
-\endgroup
-
 
 \section{Experience}
 
@@ -105,7 +59,7 @@ Current projects include new computational methods for modeling solvation in bio
 \cventry{2015--2016}{External Advisory Board Member}{Visual Analytics for sense-making in Criminal Intelligence analysis (VALCRI) Project}{European Commission}{}{}
 \cventry{2014--present}{Editorial Board member}{Scientific Data}{Nature Publishing Group}{}{}
 \cventry{2012--2016}{Member}{Macromolecular Structure and Function D Study Section}{National Institutes of Health}{}{}
-\iflong \cventry{2016}{Reviewer}{MIT Sea Grants}{Massachusetts Institute of Technology}{}{} \fi
+\iflong \cventry{2016}{Reviewer}{MIT Sea Grants}{Massachusetts Institute of Technology}{}{}
 \iflong \cventry{2014--2016}{Organizing committee member}{Conference on Data Analysis (CoDA)}{}{}{} \fi
 \iflong \cventry{2014--2015}{Reviewer}{INCITE Biological Sciences Review Panel}{Advanced Scientific Computing Research, Department of Energy}{}{} \fi
 \iflong \cventry{2015}{Panelist}{National Strategic Computing Initiative Panel}{HPC User Forum meeting}{}{} \fi
@@ -184,7 +138,6 @@ Current projects include new computational methods for modeling solvation in bio
 
 \ifcommunity \subsection{Selected community service}
 
-\cventry{2016}{Judge}{Mathematics, Engineering, Science Achievement (MESA) USA Engineering Design Competition}{Pasco, WA}{}{}
 \cventry{2014--present}{Communications representative}{Hansen Park Homeowners Association}{Kennewick, WA}{}{}
 \cventry{2012--2014}{Webmaster}{Hansen Park Homeowners Association}{Kennewick, WA}{}{}
 \cventry{2010--2011}{Den leader}{Cub Scouts}{Kennewick, WA}{}{}
