@@ -16,41 +16,121 @@
 			"web" : "http://go.usa.gov/czB5G"
 		}
 	],
-	"introduction" : "Nathan A. Baker PhD is Director of the Advanced Computing, Mathematics, and Data Division at Pacific Northwest National Laboratory (PNNL) and a Visiting Faculty member in the Division of Applied Mathematics at Brown University. His research focuses on the development of new algorithms and mathematical methods in biophysics, nanotechnology, and informatics. Current projects include new computational methods for modeling solvation in biomolecular systems (http://www.poissonboltzmann.org/), mathematical methods for mesoscale materials modeling (http://www.pnnl.gov/computing/cm4/), and development of new methods for signature discovery (http://signatures.pnnl.gov)."
+	"introduction" : "Nathan A. Baker PhD is Director of the Advanced Computing, Mathematics, and Data Division at Pacific Northwest National Laboratory (PNNL) and a Visiting Faculty member in the Division of Applied Mathematics at Brown University. His research focuses on the development of new algorithms and mathematical methods in biophysics, nanotechnology, and informatics. Current projects include new computational methods for modeling solvation in biomolecular systems (http://www.poissonboltzmann.org/), mathematical methods for mesoscale materials modeling (http://www.pnnl.gov/computing/cm4/), and development of new methods for signature discovery (http://signatures.pnnl.gov).",
+	"experience" : [
+		{
+			"start" : 2016,
+			"title" : "Division Director",
+			"department" : "Advanced Computing, Mathematics, and Data Division",
+			"institution" : "Pacific Northwest National Laboratory",
+			"location" : "Richland, WA"
+		},
+		{
+			"start" : 2015,
+			"title" : "Visiting Professor",
+			"department" : "Division of Applied Mathematics",
+			"institution" : "Brown University",
+			"location" : "Providence, RI"
+		},
+		{
+			"start" : 2012,
+			"end" : 2016,
+			"title" : "Laboratory Fellow",
+			"department" : "Computational and Statistical Analytics Division",
+			"institution" : "Pacific Northwest National Laboratory",
+			"location" : "Richland, WA"
+		},
+		{
+			"start" : 2013,
+			"end" : 2015,
+			"title" : "Technical Group Manager",
+			"department" : "Applied Statistics and Computational Modeling Group",
+			"institution" : "Pacific Northwest National Laboratory",
+			"location" : "Richland, WA"
+		},
+		{
+			"start" : 2010,
+			"end" : 2012,
+			"title" : "Chief Scientist",
+			"department" : "Computational and Statistical Analytics Division",
+			"institution" : "Pacific Northwest National Laboratory",
+			"location" : "Richland, WA"
+		},
+		{
+			"start" : 2006,
+			"end" : 2010,
+			"title" : "Associate Professor (tenured)",
+			"department" : "Department of Biochemistry and Molecular Biophysics",
+			"institution" : "Washington University in St Louis",
+			"location" : "St Louis, MO"
+		}
+		{
+			"start" : 2002,
+			"end" : 2006,
+			"title" : "Assistant Professor",
+			"department" : "Department of Biochemistry and Molecular Biophysics",
+			"institution" : "Washington University in St Louis",
+			"location" : "St Louis, MO"
+		}
+	],
+	"education" : [
+		{
+			"start" : 2001,
+			"end" : 2002,
+			"degree" : "Postdoctoral Researcher",
+			"field" : "Computational Biophysics",
+			"department" : "Department of Chemistry and Biochemistry",
+			"institution" : "University of California San Diego",
+			"location" : "La Jolla, CA"
+		},
+		{
+			"start" : 1997,
+			"end" : 2001,
+			"degree" : "PhD",
+			"field" : "Physical Chemistry",
+			"department" : "Department of Chemistry and Biochemistry",
+			"institution" : "University of California San Diego",
+			"location" : "La Jolla, CA"
+		},
+		{
+			"start" : 1993,
+			"end" : 1997,
+			"degree" : "BS, Honors and highest distinction",
+			"field" : "Chemistry",
+			"department" : "University of Iowa",
+			"location" : "Iowa City, IA"
+		}
+	],
+	"honors" : [
+		{
+			"date": 2012,
+			"title" : "Fellow",
+			"organization" : "American Association for the Advancement of Science"
+		},
+		{
+			"date" : 2010,
+			"title" : "Cancer Biomedical Informatics Grid (caBIG) Connecting Collaborators Award",
+			"organization" : "National Cancer Institute"
+		},
+		{
+			"date" : 2007,
+			Hewlett-Packard Junior Faculty Excellence Award}{American Chemical Society}{}{}{}
+		\cventry{2004}{Research Fellowship}{Alfred P Sloan Foundation}{}{}{}
+		\iflong \cventry{2001}{All-hands Meeting Student Poster Award}{National Partnership Advanced Computational Infrastructure}{}{}{} \fi
+		\iflong \cventry{2001}{Kamen Award for Outstanding Thesis in the Biological Sciences}{University of California San Diego}{}{}{} \fi
+		\iflong \cventry{2000}{IBM Student Award in Computational Chemistry, First Place}{American Chemical Society}{}{}{} \fi
+		\iflong \cventry{1999}{Predoctoral Fellowship}{Burroughs-Wellcome La Jolla Interfaces in Science Program}{}{}{} \fi
+		\iflong \cventry{1998--1999}{Letters of Commendation for Teaching}{University of California San Diego}{}{}{} \fi
+		\iflong \cventry{1997}{Predoctoral Fellowship}{Howard Hughes Medical Institute}{}{}{} \fi
+		\iflong \cventry{1997}{Collegiate Scholar}{University of Iowa}{}{}{} \fi
+		\iflong \cventry{1997}{Member}{Phi Beta Kappa}{University of Iowa}{}{} \fi
+		\iflong \cventry{1997}{Undergraduate Liberal Arts Commencement Speaker}{University of Iowa}{}{}{} \fi
+		\iflong \cventry{1995}{Undergraduate Fellowship}{Barry M Goldwater Foundation}{}{}{} \fi
+	]
 }
 
-\section{Experience}
 
-\cventry{2016--present}{Director}{Advanced Computing, Mathematics, and Data Division, Pacific Northwest National Laboratory}{Richland, WA}{}{}
-\cventry{2015--present}{Visiting Professor}{Division of Applied Mathematics, Brown University}{Providence, RI}{}{}
-\cventry{2012--2016}{Laboratory Fellow}{Computational and Statistical Analytics Division, Pacific Northwest National Laboratory}{Richland, WA}{}{}
-\cventry{2013--2015}{Technical Group Manager}{Applied Statistics and Computational Modeling Group, Pacific Northwest National Laboratory}{Richland, WA}{}{}
-\cventry{2010--2012}{Chief Scientist}{Computational and Statistical Analytics Division, Pacific Northwest National Laboratory}{Richland, WA}{}{}
-\cventry{2006--2010}{Associate Professor (tenured)}{Department of Biochemistry and Molecular Biophysics, Washington University in St Louis}{St Louis, MO}{}{}
-\cventry{2002--2006}{Assistant Professor}{Department of Biochemistry and Molecular Biophysics, Washington University in St Louis}{St Louis, MO}{}{}
 
-\section{Education}
-
-\cventry{2001--2002}{Postdoctoral Researcher}{Department of Chemistry and Biochemistry, University of California San Diego}{La Jolla, CA}{}{}
-\cventry{1997--2001}{PhD, Physical Chemistry}{University of California San Diego}{La Jolla, CA}{}{}
-\cventry{1993--1997}{BS, Chemistry}{University of Iowa}{Iowa City, IA}{Honors and highest distinction}{}
-
-\section{Selected honors and awards}
-
-\cventry{2012}{Fellow}{American Association for the Advancement of Science}{}{}{}
-\cventry{2010}{Cancer Biomedical Informatics Grid (caBIG) Connecting Collaborators Award}{National Cancer Institute}{}{}{}
-\cventry{2007}{Hewlett-Packard Junior Faculty Excellence Award}{American Chemical Society}{}{}{}
-\cventry{2004}{Research Fellowship}{Alfred P Sloan Foundation}{}{}{}
-\iflong \cventry{2001}{All-hands Meeting Student Poster Award}{National Partnership Advanced Computational Infrastructure}{}{}{} \fi
-\iflong \cventry{2001}{Kamen Award for Outstanding Thesis in the Biological Sciences}{University of California San Diego}{}{}{} \fi
-\iflong \cventry{2000}{IBM Student Award in Computational Chemistry, First Place}{American Chemical Society}{}{}{} \fi
-\iflong \cventry{1999}{Predoctoral Fellowship}{Burroughs-Wellcome La Jolla Interfaces in Science Program}{}{}{} \fi
-\iflong \cventry{1998--1999}{Letters of Commendation for Teaching}{University of California San Diego}{}{}{} \fi
-\iflong \cventry{1997}{Predoctoral Fellowship}{Howard Hughes Medical Institute}{}{}{} \fi
-\iflong \cventry{1997}{Collegiate Scholar}{University of Iowa}{}{}{} \fi
-\iflong \cventry{1997}{Member}{Phi Beta Kappa}{University of Iowa}{}{} \fi
-\iflong \cventry{1997}{Undergraduate Liberal Arts Commencement Speaker}{University of Iowa}{}{}{} \fi
-\iflong \cventry{1995}{Undergraduate Fellowship}{Barry M Goldwater Foundation}{}{}{} \fi
 
 \section{Service}
 
