@@ -114,32 +114,49 @@
 		},
 		{
 			"date" : 2007,
-			Hewlett-Packard Junior Faculty Excellence Award}{American Chemical Society}{}{}{}
-		\cventry{2004}{Research Fellowship}{Alfred P Sloan Foundation}{}{}{}
-		\iflong \cventry{2001}{All-hands Meeting Student Poster Award}{National Partnership Advanced Computational Infrastructure}{}{}{} \fi
-		\iflong \cventry{2001}{Kamen Award for Outstanding Thesis in the Biological Sciences}{University of California San Diego}{}{}{} \fi
-		\iflong \cventry{2000}{IBM Student Award in Computational Chemistry, First Place}{American Chemical Society}{}{}{} \fi
-		\iflong \cventry{1999}{Predoctoral Fellowship}{Burroughs-Wellcome La Jolla Interfaces in Science Program}{}{}{} \fi
-		\iflong \cventry{1998--1999}{Letters of Commendation for Teaching}{University of California San Diego}{}{}{} \fi
-		\iflong \cventry{1997}{Predoctoral Fellowship}{Howard Hughes Medical Institute}{}{}{} \fi
-		\iflong \cventry{1997}{Collegiate Scholar}{University of Iowa}{}{}{} \fi
-		\iflong \cventry{1997}{Member}{Phi Beta Kappa}{University of Iowa}{}{} \fi
-		\iflong \cventry{1997}{Undergraduate Liberal Arts Commencement Speaker}{University of Iowa}{}{}{} \fi
-		\iflong \cventry{1995}{Undergraduate Fellowship}{Barry M Goldwater Foundation}{}{}{} \fi
+			"title" : "Hewlett-Packard Junior Faculty Excellence Award",
+			"organization" : "American Chemical Society"
+		},
+		{
+			"date" : 2004,
+			"title" : "Research fellowship",
+			"organization" : "Alfred P. Sloan Foundation"
+		},
+		{
+			"date" : 2001,
+			"title" : "All-hands Meeting Student Poster Award",
+			"organization" : "National Partnership Advanced Computational Infrastructure"
+		},
+		{
+			"date" : 2001,
+			"title" : "Kamen Award for Outstanding Thesis in the Biological Sciences",
+			"organization" : "University of California San Diego"
+		},
+		{
+			"date" : 2000,
+			"title" : "IBM Student Award in Computational Chemistry, First Place",
+			"organization" : "American Chemical Society"
+		}
 	]
 }
 
-
-
+\iflong \cventry{1999}{Predoctoral Fellowship}{Burroughs-Wellcome La Jolla Interfaces in Science Program}{}{}{} \fi
+\iflong \cventry{1998--1999}{Letters of Commendation for Teaching}{University of California San Diego}{}{}{} \fi
+\iflong \cventry{1997}{Predoctoral Fellowship}{Howard Hughes Medical Institute}{}{}{} \fi
+\iflong \cventry{1997}{Collegiate Scholar}{University of Iowa}{}{}{} \fi
+\iflong \cventry{1997}{Member}{Phi Beta Kappa}{University of Iowa}{}{} \fi
+\iflong \cventry{1997}{Undergraduate Liberal Arts Commencement Speaker}{University of Iowa}{}{}{} \fi
+\iflong \cventry{1995}{Undergraduate Fellowship}{Barry M Goldwater Foundation}{}{}{} \fi
 
 \section{Service}
 
 \subsection{Selected extramural service}
 \cventry{2014--2017}{Associate Editor}{Biophysical Journal}{Biophysical Society}{}{}
+\cventry{2016--present}{Executive Committee Member}{Carbon Capture Simulation Initiative}{Department of Energy}{}{}
 \cventry{2015--2016}{External Advisory Board Member}{Visual Analytics for sense-making in Criminal Intelligence analysis (VALCRI) Project}{European Commission}{}{}
 \cventry{2014--present}{Editorial Board member}{Scientific Data}{Nature Publishing Group}{}{}
 \cventry{2012--2016}{Member}{Macromolecular Structure and Function D Study Section}{National Institutes of Health}{}{}
-\iflong \cventry{2016}{Reviewer}{MIT Sea Grants}{Massachusetts Institute of Technology}{}{}
+\iflong \cventry{2016}{Reviewer}{MIT Sea Grants}{Massachusetts Institute of Technology}{}{} \fi
 \iflong \cventry{2014--2016}{Organizing committee member}{Conference on Data Analysis (CoDA)}{}{}{} \fi
 \iflong \cventry{2014--2015}{Reviewer}{INCITE Biological Sciences Review Panel}{Advanced Scientific Computing Research, Department of Energy}{}{} \fi
 \iflong \cventry{2015}{Panelist}{National Strategic Computing Initiative Panel}{HPC User Forum meeting}{}{} \fi
@@ -177,6 +194,7 @@
 
 \subsection{Selected intramural service}
 
+\iflong \cventry{2014--present}{Lecturer and panelist}{Scientist \& Engineer Development Program}{Pacific Northwest National Laboratory}
 \iflong \cventry{2015}{Panelist}{Council of Fellows ``Increasing Scientific Impact'' session}{Pacific Northwest National Laboratory}{}{} \fi
 \iflong \cventry{2015--present}{Member}{Interdisciplinary Applied Sciences Planning Committee}{Washington State University Tri-Cities and Pacific Northwest National Laboratory}{}{} \fi
 \iflong \cventry{2015--present}{Advisory committee member}{Microbes in Transition Initiative Advisory Committee}{Pacific Northwest National Laboratory}{}{} \fi
@@ -218,6 +236,7 @@
 
 \ifcommunity \subsection{Selected community service}
 
+\cventry{2016}{Judge}{Mathematics, Engineering, Science Achievement (MESA) USA Engineering Design Competition}{Pasco, WA}{}{}
 \cventry{2014--present}{Communications representative}{Hansen Park Homeowners Association}{Kennewick, WA}{}{}
 \cventry{2012--2014}{Webmaster}{Hansen Park Homeowners Association}{Kennewick, WA}{}{}
 \cventry{2010--2011}{Den leader}{Cub Scouts}{Kennewick, WA}{}{}
