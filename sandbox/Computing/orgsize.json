@@ -1,0 +1,20 @@
+{
+	"name": "PNNL",
+	"children": [
+		{ "name": "EED", "capability": 1030},
+		{ "name": "EBSD", "capability":  521},
+		{
+			"name": "NSD",
+			"children": [
+				{"name": "CSA", "capability": 310},
+				{"name": "Other", "capability": 829}
+			]
+		},
+		{
+			"name": "PCSD",
+			"children": [
+				{"name": "ACMDD", "capability": 120},
+				{"name": "PSD", "capability": 175},
+				{"name": "Other", "capability": 10}
+	]
+}
