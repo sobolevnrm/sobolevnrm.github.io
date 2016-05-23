@@ -1,20 +1,20 @@
 {
 	"name": "PNNL",
 	"children": [
-		{ "name": "EED", "capability": 1030},
-		{ "name": "EBSD", "capability":  521},
+		{ "name": "EED", "size": 1030},
+		{ "name": "EBSD", "size":  521},
 		{
 			"name": "NSD",
 			"children": [
-				{"name": "CSA", "capability": 310},
-				{"name": "Other", "capability": 829}
+				{"name": "CSA", "size": 310},
+				{"name": "Other", "size": 829}
 			]
 		},
 		{
 			"name": "PCSD",
 			"children": [
-				{"name": "ACMDD", "capability": 120},
-				{"name": "PSD", "capability": 175},
-				{"name": "Other", "capability": 10}
+				{"name": "ACMDD", "size": 120},
+				{"name": "PSD", "size": 175},
+				{"name": "Other", "size": 10}
 	]
 }
