@@ -1,46 +1,75 @@
 <html>
-  <head>
-    <!--Load the AJAX API-->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
+<body>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-      // Load the Visualization API and the corechart package.
-      google.charts.load('current', {'packages':['corechart']});
+<div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
 
-      // Set a callback to run when the Google Visualization API is loaded.
-      google.charts.setOnLoadCallback(drawChart);
+<script type="text/javascript">
+  google.charts.load("current", {packages:["sankey"]});
+  google.charts.setOnLoadCallback(drawChart);
+   function drawChart() {
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'From');
+    data.addColumn('string', 'To');
+    data.addColumn('number', 'Weight');
+    data.addRows([
+       [ 'Brazil', 'Portugal', 5 ],
+       [ 'Brazil', 'France', 1 ],
+       [ 'Brazil', 'Spain', 1 ],
+       [ 'Brazil', 'England', 1 ],
+       [ 'Canada', 'Portugal', 1 ],
+       [ 'Canada', 'France', 5 ],
+       [ 'Canada', 'England', 1 ],
+       [ 'Mexico', 'Portugal', 1 ],
+       [ 'Mexico', 'France', 1 ],
+       [ 'Mexico', 'Spain', 5 ],
+       [ 'Mexico', 'England', 1 ],
+       [ 'USA', 'Portugal', 1 ],
+       [ 'USA', 'France', 1 ],
+       [ 'USA', 'Spain', 1 ],
+       [ 'USA', 'England', 5 ],
+       [ 'Portugal', 'Angola', 2 ],
+       [ 'Portugal', 'Senegal', 1 ],
+       [ 'Portugal', 'Morocco', 1 ],
+       [ 'Portugal', 'South Africa', 3 ],
+       [ 'France', 'Angola', 1 ],
+       [ 'France', 'Senegal', 3 ],
+       [ 'France', 'Mali', 3 ],
+       [ 'France', 'Morocco', 3 ],
+       [ 'France', 'South Africa', 1 ],
+       [ 'Spain', 'Senegal', 1 ],
+       [ 'Spain', 'Morocco', 3 ],
+       [ 'Spain', 'South Africa', 1 ],
+       [ 'England', 'Angola', 1 ],
+       [ 'England', 'Senegal', 1 ],
+       [ 'England', 'Morocco', 2 ],
+       [ 'England', 'South Africa', 7 ],
+       [ 'South Africa', 'China', 5 ],
+       [ 'South Africa', 'India', 1 ],
+       [ 'South Africa', 'Japan', 3 ],
+       [ 'Angola', 'China', 5 ],
+       [ 'Angola', 'India', 1 ],
+       [ 'Angola', 'Japan', 3 ],
+       [ 'Senegal', 'China', 5 ],
+       [ 'Senegal', 'India', 1 ],
+       [ 'Senegal', 'Japan', 3 ],
+       [ 'Mali', 'China', 5 ],
+       [ 'Mali', 'India', 1 ],
+       [ 'Mali', 'Japan', 3 ],
+       [ 'Morocco', 'China', 5 ],
+       [ 'Morocco', 'India', 1 ],
+       [ 'Morocco', 'Japan', 3 ]
+    ]);
 
-      // Callback that creates and populates a data table,
-      // instantiates the pie chart, passes in the data and
-      // draws it.
-      function drawChart() {
+    // Set chart options
+    var options = {
+      width: 600,
+    };
 
-        // Create the data table.
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Topping');
-        data.addColumn('number', 'Slices');
-        data.addRows([
-          ['Mushrooms', 3],
-          ['Onions', 1],
-          ['Olives', 1],
-          ['Zucchini', 1],
-          ['Pepperoni', 2]
-        ]);
-
-        // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
-                       'width':400,
-                       'height':300};
-
-        // Instantiate and draw our chart, passing in some options.
-        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
-        chart.draw(data, options);
-      }
-    </script>
-  </head>
-
-  <body>
-    <!--Div that will hold the pie chart-->
-    <div id="chart_div"></div>
-  </body>
+    // Instantiate and draw our chart, passing in some options.
+    var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
+    chart.draw(data, options);
+   }
+</script>
+</body>
 </html>
