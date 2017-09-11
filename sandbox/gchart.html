@@ -1,11 +1,11 @@
 <html>
 <body>
- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-<div id="sankey_multiple" style="width: 900px; height: 300px;"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <script type="text/javascript">
-  google.charts.load("current", {packages:["sankey"]});
+  google.charts.load("current", {packages:["sankey", "corechart"]});
   google.charts.setOnLoadCallback(drawChart);
    function drawChart() {
     var data = new google.visualization.DataTable();
@@ -13,63 +13,124 @@
     data.addColumn('string', 'To');
     data.addColumn('number', 'Weight');
     data.addRows([
-       [ 'Brazil', 'Portugal', 5 ],
-       [ 'Brazil', 'France', 1 ],
-       [ 'Brazil', 'Spain', 1 ],
-       [ 'Brazil', 'England', 1 ],
-       [ 'Canada', 'Portugal', 1 ],
-       [ 'Canada', 'France', 5 ],
-       [ 'Canada', 'England', 1 ],
-       [ 'Mexico', 'Portugal', 1 ],
-       [ 'Mexico', 'France', 1 ],
-       [ 'Mexico', 'Spain', 5 ],
-       [ 'Mexico', 'England', 1 ],
-       [ 'USA', 'Portugal', 1 ],
-       [ 'USA', 'France', 1 ],
-       [ 'USA', 'Spain', 1 ],
-       [ 'USA', 'England', 5 ],
-       [ 'Portugal', 'Angola', 2 ],
-       [ 'Portugal', 'Senegal', 1 ],
-       [ 'Portugal', 'Morocco', 1 ],
-       [ 'Portugal', 'South Africa', 3 ],
-       [ 'France', 'Angola', 1 ],
-       [ 'France', 'Senegal', 3 ],
-       [ 'France', 'Mali', 3 ],
-       [ 'France', 'Morocco', 3 ],
-       [ 'France', 'South Africa', 1 ],
-       [ 'Spain', 'Senegal', 1 ],
-       [ 'Spain', 'Morocco', 3 ],
-       [ 'Spain', 'South Africa', 1 ],
-       [ 'England', 'Angola', 1 ],
-       [ 'England', 'Senegal', 1 ],
-       [ 'England', 'Morocco', 2 ],
-       [ 'England', 'South Africa', 7 ],
-       [ 'South Africa', 'China', 5 ],
-       [ 'South Africa', 'India', 1 ],
-       [ 'South Africa', 'Japan', 3 ],
-       [ 'Angola', 'China', 5 ],
-       [ 'Angola', 'India', 1 ],
-       [ 'Angola', 'Japan', 3 ],
-       [ 'Senegal', 'China', 5 ],
-       [ 'Senegal', 'India', 1 ],
-       [ 'Senegal', 'Japan', 3 ],
-       [ 'Mali', 'China', 5 ],
-       [ 'Mali', 'India', 1 ],
-       [ 'Mali', 'Japan', 3 ],
-       [ 'Morocco', 'China', 5 ],
-       [ 'Morocco', 'India', 1 ],
-       [ 'Morocco', 'Japan', 3 ]
+       [ 'Power grid', 'ODEs', 1 ],
+       [ 'Power grid', 'UQ', 1 ],
+       [ 'Power grid', 'Optimization', 1],
+       [ 'Power grid', 'Graphs & combinatorics', 1],
+       [ 'Power grid', 'Discrete dynamics', 1],
+       [ 'Power grid', 'Machine learning', 1],
+       [ 'Power grid', 'Visual analytics', 1],
+       [ 'Infrastructure resilience', 'ODEs', 1 ],
+       [ 'Infrastructure resilience', 'UQ', 1 ],
+       [ 'Infrastructure resilience', 'Optimization', 1],
+       [ 'Infrastructure resilience', 'Graphs & combinatorics', 1],
+       [ 'Infrastructure resilience', 'Discrete dynamics', 1],
+       [ 'Infrastructure resilience', 'Machine learning', 1],
+       [ 'Infrastructure resilience', 'Visual analytics', 1],
+       [ 'Transactive energy & control', 'ODEs', 1 ],
+       [ 'Transactive energy & control', 'UQ', 1 ],
+       [ 'Transactive energy & control', 'Optimization', 1],
+       [ 'Transactive energy & control', 'Graphs & combinatorics', 1],
+       [ 'Transactive energy & control', 'Discrete dynamics', 1],
+       [ 'Transactive energy & control', 'Machine learning', 1],
+       [ 'Transactive energy & control', 'Visual analytics', 1],
+       [ 'Cyber security', 'ODEs', 1 ],
+       [ 'Cyber security', 'UQ', 1 ],
+       [ 'Cyber security', 'Optimization', 1],
+       [ 'Cyber security', 'Graphs & combinatorics', 1],
+       [ 'Cyber security', 'Discrete dynamics', 1],
+       [ 'Cyber security', 'Machine learning', 1],
+       [ 'Cyber security', 'Visual analytics', 1],
+       [ 'Systems biology', 'ODEs', 1 ],
+       [ 'Systems biology', 'UQ', 1 ],
+       [ 'Systems biology', 'Optimization', 1],
+       [ 'Systems biology', 'Graphs & combinatorics', 1],
+       [ 'Systems biology', 'Discrete dynamics', 1],
+       [ 'Systems biology', 'PDEs', 1],
+       [ 'Systems biology', 'Machine learning', 1],
+       [ 'Systems biology', 'Visual analytics', 1],
+       [ 'Catalysis', 'ODEs', 1 ],
+       [ 'Catalysis', 'UQ', 1 ],
+       [ 'Catalysis', 'Optimization', 1],
+       [ 'Catalysis', 'PDEs', 1],
+       [ 'Catalysis', 'Machine learning', 1],
+       [ 'Materials', 'UQ', 1 ],
+       [ 'Materials', 'Optimization', 1],
+       [ 'Materials', 'PDEs', 1],
+       [ 'Materials', 'Machine learning', 1],
+       [ 'Subsurface', 'UQ', 1 ],
+       [ 'Subsurface', 'Optimization', 1],
+       [ 'Subsurface', 'PDEs', 1],
+       [ 'Subsurface', 'Machine learning', 1],
+       [ 'Earth systems', 'UQ', 1 ],
+       [ 'Earth systems', 'Optimization', 1],
+       [ 'Earth systems', 'PDEs', 1],
+       [ 'Earth systems', 'Machine learning', 1],
+       [ 'Earth systems', 'Visual analytics', 1],
+       [ 'High-energy physics', 'UQ', 1 ],
+       [ 'High-energy physics', 'Optimization', 1],
+       [ 'High-energy physics', 'PDEs', 1],
+       [ 'High-energy physics', 'Machine learning', 1],
+       [ 'High-energy physics', 'Graphs & combinatorics', 1],
+       [ 'ODEs', 'Programming model A', 6],
+       [ 'PDEs', 'Programming model A', 6],
+       [ 'Machine learning', 'Programming model B', 5],
+       [ 'Machine learning', 'Programming model C', 5],
+       [ 'UQ', 'Programming model A', 5],
+       [ 'UQ', 'Programming model B', 5],
+       [ 'Optimization', 'Programming model A', 5],
+       [ 'Optimization', 'Programming model B', 5],
+       [ 'Discrete dynamics', 'Programming model C', 3],
+       [ 'Discrete dynamics', 'Programming model A', 2],
+       [ 'Graphs & combinatorics', 'Programming model C', 6],
+       [ 'Visual analytics', 'Programming model C', 3],
+       [ 'Visual analytics', 'Programming model B', 3],
+       [ 'Programming model A', 'Runtime A', 12], 
+       [ 'Programming model A', 'OS A', 12],
+       [ 'Programming model B', 'Runtime A', 7],
+       [ 'Programming model B', 'Runtime B', 7],
+       [ 'Programming model B', 'OS A', 2],
+       [ 'Programming model B', 'OS B', 2],
+       [ 'Programming model C', 'Runtime C', 9],
+       [ 'Programming model C', 'OS B', 8],
+       [ 'Runtime A', 'Hardware A', 6],
+       [ 'OS A', 'Hardware A', 5],
+       [ 'Runtime B', 'Hardware A', 2],
+       [ 'OS B', 'Hardware A', 3],
+       [ 'Runtime C', 'Hardware A', 3],
+       [ 'Runtime A', 'Hardware B', 6],
+       [ 'OS A', 'Hardware B', 5],
+       [ 'Runtime B', 'Hardware B', 2],
+       [ 'OS B', 'Hardware B', 3],
+       [ 'Runtime C', 'Hardware B', 3],
+       [ 'Runtime A', 'Hardware C', 7],
+       [ 'OS A', 'Hardware C', 4],
+       [ 'Runtime B', 'Hardware C', 3],
+       [ 'OS B', 'Hardware C', 2],
+       [ 'Runtime C', 'Hardware C', 3]
     ]);
 
     // Set chart options
     var options = {
-      width: 600,
+      width: 1200,
+      sankey: {
+        node: {
+          label: {
+            fontSize: 16,
+            bold: true
+          },
+          nodePadding: 20
+        }
+      },
     };
 
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.Sankey(document.getElementById('sankey_multiple'));
     chart.draw(data, options);
-   }
+  }
 </script>
+
+<div id="sankey_multiple" style="width: 1200px; height: 600px;"></div>
+
 </body>
 </html>
