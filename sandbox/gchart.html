@@ -72,54 +72,57 @@
        [ 'High-energy physics', 'PDEs', 1],
        [ 'High-energy physics', 'Machine learning', 1],
        [ 'High-energy physics', 'Graphs & combinatorics', 1],
-       [ 'ODEs', 'Programming model A', 6],
-       [ 'PDEs', 'Programming model A', 6],
-       [ 'Machine learning', 'Programming model B', 5],
-       [ 'Machine learning', 'Programming model C', 5],
-       [ 'UQ', 'Programming model A', 5],
-       [ 'UQ', 'Programming model B', 5],
-       [ 'Optimization', 'Programming model A', 5],
-       [ 'Optimization', 'Programming model B', 5],
-       [ 'Discrete dynamics', 'Programming model C', 3],
-       [ 'Discrete dynamics', 'Programming model A', 2],
-       [ 'Graphs & combinatorics', 'Programming model C', 6],
-       [ 'Visual analytics', 'Programming model C', 3],
-       [ 'Visual analytics', 'Programming model B', 3],
-       [ 'Programming model A', 'Runtime A', 12], 
-       [ 'Programming model A', 'OS A', 12],
-       [ 'Programming model B', 'Runtime A', 7],
-       [ 'Programming model B', 'Runtime B', 7],
-       [ 'Programming model B', 'OS A', 2],
-       [ 'Programming model B', 'OS B', 2],
-       [ 'Programming model C', 'Runtime C', 9],
-       [ 'Programming model C', 'OS B', 8],
-       [ 'Runtime A', 'Hardware A', 6],
-       [ 'OS A', 'Hardware A', 5],
-       [ 'Runtime B', 'Hardware A', 2],
-       [ 'OS B', 'Hardware A', 3],
-       [ 'Runtime C', 'Hardware A', 3],
-       [ 'Runtime A', 'Hardware B', 6],
-       [ 'OS A', 'Hardware B', 5],
-       [ 'Runtime B', 'Hardware B', 2],
-       [ 'OS B', 'Hardware B', 3],
-       [ 'Runtime C', 'Hardware B', 3],
-       [ 'Runtime A', 'Hardware C', 7],
-       [ 'OS A', 'Hardware C', 4],
-       [ 'Runtime B', 'Hardware C', 3],
-       [ 'OS B', 'Hardware C', 2],
-       [ 'Runtime C', 'Hardware C', 3]
+       [ 'ODEs', 'Approximate prog model', 2],
+       [ 'ODEs', 'Declarative prog model', 2],
+       [ 'ODEs', 'Domain-specific prog model', 2],
+       [ 'PDEs', 'Approximate prog model', 2],
+       [ 'PDEs', 'Declarative prog model', 2],
+       [ 'PDEs', 'Domain-specific prog model', 2],
+       [ 'Machine learning', 'Declarative prog model', 5],
+       [ 'Machine learning', 'Approximate prog model', 5],
+       [ 'UQ', 'Approximate prog model', 5],
+       [ 'UQ', 'Declarative prog model', 2],
+       [ 'UQ', 'Domain-specific prog model', 3],
+       [ 'Optimization', 'Approximate prog model', 5],
+       [ 'Optimization', 'Declarative prog model', 2],
+       [ 'Optimization', 'Domain-specific prog model', 3],
+       [ 'Discrete dynamics', 'Domain-specific prog model', 3],
+       [ 'Discrete dynamics', 'Declarative prog model', 2],
+       [ 'Graphs & combinatorics', 'Domain-specific prog model', 3],
+       [ 'Graphs & combinatorics', 'Declarative prog model', 3],
+       [ 'Visual analytics', 'Domain-specific prog model', 2],
+       [ 'Visual analytics', 'Declarative prog model', 1],
+       [ 'Visual analytics', 'Approximate prog model', 3],
+       [ 'Approximate prog model', 'Multi-threaded runtime', 6], 
+       [ 'Approximate prog model', 'Retrospective runtime', 10], 
+       [ 'Approximate prog model', 'Asynchronous runtime', 6], 
+       [ 'Declarative prog model', 'Multi-threaded runtime', 9],
+       [ 'Declarative prog model', 'Retrospective runtime', 5],
+       [ 'Declarative prog model', 'Asynchronous runtime', 5],
+       [ 'Domain-specific prog model', 'Asynchronous runtime', 6],
+       [ 'Domain-specific prog model', 'Multi-threaded runtime', 6],
+       [ 'Domain-specific prog model', 'Retrospective runtime', 6],
+       [ 'Asynchronous runtime', 'Special-purpose hardware', 4],
+       [ 'Asynchronous runtime', 'Exascale hardware', 6],
+       [ 'Asynchronous runtime', 'Beyond-Moore hardware', 7],
+       [ 'Multi-threaded runtime', 'Special-purpose hardware', 4],
+       [ 'Multi-threaded runtime', 'Exascale hardware', 10],
+       [ 'Multi-threaded runtime', 'Beyond-Moore hardware', 7],
+       [ 'Retrospective runtime', 'Special-purpose hardware', 5],
+       [ 'Retrospective runtime', 'Exascale hardware', 7],
+       [ 'Retrospective runtime', 'Beyond-Moore hardware', 9]
     ]);
 
     // Set chart options
     var options = {
-      width: 1200,
+      width: 1600,
       sankey: {
         node: {
           label: {
             fontSize: 16,
             bold: true
           },
-          nodePadding: 20
+          nodePadding: 30
         }
       },
     };
@@ -130,7 +133,7 @@
   }
 </script>
 
-<div id="sankey_multiple" style="width: 1200px; height: 600px;"></div>
+<div id="sankey_multiple" style="width: 1600px; height: 900px;"></div>
 
 </body>
 </html>
